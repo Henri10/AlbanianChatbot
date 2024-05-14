@@ -1,0 +1,887 @@
+version: "3.1"
+
+nlu:
+
+- intent: guide_turistike_fier
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Fierit?
+    - Guide turistike per Fierin
+    - Guide Fier
+
+- intent: guide_turistike_elbasani
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Elbasanit?
+    - Guide turistike per Elbasanini
+    - Guide Elbasani
+
+- intent: guide_turistike_shkoder
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Shkodres?
+    - Guide turistike per Shkodren
+    - Guide Shkodra
+
+- intent: guide_turistike_kruje
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Krujes?
+    - Guide turistike per Krujen
+    - Guide Kruja
+
+- intent: guide_turistike_vlora
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Vlores?
+    - Guide turistike per Vloren
+    - Guide Vlora
+
+- intent: guide_turistike_durres
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Durresit?
+    - Guide turistike per Durresin
+    - Guide Durresi
+
+- intent: guide_turistike_gjirokaster
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Gjirokastres?
+    - Guide turistike per Gjirokastren
+    - Guide Gjirokastra
+
+- intent: guide_turistike_berat
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Beratit?
+    - Guide turistike per Beratin
+    - Guide Berat
+
+- intent: guide_turistike_tirane
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Tiranes?
+    - Guide turistike per Tiranen
+    - Guide Tirana
+
+- intent: guide_turistike_korca
+  examples: |
+    - Mund te me besh nje guid turistike per qytetin e Korces?
+    - Guide turistike per Korcen
+    - Guide Korca
+
+##################################################Guide###################################################
+
+- intent: pyetja_elbasan
+  examples: | 
+    - Cfare mund te vizitoj ne Elbasan?
+    - Dua te vizitoj Elbasanin
+    - Gjerat kryesore per te pare ne Elbasan
+    - Cilat jane pikat kryesore turistike ne Elbasan?
+
+- intent: pyetja_fier
+  examples: | 
+    - Cfare mund te vizitoj ne Fier?
+    - Dua te vizitoj Korcen
+    - Gjerat kryesore per te pare ne Fier
+    - Cilat jane pikat kryesore turistike ne Fier?
+
+- intent: pyetja_durres
+  examples: | 
+    - Cfare mund te vizitoj ne Durres?
+    - Dua te vizitoj Durresin
+    - Gjerat kryesore per te pare ne Durres
+    - Cilat jane pikat kryesore turistike ne Durres? 
+
+- intent: pyetja_korca
+  examples: | 
+    - Cfare mund te vizitoj ne Korce?
+    - Dua te vizitoj Korcen
+    - Gjerat kryesore per te pare ne Korce
+    - Cilat jane pikat kryesore turistike ne Korce? 
+
+- intent: pyetja_vlora
+  examples: | 
+    - Cfare mund te vizitoj ne Vlore?
+    - Dua te vizitoj Vloren
+    - Gjerat kryesore per te pare ne Vlore
+    - Cilat jane pikat kryesore turistike ne Vlore? 
+
+- intent: pyetja_kruja
+  examples: | 
+    - Cfare mund te vizitoj ne Kruje?
+    - Dua te vizitoj Krujen
+    - Gjerat kryesore per te pare ne Kruje
+    - Cilat jane pikat kryesore turistike ne Kruje? 
+
+- intent: pyetja_gjirokaster
+  examples: | 
+    - Cfare mund te vizitoj ne Gjirokaster?
+    - Dua te vizitoj Gjirokastren
+    - Gjerat kryesore per te pare ne Gjirokaster
+    - Cilat jane pikat kryesore turistike ne Gjirokaster? 
+
+- intent: pyetja_shkoder
+  examples: | 
+    - Cfare mund te vizitoj ne Shkoder?
+    - Dua te vizitoj Shkodren
+    - Gjerat kryesore per te pare ne Shkoder
+    - Cilat jane pikat kryesore turistike ne Shkoder? 
+
+- intent: pyetja_berat
+  examples: | 
+    - Cfare mund te vizitoj ne Berat?
+    - Dua te vizitoj Beratin
+    - Gjerat kryesore per te pare ne Berat
+    - Cilat jane pikat kryesore turistike ne Berat? 
+    
+
+- intent: pyetja_tirane
+  examples: | 
+    - Cfare mund te vizitoj ne Tirane?
+    - Dua te vizitoj Tiranen
+    - Gjerat kryesore per te pare ne Tirane
+    - Cilat jane pikat kryesore turistike ne Tirane? 
+
+- intent: pyetja_103
+  examples: |
+    - Cilat jane sfidat dhe planet per permiresimin e infrastruktures se transportit te ujerave te brendshme ne Shqiperi
+    - sfidat dhe planet per permiresimin e infrastruktures se transportit te ujerave te brendshme ne Shqiperi
+
+- intent: pyetja_102
+  examples: |
+    - cfare eshte situata e tregut te ndermarrjeve te vogla dhe te mesme ne Shqiperi
+    - si eshte situata e tregut te ndermarrjeve te vogla dhe te mesme ne Shqiperi
+    - situata e tregut te ndermarrjeve te vogla dhe te mesme ne Shqiperi
+
+- intent: pyetja_101
+  examples: |
+    - Cili eshte statusi i marrëveshjeve të integritetit territorial dhe marredhenieve te Shqipërise me vendet fqinje dhe te tjera te rajonit
+    - statusi i marrëveshjeve të integritetit territorial dhe marredhenieve te Shqipërise me vendet fqinje dhe te tjera te rajonit
+    - marrëveshjeve të integritetit territorial dhe marredhenieve te Shqipërise me vendet fqinje dhe te tjera te rajonit
+
+- intent: pyetja_100
+  examples: |
+    - Cilat jane sfidat dhe planet per permiresimin e infrastruktures se shpërndarjes se energjise ne Shqiperi
+    - sfidat dhe planet per permiresimin e infrastruktures se shpërndarjes se energjise ne Shqiperi
+
+- intent: pyetja_99
+  examples: |
+    - Cili eshte statusi i zhvillimit te sektorit te shërbimeve dhe sektorit financiar ne Shqiperi
+    - statusi i zhvillimit te sektorit te shërbimeve dhe sektorit financiar ne Shqiperi
+
+- intent: pyetja_98
+  examples: |
+    - Cilat janë sfidat dhe planet per permiresimin e infrastruktures se ujerave te pijshme dhe trajtimit te mbeturinave ne Shqiperi
+    - sfidat dhe planet per permiresimin e infrastruktures se ujerave te pijshme dhe trajtimit te mbeturinave ne Shqiperi
+
+- intent: pyetja_97
+  examples: |
+    - Cili eshte statusi i ndihmes dhe zhvillimit te nderkombetare ne Shqiperi
+    - statusi i ndihmes dhe zhvillimit te nderkombetare ne Shqiperi
+
+- intent: pyetja_96
+  examples: |
+    - Cilat janë sfidat dhe planet për përmirësimin e infrastrukturës së ujerave të veres dhe bujqësise se rrushit ne Shqiperi
+    - sfidat dhe planet per permiresimin e infrastruktures se ujerave te vererave dhe bujqesise se rrushit ne Shqiperi
+
+- intent: pyetja_95
+  examples: |
+    - Si po ndikon globalizimi ne ekonomine, kulturen dhe shoqerine shqiptare
+    - ndikimi i globalizimi ne ekonomine, kulturen dhe shoqerine shqiptare
+    - globalizimi ne ekonomine, kulturen dhe shoqerine shqiptare
+
+- intent: pyetja_94
+  examples: |
+    - Cili është statusi i marrëveshjeve të komerciale dhe lidhjeve ekonomike te Shqiperise me shtetet e tjera
+    - statusi i marrëveshjeve të komerciale dhe lidhjeve ekonomike te Shqiperise me shtetet e tjera
+    - marrëveshjet  komerciale dhe lidhjeve ekonomike te Shqiperise me shtetet e tjera
+
+- intent: pyetja_93
+  examples: |
+    - Cilat jane mundesite dhe sfidat e zhvillimit te sektorit te energjise dhe minerave ne Shqiperi
+    - mundesite dhe sfidat e zhvillimit te sektorit te energjise dhe minerave ne Shqiperi
+
+- intent: pyetja_92
+  examples: |
+    - Cili eshte statusi i trashegimise kulturore te lashte shqiptare dhe roli i saj ne kulturen e sotme
+    - statusi i trashegimise kulturore te lashte shqiptare dhe roli i saj ne kulturen e sotme
+
+- intent: pyetja_91
+  examples: |
+    - Cilat jane sfidat dhe planet per permiresimin e infrastruktures se ujerave te vererave dhe bujqesise se rrushit ne Shqiperi
+    - sfidat dhe planet per permiresimin e infrastruktures se ujerave te vererave dhe bujqesise se rrushit ne Shqiperi
+
+- intent: pyetja_90
+  examples: |
+    - cfare jane zakonet e qyteterimit dhe te jetes ne fshatrat tradicionale shqiptare
+    - zakonet e qyteterimit dhe te jetes ne fshatrat tradicionale shqiptare
+
+- intent: pyetja_89
+  examples: |
+    - Cili eshte statusi i marrëdhënieve të Shqipërise me shtetet e tjera te rajonit te Ballkanit Perendimor
+    - statusi i marrëdhënieve të Shqipërise me shtetet e tjera te rajonit te Ballkanit Perendimor
+    - marrëdhëniet e Shqipërise me shtetet e tjera te rajonit te Ballkanit Perendimor
+
+- intent: pyetja_88
+  examples: |
+    - Si eshte situata e trashegimise kulturore dhe ruajtjes se objekteve historike ne Shqiperi
+    - situata e trashegimise kulturore dhe ruajtjes se objekteve historike ne Shqiperi
+
+- intent: pyetja_87
+  examples: |
+    - Cilat jane ngjarjet me te rendesishme dhe ngjarjet e zakonshme te lojerave popullore shqiptare
+    - ngjarjet me te rendesishme dhe ngjarjet e zakonshme te lojerave popullore shqiptare
+
+- intent: pyetja_86
+  examples: |
+    - Cili eshte statusi i diversitetit te bimeve dhe kujdesit te mjedisit ne Shqiperi
+    - statusi i diversitetit te bimeve dhe kujdesit te mjedisit ne Shqiperi
+    - diversiteti te bimeve dhe kujdesit te mjedisit ne Shqiperi
+
+- intent: pyetja_85
+  examples: |
+    - Cilat jane sfidat dhe planet per permiresimin e infrastruktures se shendetesise ne Shqiperi
+    - sfidat dhe planet per permiresimin e infrastruktures se shendetesise ne Shqiperi
+
+- intent: pyetja_84
+  examples: |
+    - Si po ndikon ndryshimi i klimes ne bujqesine dhe prodhimin e ushqimit ne Shqiperi
+    - ndryshimi i klimes ne bujqesine dhe prodhimin e ushqimit ne Shqiperi
+
+- intent: pyetja_83
+  examples: |
+    - Cili eshte statusi i projekteve per përmiresimin e infrastruktures se transportit te transportit publik ne Shqiperi
+    - statusi i projekteve per përmiresimin e infrastruktures se transportit te transportit publik ne Shqiperi
+    - projektet per përmiresimin e infrastruktures se transportit te transportit publik ne Shqiperi
+
+- intent: pyetja_82
+  examples: |
+    - Cili eshte statusi i zhvillimit te teknologjise informative dhe inovacionit ne Shqiperi
+    - statusi i zhvillimit te teknologjise informative dhe inovacionit ne Shqiperi
+    - zhvillimi i teknologjise informative dhe inovacionit ne Shqiperi
+
+- intent: pyetja_81
+  examples: |
+    - Si po ndikon Shqiperia në luften kunder trafikimit te qenieve njerezore ne rajon
+    - ndikimi i shqiperise kunder trafikimt te qenieve njerzore ne rajon
+
+- intent: pyetja_80
+  examples: |
+    - Cilat jane sfidat e urbanizmit dhe te zhvillimit te qyteteve ne Shqiperi
+    - sfidat e urbanizmit dhe te zhvillimit te qyteteve ne Shqiperi
+    
+
+- intent: pyetja_79
+  examples: |
+    - Cili eshte statusi i projekteve per energjine e eres dhe energjine e diellit ne Shqiperi
+    - statusi i projekteve per energjine e eres dhe energjine e diellit ne Shqiperi
+    - projektet per energjine e eres dhe energjine e diellit ne Shqiperi
+
+- intent: pyetja_78
+  examples: |
+    - Cilat jane sfidat dhe mundesite e turizmit rural dhe aventures ne Shqiperi
+    - sfidat dhe mundesite e turizmit rural dhe aventures ne Shqiperi
+
+- intent: pyetja_77
+  examples: |
+    - Si po ndikon pandemia ne tregun e punes dhe ne ekonomine shqiptare
+    - pandemia ne tregun e punes dhe ne ekonomine shqiptare
+
+- intent: pyetja_76
+  examples: |
+    - Cilat jane sfidat dhe planet per infrastrukturen e transportit ajror dhe detar ne Shqiperi
+    - sfidat dhe planet per infrastrukturen e transportit ajror dhe detar ne Shqiperi
+
+- intent: pyetja_75
+  examples: |
+    - Cilat jane menyrat per te promovuar ekonomine e qëndrueshme dhe mjedisin ne Shqiperi
+    - menyrat per te promovuar ekonomine e qëndrueshme dhe mjedisin ne Shqiperi
+
+- intent: pyetja_74
+  examples: |
+    - Cilat jane ngjarjet dhe vendet e zhvillimit te aktiviteteve turistike ne Shqiperi
+    - ngjarjet dhe vendet e zhvillimit te aktiviteteve turistike ne Shqiperi
+
+- intent: pyetja_73
+  examples: |
+    - Si po zhvillohet sektori i teknologjise dhe inovacionit ne Shqiperi
+    - zhvillimi i sektorit te teknologjise
+
+- intent: pyetja_72
+  examples: |
+    - Cili eshte statusi i komunitetit te romaneve dhe egyptianeve ne Shqiperi
+    - statusi i komunitetit te romaneve dhe egyptianeve ne Shqiperi
+
+- intent: pyetja_71
+  examples: |
+    - Cilat jane programet dhe iniciativat e qeverisë per te promovuar arsimin dhe kulturen shqiptare
+    - programet dhe iniciativat e qeverisë per te promovuar arsimin dhe kulturen shqiptare
+
+- intent: pyetja_70
+  examples: |
+    - cfare jane zakonet dhe praktikat e pushimit dhe shperberjes per shqiptaret
+    - zakonet dhe praktikat e pushimit dhe shperberjes per shqiptaret
+
+- intent: pyetja_69
+  examples: |
+    - Cili eshte statusi i sistemit të drejtesise dhe luftes kunder korrupsionit ne Shqiperi
+    - statusi i sistemit të drejtesise dhe luftes kunder korrupsionit ne Shqiperi
+
+- intent: pyetja_68
+  examples: |
+    - Si po ndikon pandemia e COVID-19 në Shqiperi dhe planet per vaksinimin kunder saj
+    - ndikimi i  pandemse se COVID-19 në Shqiperi dhe planet per vaksinimin kunder saj
+
+- intent: pyetja_67
+  examples: |
+    - Cili eshte statusi i projekteve te infrastruktures së ujerave të pijshme dhe trajtimit te mbeturinave
+    - statusi i projekteve te infrastruktures së ujerave të pijshme dhe trajtimit te mbeturinave
+
+- intent: pyetja_66
+  examples: |
+    - Cilat jane sfidat dhe mundësite e zhvillimit te energjise se rinovueshme dhe terheqjes se investimeve ne Shqipëri
+    - sfidat dhe mundësite e zhvillimit te energjise se rinovueshme dhe terheqjes se investimeve ne Shqipëri
+    - mundësite e zhvillimit te energjise se rinovueshme dhe terheqjes se investimeve ne Shqipëri
+
+- intent: pyetja_65
+  examples: |
+    - Si po ndikon urbanizimi dhe rritja e qyteteve ne Shqiperi ne mjedisin natyror dhe kulturen e vendit
+    - ndikimi i  urbanizimi dhe rritja e qyteteve ne Shqiperi ne mjedisin natyror dhe kulturen e vendit
+    - urbanizimi dhe rritja e qyteteve ne Shqiperi ne mjedisin natyror dhe kulturen e vendit
+
+- intent: pyetja_64
+  examples: |
+    - Cili eshte statusi i marredhenieve te Shqipërise me fqinjet e saj te tjere ne Ballkan
+    - statusi i marredhenieve te Shqipërise me fqinjet e saj te tjere ne Ballkan
+    - marredheniet e Shqipërise me fqinjet e saj te tjere ne Ballkan
+    - marredheniet e Shqipërise me fqinjet e saj
+
+- intent: pyetja_63
+  examples: |
+    - cilat jane zakonet e bujqesise dhe kultivimit te tokes ne Shqiperi
+    - zakonet e bujqesise dhe kultivimit te tokes ne Shqiperi
+    - bujqesia dhe kultivimi i tokes ne Shqiperi
+
+- intent: pyetja_62
+  examples: |
+    - cfare jane zakonet ushqimore dhe traditat e festimeve te ndryshme kulturore ne Shqiperi
+    - zakonet ushqimore dhe traditat e festimeve te ndryshme kulturore ne Shqiperi
+
+- intent: pyetja_61
+  examples: |
+    - Cili eshte statusi i ndikimit te medias sociale dhe teknologjise informacionale ne shoqërine shqiptare
+    - statusi i ndikimit te medias sociale dhe teknologjise informacionale ne shoqërine shqiptare
+    - ndikimi i medias sociale dhe teknologjise informacionale ne shoqërine shqiptare
+
+- intent: pyetja_60
+  examples: |
+    - Cili eshte roli i Shqiperise në luften kunder trafikimit te qenieve njerezore dhe droges
+    - roli i Shqiperise në luften kunder trafikimit te qenieve njerezore dhe droges
+    - trafikimi i qenieve njerezore dhe droges ne shqiperi
+
+- intent: pyetja_59
+  examples: |
+    - Cilat jane sherbimet e transportit publik dhe infrastruktura e transportit ne Shqiperi
+    - sherbimet e transportit publik dhe infrastruktura e transportit ne Shqiperi
+    - sherbimet e transportit publik dhe infrastruktura e transportit
+
+
+- intent: pyetja_58
+  examples: |
+    - Si eshte situata e ndihmes sociale dhe mbeshtetjes sociale per komunitetet ne nevoje ne Shqiperi
+    - situata e ndihmes sociale dhe mbeshtetjes sociale per komunitetet ne nevoje ne Shqiperi
+    - ndihma sociale dhe mbeshtetja sociale per komunitetet ne nevoje ne Shqiperi
+
+- intent: pyetja_57
+  examples: |
+    - Cili eshte statusi i levizjeve shoqerore dhe aktivizmit civil ne Shqiperi
+    - statusi i levizjeve shoqerore dhe aktivizmit civil ne Shqiperi
+    - levizjet shoqerore dhe aktivizmet civile ne Shqiperi
+
+- intent: pyetja_56
+  examples: |
+    - Cilat jane zakonet tradicionale te veshjes dhe veshjes se tyre te ceremonive ne Shqiperi
+    - zakonet tradicionale te veshjes dhe veshjes se tyre te ceremonive ne Shqiperi
+
+- intent: pyetja_55
+  examples: |
+    - Cili eshte statusi i kujdesit shendetesor për femijet dhe edukates parashkollore ne Shqiperi
+    - statusi i kujdesit shendetesor për femijet dhe edukates parashkollore ne Shqiperi
+    - kujdesi shendetesor për femijet dhe edukata parashkollore ne Shqiperi
+    - kujdesi shendetesor për femijet dhe edukata parashkollore
+
+- intent: pyetja_54
+  examples: |
+    - Cilat jane sportet me te popullarizuara dhe sukseset sportive me te fundit te sportisteve shqiptare
+    - sportet me te popullarizuara dhe sukseset sportive me te fundit te sportisteve shqiptare
+    - sportet me te popullarizuara ne shqiperi
+
+- intent: pyetja_53
+  examples: |
+    - Si po ndikojne ndryshimet klimatike ne Shqiperi dhe planet per adaptimin ndaj tyre
+    - ndryshimet klimatike ne Shqiperi dhe planet per adaptimin ndaj tyre
+    - ndryshimet klimatike ne Shqiperi 
+
+
+- intent: pyetja_52
+  examples: |
+    - Cili eshte statusi i te drejtave te grave dhe barazise gjinore ne Shqiperi
+    - statusi i te drejtave te grave dhe barazise gjinore ne Shqiperi
+    - te drejtat e grave dhe barazise gjinore ne Shqiperi
+
+- intent: pyetja_51
+  examples: |
+    - cfare projekte jane ne zhvillim ne sektorin e turizmit per te promovuar Shqiperine si destinacion turistik
+    - projekte ne zhvillim ne sektorin e turizmit per te promovuar Shqiperine si destinacion turistik
+
+- intent: pyetja_50
+  examples: |
+    - Cili eshte statusi i arsimimit te larte dhe universiteteve ne Shqiperi
+    - statusi i arsimimit te larte dhe universiteteve ne Shqiperi
+    - arsimimi i larte dhe universitetet ne Shqiperi
+
+- intent: pyetja_49
+  examples: |
+    - Cilat jane kontributet kulturore te shqiptareve ne bote
+    - kontributet kulturore te shqiptareve ne bote
+
+- intent: pyetja_48
+  examples: |
+    - Cili eshte statusi i sherbimeve shendetesore dhe sistemit të kujdesit shendetesor ne Shqiperi
+    - statusi i sherbimeve shendetesore dhe sistemit të kujdesit shendetesor ne Shqiperi
+    - sherbimet shendetesore dhe sistemi i kujdesit shendetesor ne Shqiperi
+
+- intent: pyetja_47
+  examples: |
+    - Cila eshte statusi i energjise se prodhuar ne Shqiperi dhe burimet e energjise
+    - statusi i energjise se prodhuar ne Shqiperi dhe burimet e energjise
+    - energjia e prodhuar ne Shqiperi dhe burimet e energjise
+
+- intent: pyetja_46
+  examples: |
+    - Cilat jane projektet me te medha infrastrukturore ne zhvillim ne Shqiperi
+    - projektet me te medha infrastrukturore ne zhvillim ne Shqiperi
+    - infrastrukturora ne zhvillim ne Shqiperi
+
+- intent: pyetja_45
+  examples: |
+    - si eshte situata e fuqise punetore dhe tregut te punes ne Shqiperi
+    - situata e fuqise punetore dhe tregut te punes ne Shqiperi
+    - fuqia punetore dhe tregu i punes ne Shqiperi
+
+- intent: pyetja_44
+  examples: |
+    - Cilat jane zakonet dhe traditat e zakonshme ne ditet e lindjes dhe te varrimit ne Shqiperi
+    - zakonet dhe traditat e zakonshme ne ditet e lindjes dhe te varrimit ne Shqiperi
+    - dita e lindjes dhe e varrimit ne Shqiperi
+
+
+- intent: pyetja_43
+  examples: |
+    - Cila eshte pozita dhe statusi i Shqiperise ne NATO
+    - pozita dhe statusi i Shqiperise ne NATO
+    - Shqiperia ne NATO
+
+- intent: pyetja_42
+  examples: |
+    - Cilat jane ngjarjet me te rendesishme te viteve të fundit ne historine e Shqiperise
+    - ngjarjet me te rendesishme te viteve të fundit ne historine e Shqiperise
+    - ngjarjet me te rendesishme ne historine e Shqiperise
+    
+
+- intent: pyetja_41
+  examples: |
+    - Cilat jane monumentet me te famshme dhe te rendesishme historike ne Shqieri
+    - monumentet me te famshme dhe te rendesishme historike ne Shqieri
+    - monumentet me te famshme ne shqiperi
+
+- intent: pyetja_40
+  examples: |
+    - Cili është statusi i turizmit dhe promovimit të turizmit në Shqipëri?
+    - statusi i turizmit dhe promovimit të turizmit ne shqiperi
+
+- intent: pyetja_39
+  examples: |
+    - Si eshte situata e te drejtave te njeriut dhe lirive te gazetarise ne Shqiperi
+    - situata e te drejtave te njeriut dhe lirive te gazetarise ne Shqiperi
+    - te drejtat te njeriut dhe liria te gazetaria ne Shqiperi
+
+- intent: pyetja_38
+  examples: |
+    - Cili eshte statusi i kultivimit te rrushit dhe prodhimit te veres në Shqiperi
+    - statusi i kultivimit te rrushit dhe prodhimit te veres ne shqiperi
+    - kultivimi i rrushit dhe prodhimit i veres ne shqiperi
+
+- intent: pyetja_37
+  examples: |
+    - Cilat jane sfidat kryesore te zhvillimit te infrastruktures se internetit dhe telekomunikacionit ne Shqiperi
+    - zhvillimi i infrastruktures se internetit dhe telekomunikacionit ne shqiperi
+    - zhvillimi i infrastruktures se internetit dhe telekomunikacionit
+    - infrastruktura e internetit dhe telekomunikacionit
+
+
+- intent: pyetja_36
+  examples: |
+    - Çfare jane disa prej ngjarjeve kulturore dhe festave me te rendesishme ne Shqiperi
+    - ngjarjet kulturore dhe festat me te rendesishme ne shqiperi
+    - ngjarjet kulturore dhe festat ne shqiperi
+
+- intent: pyetja_35
+  examples: |
+    - Cili eshte statusi i traktateve dhe marreveshjeve te Shqiperise me vendet e tjera
+    - statusi i traktatave dhe marreveshjeve te Shqiperise 
+    - statui i traktave ne Shqiperi
+
+- intent: pyetja_34
+  examples: |
+    - Cilat jane zakonet e ardhshme per martesat dhe familjet ne Shqiperi
+    - zakonet e martsave ne shqiperi
+
+- intent: pyetja_33
+  examples: |
+    - cfare roli ka Shqiperia ne Bashkimin e Ballkanit Perendimor
+    - roli i shqiperise ne bashkimin e ballkanit perendimor
+    - bashkimi i ballkanit perendimor dhe shqiperia
+
+- intent: pyetja_32
+  examples: |
+    - cili eshte statusi i kufirit të Shqiperise me Kosoven
+    - statusi i kufirit te Shqiperise me Kosoven
+    - Shqiperia dhe Kosova kufiri
+
+- intent: pyetja_31
+  examples: |
+    - cfare eshte termi "besa" në kulturen shqiptare
+    - cfare eshte termi besa ne kultren shqiptare
+    - tremi besa ne shqip
+    - besa
+    - besa ne kulturen shqiptare
+
+- intent: pyetja_30
+  examples: |
+    - cilat jane ngjarjet e rendesishme te shekullit te 20-te ne historine e Shqiperise
+    - ngjarjet me te rendesishme te shekullit te 20
+    - ngjarjet me te rendesishme te shekullit te 20 ne historine e shqiperise
+
+- intent: pyetja_29
+  examples: |
+    - cili eshte sistemi i transportit dhe infrastruktura e rrugeve dhe autostradave ne Shqiperi
+    - sistemi dhe infrastruktura e rrugeve ne Shqiperi
+
+- intent: pyetja_28
+  examples: |
+    - cilat jane te ardhurat kryesore te ekonomise shqiptare
+    - te ardhurat e ekonomise shqiptare
+    - te ardhurat e shqiperise
+
+- intent: pyetja_27
+  examples: |
+    - si funksionon sistemi i drejtesise ne Shqiperi
+    - sistemi i drejtesi ne shqiperi
+    - funksionimi i drejtesise ne shqiperi
+
+- intent: pyetja_26
+  examples: |
+    - cili eshte statusi i minoriteteve etnike ne shqiperi
+    - statusi i minoriteteve etnike ne shqiperi
+    - minoritetet ne shqiperi
+
+- intent: pyetja_25
+  examples: |
+    - cilat jane ngjarjet historike me te rendesishme qe kane ndodhur ne shqiperi.
+    - ngjarjet historike me te rendesishme ne shqiperi
+    - ngjarjet me te rendesishme ne shqiperi
+  
+
+- intent: pyetja_24
+  examples: |
+    - si eshte sistemi arsimor ne Shqiperi
+    - sistemi arsimor ne shqiperi
+    - arsimi ne shqiperi
+
+- intent: pyetja_23
+  examples: |
+    - cili eshte sistemimi i pyjeve dhe mjedisit natyror ne Shqiperi
+    - sitemimi i pyjeve ne shqiperi
+    - pyjet ne shqiperi
+
+- intent: pyetja_22
+  examples: |
+    - cilat jane sfidat me te medha te mjedisit dhe ndotjes se ajrit dhe ujerave ne Shqiperi
+    - kush jane sfidat e mjedisit dhe ndotjes se ajrit dhe ujerave ne Shqiperi
+    - sfidat e mjedisit dhe ndotjes se ajrit dhe ujerave 
+
+- intent: pyetja_21
+  examples: |
+    - cfare arti dhe letersie jane te njohura ne Shqiperi
+    - arti dhe letersia ne shqiperi
+    - arti dhe letersia
+
+- intent: pyetja_20
+  examples: |
+    - cilat jane disa prej vendeve me te njohura turistike ne Shqiperi
+    - vendet turistike ne shqiperi
+
+- intent: pyetja_19
+  examples: |
+    - pse Shqiperia eshte tolerante ndaj besimeve fetare te ndryshme
+    - besimi fetar ne Shqiperi
+    - feja e shqiperise
+
+- intent: pyetja_18
+  examples: |
+    - cili eshte historiku i sportit në Shqiperi dhe sportistet me te njohur
+    - historiku i sportit ne shqiperi
+    - sportistet me te njohur ne shqiperi
+    - kush eshte historiku i sportit në Shqiperi dhe sportistet me te njohur
+
+- intent: pyetja_17
+  examples: |
+    - si eshte kultura e muzikes popullore dhe moderne ne Shqiperi
+    - kultura e muzikes ne shqiperi
+    - muzika ne Shqipri
+
+- intent: pyetja_16
+  examples: |
+    - cili eshte statusi i Shqiperise me Bashkimin Evropian
+    - shqiperia ne Bashkimin Evropian
+    - bashkimi evropian ne shqiperi
+
+- intent: pyetja_15
+  examples: |
+    - cfare ka ndodhur gjate periudhes se diktatures komuniste ne Shqiperi
+    - periudha e diktatures komuniste ne Shqiperi
+    - komunismi ne shqiperi
+
+- intent: pyetja_14
+  examples: |
+    - cilat jane ushqimet tradicionale te kuzhines shqiptare
+    - ushqimet tradicionale te shqiperise
+    - ushqimet tradicionale
+
+- intent: pyetja_13
+  examples: |
+    - cila eshte situata ekonomike e Shqiperise
+    - situata ekonomike ne shqiperi
+    - ekonomia ne shqiperi
+
+- intent: pyetja_12
+  examples: |
+    - si quhet festa me e madhe ne Shqiperi
+    - festa me e madhe ne shqiperi
+    - 28-29 nentori
+
+- intent: pyetja_11
+  examples: |
+    - cilat jane zakonet dhe traditat me te njohura te Shqiperise
+    - zakonet dhe traditat ne shqiperi
+    - kush jane zakonet dhe traditat ne shqiperi
+
+- intent: pyetja_10
+  examples: |
+    - cfare eshte Shqipëria e Mesme
+    - shqiperia e mesme 
+    - kush eshte Shqiperia e Mesme
+
+- intent: pyetja_9
+  examples: |
+    - cilat jane monumentet historike te Shqiperise qe jane ne listen e Trashegimise Boterore te UNESCO-s
+    - monumentet historike te shqiperise
+    - munumnetet ne unesco
+
+- intent: pyetja_8
+  examples: |
+    - kush ishte Enver Hoxha dhe cila ishte roli i tij në historine e Shqiperise
+    - kush eshte Enver Hoxha
+    - Enver Hoxha
+
+- intent: pyetja_7
+  examples: |
+    - cilat jane disa prej plazheve me te njohura në Shqiperi
+    - plazhet me te njohura ne shqiperi
+    - plazhet ne shqiperi
+    - shqiperia dhe plazhet e saj
+
+- intent: pyetja_6
+  examples: |
+    - cfare eshte butrinti
+    - Butrinti
+    - butrinti ne shqiperi
+
+- intent: pyetja_5
+  examples: |
+    - kush ishte heroi kombetar i shqiperise
+    - heroi kombetar i shqiperise
+    - kush eshte Skenderbeu
+    - kush eshte Gjergj Kastriot
+    - Skenderbeu
+
+- intent: pyetja_4
+  examples: |
+    - cfare ngjyre ka flamuri kombetar i shqiperise
+    - ngjyra e flamurit shqiptare
+    - ngjyra e flamurit te shqiperise
+
+- intent: pyetja_3
+  examples: |
+    - cili eshte kryeqyteti i shqiperise
+    - kryeqyteti i shqiperise
+    - qyteti kryesor ne shqiperi
+
+- intent: pyetja_2
+  examples: |
+    - cilat jane qyetet me te medha te shqiperise
+    - qyetet e shqiperise
+    - qyetet e medha te shqiperise
+    - kush jane qyetet e shqipeirse
+
+- intent: pyetja_1
+  examples: |
+    - Cilat janë kufijtë e Shqipërisë?
+    - Me ke kufizohet shqiperia
+    - Kufijte e shqiperise
+    - Vendet qe kufizohet shqiperia
+
+- intent: greet
+  examples: |
+    - ckemi
+    - cpb
+    - si je
+    - miremengjes
+    - mirembrema
+    - pershendetje
+    - shoku
+    - ej
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - mirupafshim
+    - pacim
+    - shihemi
+    - naten
+    - diten
+    - dreken
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - po
+    - sigurisht
+    - p
+    - tingellon mire
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - jo
+    - j
+    - kurre
+    - nuk dua
+    - nuk
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - ndihem shume mire
+    - ndihem mire
+    - prefekt
+    - lluks
+    - mire fr
+    - mire fare
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - dita ime ishte e shpifur
+    - dita ime ishte e merzitshme
+    - jam i merzitur
+    - nuk jam mire
+    - nuk ndihem mire
+    - jam i deshperuar
+    - jo i lumtur
+    - jo mire
+    - keq
+    - shume keq
+    - i palmutur
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - a je nje robot?
+    - a je njeri?
+    - jam duke folur me nje robot?
+    - jam duke folur me nje njeri?
+    - kush eshte krijuesi yt?
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: falenderimet
+  examples: |
+    - faleminderit
+    - flm
+    - me ke ber nder
+    - rrofsh
+    - rrfsh
+
+- intent: playlist_muzik
+  examples: |
+    - mund te me sugjerosh muzik
+    - me sugjero disa kenge
+    - me trego kenget e reja
+    - me trego kenget te fundit
+    - me sugjero kenge
+    - me trego disa kenge

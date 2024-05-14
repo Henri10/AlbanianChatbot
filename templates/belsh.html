@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Site Metas -->
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Eja me mua!</title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"/>
+
+    <!-- bootstrap core css -->
+<!--    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!--  <link rel="stylesheet" type="text/css" href="templates/css/" />-->
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Poppins:400,700|Roboto:400,700&display=swap"
+          rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!--  <link href="css/style.css" rel="stylesheet" />-->
+    <!-- responsive style -->
+    <link href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet"/>
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="{{ url_for('static', filename='index.html') }}">
+            <span>
+              Eja me mua!
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('static', filename='index.html') }}"> Kryesorja </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('static', filename='rp.html') }}"> Rajoni Perëndimor </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('static', filename='rv.html') }}"> Rajoni Verior </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('static', filename='rvl.html') }}"> Rajoni Verilindor </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('static', filename='rj.html') }}">
+                      Rajoni Jugor <span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('static', filename='rjl.html') }}"> Rajoni Juglindor </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+
+  </div>
+
+
+
+  <!-- about section -->
+  <section class="about_section ">
+    <div class="detail-box">
+      <h1>
+        Informacion i detajuar për qytetin e Belshit. <br />
+        
+      </h1>
+      
+      <div class="btn-box">
+        
+        <a href="{{ url_for('static', filename='rj.html') }}" class="btn-1">
+          Kthehu mbrapa
+        </a>
+        
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="{{ url_for('static', filename='images/begj.jpg') }}" alt="">
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Gjeografia
+              </h2>
+            </div>
+            <p>
+              Belshi është një pllajë e bukur kodrinore e ulët e me fusha të vogla,gropa dhe 
+              shumë liqene mbresëlënëse natyrore.
+              Gjeografikisht, Belshi është një zonë kodrinore , që ndodhet përballë fushës së Myseqesë në jug
+              të Elbasanit. Në përgjithësi , relievi i saj dallohet nga luhatjet e vogla të lartësive.
+              Belshi ishte një nga qendrat më të rëndësishme të Shqipërisë, dhe u mbante si "kryeqyteti i
+              Shqipërisë", nga personaliteti i njohur Sami Frashëri në periudhën e Rilindjes.
+              Turizmi është një nga drejtimet më premtuese të zhvillimit ekonomik të qytetit të Belshit. Qyteti
+              trashëgon nga e kaluara një varg të gjatë e të pasur vlerash historike, kulturore, etnografike,
+              arkitekturore dhe natyrore, të cilat përbëjnë një potencial të konsiderueshëm për turizmin.
+              
+              Belshi ka shumë liqene natyrore të formuara nga veprimtaria e dukurive karstike. Liqenet
+              ofrojnë mundësi turistike dhe përdoren gjithashtu për peshkim dhe vaditje. Ato ndryshojnë në
+              madhësi dhe thellësi. Në këto liqene gjendet një florë dhe faunë të shumëllojshme, të përbërë nga lloje të ndryshme peshqish dhe lule të egra si zambakët e verdhë e të bardhë , që gjenden në liqenet e Seferanit dhe Degës. Liqenet më të veçanta në këtë zonë përfshijnë: liqenin e Belshit, Merhojes, Seferanit, Cestijes, Degës, Kuqit, Paraskës dhe Marinzës.
+
+  
+  
+
+            </p>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <br></br>
+
+
+  <section class="about_section ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="{{ url_for('static', filename='images/bhh.jpg') }}" alt="">
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Historia
+              </h2>
+            </div>
+            <p>
+              1.	Belshi është një nga vendet me një trashëgimi natyrore dhe historike shumë të pasur. Eshtë propozuar nga Sami Frashëri për t’u bërë kryeqyteti i vendit (në qytetin e Belshit ndodhet një statujë e tij). 
+              <br>
+2. Shumë banorë nga ky qytet kanë luftuar për pavarësinë e shtetit shqiptar dhe këtu mund të përmendim çetën e Byshekut që drejtohej nga Irfan Ohri dhe luftetarë nga zona e Dumresë. 
+              <br>
+3. Nga gërmimet arkeologjike që janë bërë në Gradishtë (qytezë ilire në afërsi të Belshit) nga arkeologu Neritan Ceka, janë gjendur mjaft enë qeramike shek. IV-II p.e.s.të periudhës qytetërimit ilir. Vlen të përmenden objektet siç janë enë balte, portrete të ndryshme në terrakotë dhe stoli prej ari. 
+              <br>
+4. Jo larg liqenit të Seferanit gjendet faltorja e Afërditës dhe kulti i saj që ushtrohej duke hedhur në liqen enë, terrakota, si dhurata për perëndinë. Qeramika me kokën e Afërditës zinte vend të veçantë në kultin e banorëve të qytetit ilir të Belshit.
+
+
+            </p>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <br></br>
+  
+
+  <!-- end about section -->
+
+
+
+
+  <!-- info section -->
+
+<section class="info_section layout_padding">
+    <div class="container">
+        <div class="info_form">
+
+            <div class="row">
+                <div class="offset-lg-3 col-lg-3">
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="info_logo">
+                    <div>
+                        <a href="">
+                            <img src="" alt=""/>
+                            <span>
+                  Eja me mua!
+                </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info_insta">
+                    <h5>
+                        INFORMACIONI
+                    </h5>
+                    <p class="pr-0 pr-md-4 pr-md-5">
+                        Informacioni është i përpunuar dhe i kontrolluar nga nxënësit pjesmarrës në projekt, në mënyrë
+                        që informacioni që përcillet tek lexuesi të jetë i saktë dhe i besueshëm.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info_insta">
+                    <h5>
+                        EJA ME MUA!
+                    </h5>
+                    <p class="pr-0 pr-md-4 pr-md-5">
+                        Synimi i këtij projekti është që të njohë lexuesin me vendet dhe atraksionet turistike që mund
+                        të vizitohen në Shqipëri.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info_insta">
+                    <h5>
+                        FALEMINDERIT!
+                    </h5>
+                    <p class="pr-0 pr-md-4 pr-md-5">
+                        Ju falenderojmë për vëmëndjen dhe pjesëmarrjen tuaj në këtë aktivitet!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- end info_section -->
+<!-- Chat widget button -->
+<style>
+    .chat-sign-button{
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+    }
+
+    #chat-widget{
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    #chat-widget-messages{
+        margin-right: 15px;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<button id="chat-widget-button" type="button" class="btn btn-primary rounded-circle position-fixed
+    chat-sign-button" style="bottom: 20px; right: 20px;"></button>
+
+<!--    Chatbox-->
+  <!-- footer section -->
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+    // Australia.
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 11,
+        center: {
+          lat: 40.645037,
+          lng: -73.880224
+        }
+      });
+
+      var image = "images/maps-and-flags.png";
+      var beachMarker = new google.maps.Marker({
+        position: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+        map: map,
+        icon: image
+      });
+    }
+  </script>
+  <!-- google map js -->
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+  </script>
+  <!-- end google map js -->
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+
+</body>
+
+</html>

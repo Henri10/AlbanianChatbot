@@ -1,0 +1,1805 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - falenderimet
+  - playlist_muzik
+  - pyetja_1
+  - pyetja_2
+  - pyetja_3
+  - pyetja_4
+  - pyetja_5
+  - pyetja_6
+  - pyetja_7
+  - pyetja_8
+  - pyetja_9
+  - pyetja_10
+  - pyetja_11
+  - pyetja_12
+  - pyetja_13
+  - pyetja_14
+  - pyetja_15
+  - pyetja_16
+  - pyetja_17
+  - pyetja_18
+  - pyetja_19
+  - pyetja_20
+  - pyetja_21
+  - pyetja_22
+  - pyetja_23
+  - pyetja_24
+  - pyetja_25
+  - pyetja_26
+  - pyetja_27
+  - pyetja_28
+  - pyetja_29
+  - pyetja_30
+  - pyetja_31
+  - pyetja_32
+  - pyetja_33
+  - pyetja_34
+  - pyetja_35
+  - pyetja_36
+  - pyetja_37
+  - pyetja_38
+  - pyetja_39
+  - pyetja_40
+  - pyetja_41
+  - pyetja_42
+  - pyetja_43
+  - pyetja_44
+  - pyetja_45
+  - pyetja_46
+  - pyetja_47
+  - pyetja_48
+  - pyetja_49
+  - pyetja_50
+  - pyetja_51
+  - pyetja_52
+  - pyetja_53
+  - pyetja_54
+  - pyetja_55
+  - pyetja_56
+  - pyetja_57
+  - pyetja_58
+  - pyetja_59
+  - pyetja_60
+  - pyetja_61
+  - pyetja_62
+  - pyetja_63
+  - pyetja_64
+  - pyetja_65
+  - pyetja_66
+  - pyetja_67
+  - pyetja_68
+  - pyetja_69
+  - pyetja_70
+  - pyetja_71
+  - pyetja_72
+  - pyetja_73
+  - pyetja_74
+  - pyetja_75
+  - pyetja_76
+  - pyetja_77
+  - pyetja_78
+  - pyetja_79
+  - pyetja_80
+  - pyetja_81
+  - pyetja_82
+  - pyetja_83
+  - pyetja_84
+  - pyetja_85
+  - pyetja_86
+  - pyetja_87
+  - pyetja_88
+  - pyetja_89
+  - pyetja_90
+  - pyetja_91
+  - pyetja_92
+  - pyetja_93
+  - pyetja_94
+  - pyetja_95
+  - pyetja_96
+  - pyetja_97
+  - pyetja_98
+  - pyetja_99
+  - pyetja_100
+  - pyetja_101
+  - pyetja_102
+  - pyetja_103
+  - pyetja_tirane
+  - pyetja_berat
+  - pyetja_shkoder
+  - pyetja_gjirokaster
+  - pyetja_kruja
+  - pyetja_vlora
+  - pyetja_korca
+  - pyetja_durres
+  - pyetja_fier
+  - pyetja_elbasan
+  - guide_turistike_korca
+  - guide_turistike_tirane
+  - guide_turistike_berat
+  - guide_turistike_gjirokaster
+  - guide_turistike_durres
+  - guide_turistike_vlora
+  - guide_turistike_kruje
+  - guide_turistike_shkoder
+  - guide_turistike_elbasani
+  - guide_turistike_fier
+
+responses:
+
+  utter_guide_turistike_fier:
+    - text: "VLORA : Për të vizituar Vlorën, një qytet bregdetar i bukur në jug të Shqipërisë, një periudhë prej 1 deri në 2 ditë zakonisht është e mjaftueshme për të eksploruar disa prej atraksioneve kryesore dhe për të shijuar bukuritë e plazhit.
+Këtu janë disa sugjerime për një vizitë të shkurtër në Vlorë :
+Dita 1: 
+- Filloni vizitën tuaj me Monumentin e Pavarësisë, një nga pikat më të njohura dhe simbolike të qytetit, i cili është lidhur ngushtësisht me historinë e pavarësisë së Shqipërisë.
+- Shëtisni në Lungomarez, promenadën buzë detit, ku mund të shijoni pamjet e bukura dhe të pushoni në kafene dhe restorante.
+- Vizitoni Plazhin e Vlorës, një plazh i gjerë dhe i bukur bregdetar, ku mund të relaksoheni dhe të shijoni kohën në bregdet.
+Dita 2 (nëse keni më shumë kohë):
+- Nëse jeni të interesuar për histori dhe kulturë, vizitoni Muzeun Historik, i cili ofron një ekspozitë të pasur të historisë së qytetit dhe rajonit.
+- Nëse preferoni natyrën, mund të shkoni për të vizituar ishullin e Zvërnecit, një destinacion natyror i bukur me një manastir të vogël në brigjet e tij.
+Kjo vizitë e shkurtër do t'ju japë mundësinë të njiheni me disa prej atraksioneve kryesore të Vlorës, të përjetoni bukuritë e saj bregdetare dhe të shijoni atmosferën e qytetit. Megjithatë, nëse keni mundësi për kohë më të gjatë, mund të zgjeroni vizitën tuaj për të eksploruar më shumë nga ky qytet bregdetar dhe zonat përreth të tij.  
+"
+
+  utter_guide_turistike_elbasani:
+    - text: "VLORA : Për të vizituar Vlorën, një qytet bregdetar i bukur në jug të Shqipërisë, një periudhë prej 1 deri në 2 ditë zakonisht është e mjaftueshme për të eksploruar disa prej atraksioneve kryesore dhe për të shijuar bukuritë e plazhit.
+Këtu janë disa sugjerime për një vizitë të shkurtër në Vlorë :
+Dita 1: 
+- Filloni vizitën tuaj me Monumentin e Pavarësisë, një nga pikat më të njohura dhe simbolike të qytetit, i cili është lidhur ngushtësisht me historinë e pavarësisë së Shqipërisë.
+- Shëtisni në Lungomarez, promenadën buzë detit, ku mund të shijoni pamjet e bukura dhe të pushoni në kafene dhe restorante.
+- Vizitoni Plazhin e Vlorës, një plazh i gjerë dhe i bukur bregdetar, ku mund të relaksoheni dhe të shijoni kohën në bregdet.
+Dita 2 (nëse keni më shumë kohë):
+- Nëse jeni të interesuar për histori dhe kulturë, vizitoni Muzeun Historik, i cili ofron një ekspozitë të pasur të historisë së qytetit dhe rajonit.
+- Nëse preferoni natyrën, mund të shkoni për të vizituar ishullin e Zvërnecit, një destinacion natyror i bukur me një manastir të vogël në brigjet e tij.
+Kjo vizitë e shkurtër do t'ju japë mundësinë të njiheni me disa prej atraksioneve kryesore të Vlorës, të përjetoni bukuritë e saj bregdetare dhe të shijoni atmosferën e qytetit. Megjithatë, nëse keni mundësi për kohë më të gjatë, mund të zgjeroni vizitën tuaj për të eksploruar më shumë nga ky qytet bregdetar dhe zonat përreth të tij.  
+"
+
+  utter_guide_turistike_shkoder:
+    - text: "VLORA : Për të vizituar Vlorën, një qytet bregdetar i bukur në jug të Shqipërisë, një periudhë prej 1 deri në 2 ditë zakonisht është e mjaftueshme për të eksploruar disa prej atraksioneve kryesore dhe për të shijuar bukuritë e plazhit.
+Këtu janë disa sugjerime për një vizitë të shkurtër në Vlorë :
+Dita 1: 
+- Filloni vizitën tuaj me Monumentin e Pavarësisë, një nga pikat më të njohura dhe simbolike të qytetit, i cili është lidhur ngushtësisht me historinë e pavarësisë së Shqipërisë.
+- Shëtisni në Lungomarez, promenadën buzë detit, ku mund të shijoni pamjet e bukura dhe të pushoni në kafene dhe restorante.
+- Vizitoni Plazhin e Vlorës, një plazh i gjerë dhe i bukur bregdetar, ku mund të relaksoheni dhe të shijoni kohën në bregdet.
+Dita 2 (nëse keni më shumë kohë):
+- Nëse jeni të interesuar për histori dhe kulturë, vizitoni Muzeun Historik, i cili ofron një ekspozitë të pasur të historisë së qytetit dhe rajonit.
+- Nëse preferoni natyrën, mund të shkoni për të vizituar ishullin e Zvërnecit, një destinacion natyror i bukur me një manastir të vogël në brigjet e tij.
+Kjo vizitë e shkurtër do t'ju japë mundësinë të njiheni me disa prej atraksioneve kryesore të Vlorës, të përjetoni bukuritë e saj bregdetare dhe të shijoni atmosferën e qytetit. Megjithatë, nëse keni mundësi për kohë më të gjatë, mund të zgjeroni vizitën tuaj për të eksploruar më shumë nga ky qytet bregdetar dhe zonat përreth të tij.  
+"
+
+  utter_guide_turistike_kruje:
+    - text: "VLORA : Për të vizituar Vlorën, një qytet bregdetar i bukur në jug të Shqipërisë, një periudhë prej 1 deri në 2 ditë zakonisht është e mjaftueshme për të eksploruar disa prej atraksioneve kryesore dhe për të shijuar bukuritë e plazhit.
+Këtu janë disa sugjerime për një vizitë të shkurtër në Vlorë :
+Dita 1: 
+- Filloni vizitën tuaj me Monumentin e Pavarësisë, një nga pikat më të njohura dhe simbolike të qytetit, i cili është lidhur ngushtësisht me historinë e pavarësisë së Shqipërisë.
+- Shëtisni në Lungomarez, promenadën buzë detit, ku mund të shijoni pamjet e bukura dhe të pushoni në kafene dhe restorante.
+- Vizitoni Plazhin e Vlorës, një plazh i gjerë dhe i bukur bregdetar, ku mund të relaksoheni dhe të shijoni kohën në bregdet.
+Dita 2 (nëse keni më shumë kohë):
+- Nëse jeni të interesuar për histori dhe kulturë, vizitoni Muzeun Historik, i cili ofron një ekspozitë të pasur të historisë së qytetit dhe rajonit.
+- Nëse preferoni natyrën, mund të shkoni për të vizituar ishullin e Zvërnecit, një destinacion natyror i bukur me një manastir të vogël në brigjet e tij.
+Kjo vizitë e shkurtër do t'ju japë mundësinë të njiheni me disa prej atraksioneve kryesore të Vlorës, të përjetoni bukuritë e saj bregdetare dhe të shijoni atmosferën e qytetit. Megjithatë, nëse keni mundësi për kohë më të gjatë, mund të zgjeroni vizitën tuaj për të eksploruar më shumë nga ky qytet bregdetar dhe zonat përreth të tij.  
+"
+
+  utter_guide_turistike_vlora:
+    - text: "VLORA : Për të vizituar Vlorën, një qytet bregdetar i bukur në jug të Shqipërisë, një periudhë prej 1 deri në 2 ditë zakonisht është e mjaftueshme për të eksploruar disa prej atraksioneve kryesore dhe për të shijuar bukuritë e plazhit.
+Këtu janë disa sugjerime për një vizitë të shkurtër në Vlorë :
+Dita 1: 
+- Filloni vizitën tuaj me Monumentin e Pavarësisë, një nga pikat më të njohura dhe simbolike të qytetit, i cili është lidhur ngushtësisht me historinë e pavarësisë së Shqipërisë.
+- Shëtisni në Lungomarez, promenadën buzë detit, ku mund të shijoni pamjet e bukura dhe të pushoni në kafene dhe restorante.
+- Vizitoni Plazhin e Vlorës, një plazh i gjerë dhe i bukur bregdetar, ku mund të relaksoheni dhe të shijoni kohën në bregdet.
+Dita 2 (nëse keni më shumë kohë):
+- Nëse jeni të interesuar për histori dhe kulturë, vizitoni Muzeun Historik, i cili ofron një ekspozitë të pasur të historisë së qytetit dhe rajonit.
+- Nëse preferoni natyrën, mund të shkoni për të vizituar ishullin e Zvërnecit, një destinacion natyror i bukur me një manastir të vogël në brigjet e tij.
+Kjo vizitë e shkurtër do t'ju japë mundësinë të njiheni me disa prej atraksioneve kryesore të Vlorës, të përjetoni bukuritë e saj bregdetare dhe të shijoni atmosferën e qytetit. Megjithatë, nëse keni mundësi për kohë më të gjatë, mund të zgjeroni vizitën tuaj për të eksploruar më shumë nga ky qytet bregdetar dhe zonat përreth të tij.  
+"
+
+  utter_guide_turistike_durres:
+    - text: "DURRES : Për të vizituar Durrësin, një qytet bregdetar i njohur në Shqipëri, rekomandohet të keni një periudhë prej 1 deri në 2 ditë për të eksploruar këtë destinacion.
+Këtu janë disa sugjerime për një vizitë të shkurtër në Durrës:
+Dita 1:
+- Filloni me një vizitë në Amfiteatrin e Durrësit, një nga atraksionet kryesore të qytetit. Ky amfiteatër është një nga amfiteatret më të vjetër në Ballkan.
+- Vizitoni Kalanë e Durrësit, një nga qendrat historike të qytetit me pamje të mrekullueshme të detit dhe qytetit.
+- Shijoni kohën në Plazhin e Durrësit, i cili ofron mundësi të shumta për të qëndruar në bregdet dhe të relaksoheni në plazhin e bukur.
+Dita 2 (nëse keni më shumë kohë):
+- Eksploroni Muzeun Arkeologjik të Durrësit, i cili ekspozon artifakte të lashta dhe pjesë të gjetura gjatë ekspeditave arkeologjike në zonën përreth.
+- Nëse keni interes për arkitekturën fetare, vizitoni Xhaminë e Fatihut ose Xhaminë Mbretër, dy xhami të njohura në qytet.
+Durrësi ofron një kombinim të bukur të historisë, kulturës dhe bukurisë natyrore bregdetare. Një vizitë e shkurtër ju lejon të njiheni me atraksionet kryesore dhe të përjetoni atmosferën e qytetit. Nëse keni mundësi për kohë më të gjatë, mund të zgjeroni vizitën tuaj për të eksploruar më shumë nga ky qytet dhe për të shijuar gjithçka që ka për të ofruar.
+"
+
+  utter_guide_turistike_gjirokaster:
+    - text: "GJIROKASTER : Për të vizituar Gjirokastrën, rekomandohet të keni një periudhë prej 1 deri në 2 ditë në dispozicion për të njohur këtë qytet të pasur në histori dhe kulturë.
+Këtu janë disa sugjerime për një vizitë të shkurtër në Gjirokastër:
+Dita 1:
+- Filloni vizitën tuaj në Kalanë e Gjirokastrës, një kala e lashtë që ofron pamje të mrekullueshme të qytetit dhe rrugëve të shkëmbinjve. Mund të eksploroni këtë zonë të lashtë dhe të shijoni pamjet e bukura.
+- Vizitoni Muzeun Etnografik, i cili shfaq jetën tradicionale dhe kulturën materiale të rajonit të Gjirokastrës.
+Dita 2 (nëse keni më shumë kohë):
+- Shkoni për të vizituar Shtëpinë e Ismail Kadare, që tani është një muze dhe qendër kulturore.
+- Eksploroni zonat përreth Gjirokastrës për të shijuar pamjet natyrore dhe për të njohur më shumë për historinë dhe kulturën rurale të kësaj zone.
+Gjirokastra është një qytet me një trashëgimi të pasur historike dhe kulturore. Një vizitë e shkurtër ju lejon të njiheni me atraksionet kryesore dhe të përjetoni atmosferën e qytetit. Megjithatë, nëse keni mundësi për kohë më të gjatë, mund të zgjeroni vizitën tuaj për të eksploruar më shumë nga kjo zonë e bukur e Shqipërisë dhe për të pasur një përvojë më të plotë. 
+"
+
+  utter_guide_turistike_berat:
+    - text: "BERAT : Për të vizituar Beratin, një qytet i njohur për trashëgiminë e tij kulturore dhe historike, një periudhë prej 1 deri në 2 ditë zakonisht është e mjaftueshme për të eksploruar këtë qytet tërheqës dhe për të vizituar disa prej atraksioneve kryesore.
+Këtu janë disa sugjerime për një vizitë të Beratit në kohë të kufizuar:
+Dita 1:
+- Filloni me një vizitë në Kalanë e Beratit, një kala e lashtë që ofron pamje të mrekullueshme të qytetit të vjetër të Beratit dhe rrugëve të shkëmbinjve. Mund të shëtisni nëpër rrugët e ngushta të kësaj zone dhe të shijoni arkitekturën e lashtë.
+- Vizitoni Muzeun Onufri, ku mund të shihni një koleksion të madh të ikonave të shekullit 16-20 dhe artefakte të tjera fetare.
+Dita 2 (nëse keni më shumë kohë):
+- Nëse keni mundësi, shkoni në Muzeun Etnografik për të mësuar më shumë për kulturën dhe jetën tradicionale të Beratit.
+- Eksploroni zonën e Mangalemit dhe Gorices, dy lagje të tjera të vjetra me arkitekturë të veçantë dhe pamje të bukura.
+"
+
+  utter_guide_turistike_tirane:
+    - text: "TIRANE : Për të vizituar Tiranën, kryeqytetin e Shqipërisë, rekomandohet të keni një periudhë prej 2 deri në 4 ditë në dispozicion për të eksploruar dhe për të njohur sa më shumë nga kjo qytet. Kjo kohë ju lejon të vizitoni atraksione kryesore, të shijoni kulturën, kuzhinën dhe atmosferën e jetës së qytetit.
+Këtu janë disa sugjerime tuaj për vizitën në Tiranë:
+Dita 1:
+- Filloni me një vizitë në Sheshin Skënderbej, qendra kryesore e qytetit, ku mund të shihni monumentet kryesore si Piramida, Pallati i Kulturës, Kulla e Sahatit dhe të shijoni një kafe në kafene të afërta.
+- Vizitoni Bunk'Art, një muze i konvertuar nga një bunker i diktaturës komuniste, për të kuptuar historinë dhe kulturën e Shqipërisë në periudhën komuniste.
+Dita 2:
+- Vizitoni Liqenin e Tiranës dhe shijoni një shëtitje rreth tij apo një pushim në kafene të vendosura në zonën e tij.
+- Shëtisni në Bllok, një zonë që ishte e rezervuar vetëm për elitën gjatë diktaturës, tani e kthyer në një zonë tërheqëse me restorante, bare, dhe klube.
+Dita 3:
+- Vizitoni Muzeun Historik Kombëtar për të njohur më shumë për historinë dhe kulturën e Shqipërisë.
+- Shijoni një darkë në një restorant tradicional të kuzhinës shqiptare në qytet.
+Dita 4:
+- Nëse keni kohë shtesë, mund të eksploroni tregjet lokale si Pazari i Ri për të blerë produkte ushqimore të freskëta dhe artizanale.
+- Nëse jeni të interesuar për arte dhe kulturë, vizitoni galeritë e artit ose institucionet e tjera kulturore në qytet.
+"
+
+  utter_guide_turistike_korca:
+    - text: "KORCA : Koha e rekomanduar për të vizituar një qytet si Korça në Shqipëri mund të ndryshojë në varësi të interesave tuaja personale, por një periudhë e shkurtër prej 2 deri në 3 ditë zakonisht është e mjaftueshme për të eksploruar këtë qytet të pasur në kulturë dhe histori. Kjo do të ju japë mundësinë të vizitoni atraksionet kryesore, të shijoni kuzhinën vendase, dhe të përjetoni jetën dhe kulturën e qytetit në mënyrë të këndshme.
+Nëse planifikoni të qëndroni për 2-3 ditë në Korçë, këtu janë disa sugjerime për të vizituar:
+Dita 1:
+- Vizitoni Muzeun e Arsimit dhe Katedralen e Shen Gorës.
+- Shëtitni nëpër qytetin e vjetër të Korçës dhe shijoni arkitekturën e tij tradicionale.
+- Vizitoni Parkun Rinia për një shëtitje relaxuese.
+Dita 2:
+- Nëse jeni të interesuar për historinë dhe kulturën, vizitoni Muzeun Arkeologjik dhe Galerinë e Arteve.
+- Shijoni kuzhinën vendase dhe kafene në qendër të qytetit ose në zonat përreth.
+Dita 3:
+- Nëse keni kohë shtesë, mund të planifikoni një udhëtim për të vizituar liqenin e Prespës ose zonën përreth të ngjashme natyrore.
+- Eksploroni zonat rurale përreth Korçës për të njohur jetën e fshatrave të afërt dhe për të shijuar bukurinë natyrore.
+"
+
+  utter_pyetja_elbasan:
+    - text: "KORCA : Korça është një qytet i njohur për kulturën, artin dhe arkitekturën e tij të pasur. Muzeu i Arsimit, Katedralja e Shen Gorës, dhe plazhet e liqenit të Prespës janë disa nga vendet më të vizituara."
+
+  utter_pyetja_fier:
+    - text: "KORCA : Korça është një qytet i njohur për kulturën, artin dhe arkitekturën e tij të pasur. Muzeu i Arsimit, Katedralja e Shen Gorës, dhe plazhet e liqenit të Prespës janë disa nga vendet më të vizituara."
+
+  utter_pyetja_korca:
+    - text: "KORCA : Korça është një qytet i njohur për kulturën, artin dhe arkitekturën e tij të pasur. Muzeu i Arsimit, Katedralja e Shen Gorës, dhe plazhet e liqenit të Prespës janë disa nga vendet më të vizituara."
+
+  utter_pyetja_durres:
+    - text: "Durrësi është qyteti bregdetar më i madh në Shqipëri dhe ka një histori të pasur. Amfiteatri i Durrësit, Kalaja e Durrësit, plazhet, si dhe muzeu arkeologjik janë disa nga vendet më të vizituara."
+
+  utter_pyetja_vlora:
+    - text: "Vlorë është një qytet bregdetar i njohur për plazhet e bukura dhe trashëgiminë e tij historike. Monumenti Kombëtar i Pavarësisë, Plazhi i Vlorës, dhe ishulli i Zvërnecit janë disa nga atraksionet kryesore."
+
+  utter_pyetja_kruja:
+    - text: "Kruja është një qytet i njohur për kryengritjen antiosmane dhe për historinë e tij të pasur. Disa atraksione kryesore janë Kalaja e Krujës, Muzeu Historik i Krujës, si dhe tregu tradicional ku mund të gjeni produkte të ndryshme."
+
+  utter_pyetja_gjirokaster:
+    - text: 'GJIROKASTER -  Gjirokastra është një qytet i bukur në jug të Shqipërisë, i njohur për trashëgiminë e tij kulturore dhe arkitektonike të pasur. Disa atraksione dhe aktivitete që mund të vizitoni në Gjirokastrë përfshijnë:
+1. **Kalaja e Gjirokastrës**: Kalaja është një nga pikat kryesore të qytetit dhe ofron pamje të mrekullueshme të qytetit dhe rrethinave.
+2. **Muzeu Etnografik**: Një muze që shfaq jetën tradicionale dhe kulturën materiale të rajonit, duke përfshirë shtëpitë tradicionale, veshjet, mjetet e punës, etj.
+3. **Muzeu i Artit Figurativ "Zekate"**: Muzeu ekspozon vepra të artistëve vendas dhe ndërkombëtarë.
+4. **Shtëpia e Ismail Kadare**: Qëndra e lindjes së shkrimtarit të njohur shqiptar Ismail Kadare, e konvertuar tani në muze dhe qendër kulturore.
+5. **Bazar Tradicional**: Zona e vjetër e qytetit është e mbushur me dyqane tradicionale, tregje dhe aktivitete të tjera tregtare.
+6. **Parku Kombëtar i Gjirokastrës (Blue Eye)**: Një shpërndarje e bukur natyrore me një burim uji blu thellë, i cili është një vend shumë i frekuentuar nga turistët për një piknik ose një shëtitje.
+7. **Shtëpia e Gjergj Arianit Komnenit**: Një shtëpi e lashtë e cila është konvertuar në muze dhe shfaq jetën e një familjeje aristokrate në kohën e kalasë.
+8. **Gjinokastër**: Qyteti i vjetër me shtëpitë e tij tradicionale, rrugët e shkëmbinjve dhe pamjet e mrekullueshme.
+9. **Festivali Tradicional Folklorik**: Nëse vizitoni Gjirokastrën gjatë festivaleve të ndryshme, mund të përjetoni performancat tradicionale, muzikën dhe kulturën vendase.
+10. **Kisha e Shen Marisë**: Një kishë e lashtë në qytetin e vjetër të Gjirokastrës, e cila ka një arkitekturë të veçantë dhe interesante.
+Gjirokastra është një qytet i pasur në histori dhe kulturë, dhe një vizitë aty ofron një përvojë autentike të jetës tradicionale shqiptare dhe pamje të mrekullueshme arkitektonike dhe natyrore. 
+'
+
+  utter_pyetja_shkoder:
+    - text: "SHKODER - Shkodra është një qytet i rëndësishëm në veri të Shqipërisë me një histori të pasur dhe atraksione të shumta turistike. Disa prej atraksioneve kryesore turistike në Shkodër përfshijnë:
+1. **Katedralja e Shën Stefanit**: Ky është një nga monumentet kryesore të qytetit, një katedrale e madhe katolike që shquhet për arkitekturën e saj të bukur dhe për historinë e saj të gjatë.
+2. **Kala e Rozafës**: Kjo kala është një nga atraksionet kryesore të Shkodrës. Legjenda e Rozafës është shumë e njohur dhe vizituesit mund të shijojnë pamjet e bukura dhe historinë e kësaj kështjelle.
+3. **Liqeni i Shkodrës**: Liqeni i madh i Shkodrës është një tjetër pikë e rëndësishme turistike. Vizitorët mund të shijojnë pikniket, aktivitetet e ujit dhe shëtitjet në brigjet e tij.
+4. **Muzeu Historik i Shkodrës**: Ky muze është një nga vendet që vizitorët mund të shkojnë për të njohur më shumë për historinë dhe kulturën e qytetit, duke shfaqur eksponate dhe artifakte historike.
+5. **Galeritë e Arteve**: Shkodra ka disa galeri arti që prezantojnë punë artistësh vendas dhe ndërkombëtarë.
+6. **Ura e Mesit**: Ky është një urë e vjetër e cila lidh dy anët e Liqenit të Shkodrës dhe ka një pamje të mrekullueshme.
+7. **Marubi Fototeka**: Për pasionat e fotografisë, ky muze prezanton një koleksion të madh të fotove historike të Marubit, një familjeje të njohur të fotografeve.
+Këto janë disa prej atraksioneve kryesore turistike në Shkodër, por qyteti ofron edhe shumë të tjera për të eksploruar, duke përfshirë rrugët e vjetra të qytetit, tregjet tradicionale dhe kulturën e pasur të kësaj zone të Shqipërisë.
+"
+
+  utter_pyetja_berat:
+    - text: "BERAT - Berati është një qytet i bukur në juglindje të Shqipërisë, i njohur për trashëgiminë e tij kulturore dhe historike. Disa atraksione dhe aktivitete që mund të vizitoni në Berat përfshijnë:
+1. **Kalaja e Beratit (Kalaja e Kala)**: Kalaja është një nga atraksionet kryesore të qytetit. Ajo ofron pamje të mrekullueshme të qytetit të vjetër të Beratit dhe rrugëve të shkëmbinjve.
+2. **Mangalem dhe Gorica**: Këto janë dy lagje të vjetra të Beratit me arkitekturë të veçantë, shtëpi tradicionale me fasada të bardha, rrugë kalldrëm dhe xhami të lashta.
+3. **Muzeu Onufri**: Një muze që ekspozon një koleksion të madh të ikonave të shekullit 16-20 dhe artefakte të tjera fetare.
+4. **Shpella e Pashës**: Një shpelle e cila thuhet se ka qenë shtëpia e një pashëjeje që mbante nënshtetësinë shqiptare në kohën e pushtimit otoman.
+5. **Lumi Osum**: Mund të shijoni një shëtitje pranë lumin Osum, duke shfrytëzuar natyrën dhe pamjet e bukura që ofron.
+6. **Pikturat Murale të Beratit**: Berati njihet edhe për pikturat murale të muralistit shqiptar Mimoza dh'Ujiut, të cilat janë një ndër atraksionet e reja të qytetit.
+7. **Ura Gorica**: Ura e vjetër që lidh Mangalemin me Gorican dhe ka një pamje të mrekullueshme të lumit dhe qytetit.
+8. **Bulevardi Republika**: Zona kryesore e qytetit me dyqane, restorante dhe kafene ku mund të shijoni jetën e përditshme të Beratit.
+9. **Vendbanimet e vjetra të Qytetit**: Shëtitje nëpër rrugët e ngushta të qytetit të vjetër për të zbuluar arkitekturën tradicionale dhe jetën e qytetit të lashtë.
+Berati është një qytet i pasur në histori dhe kulturë, i cili ofron një përvojë autentike për vizitorët që duan të njihen me trashëgiminë e Shqipërisë së lashtë dhe të shijojnë bukurinë e saj natyrore dhe arkitekturore.
+"
+  
+  utter_pyetja_tirane:
+    - text: "Tiranë, kryeqyteti i Shqipërisë, ofron shumë atraksione dhe aktivitete të ndryshme për vizitorët. Disa nga vendet më të njohura dhe më të vizituara në Tiranë përfshijnë:
+1. **Sheshi Skënderbej**: Qendra historike e qytetit, e cila përfshin monumente të tilla si Piramida, Pallati i Kulturës, Kulla e Sahatit dhe Hotel Dajti. Kjo zonë është qendra e jetës kulturore dhe sociale në Tiranë.
+2. **Bunk'Art**: Muzeu i konvertuar nga një nga shumë bunkere të ndërtuara gjatë periudhës së diktaturës komuniste. Ky vend ofron një përvojë të ngjarjeve historike dhe kulturore të Shqipërisë.
+3. **Parku Rinia**: Parku i madh i cili ofron hapësirë të bukur për të shëtitur, të pushuar dhe të ushtruar aktivitete sportive.
+4. **Liqeni i Artificial i Tiranës**: Zona rreth liqenit është vend ideal për të shijuar kohën me një shëtitje ose një kafe në një nga kafene të shumta aty afër.
+5. **Muzeu Historik Kombëtar**: Ofron një ekspozitë të pasur të historisë së Shqipërisë nga periudha antike deri në ditët moderne.
+6. **Piramida e Tiranës**: Ndërtesë futuriste e ndërtuar në kohën e diktaturës së Enver Hoxhës, sot përdoret për ngjarje kulturore dhe artistike
+7. **Blloku**: Ish-zona e ndaluar për publikun gjatë periudhës së diktaturës, tani është një nga zonat më të preferuara për jetën e natës, me restorante, bare dhe klube.
+8. **Tregu i Ri (Pazari i Ri)**: Treg tradicional ku mund të gjeni produkte ushqimore të freskëta, artizanale dhe artikuj të ndryshëm.
+9. **Teatri i Operas dhe Baletit**: Një vend i bukur për të shijuar performancat artistike të ndryshme
+10. **Katedralja e Shen Pjetrit**: Një ndërtesë e rëndësishme fetare në qytet.
+Këto janë vetëm disa nga shumë vendet dhe atraksionet që mund të vizitoni në Tiranë. Kjo qytet ofron një kombinim të historisë, kulturës, arkitekturës dhe atmosferës së bukur që e bën atë një destinacion tërheqës për turistët.
+"
+
+  utter_pyetja_103:
+    - text: "Transporti i ujërave të brendshme në Shqipëri, i cili përfshin lumenjtë dhe liqenet kryesore të vendit, ka një potencial të madh për zhvillim, por ka përballuar një sërë sfidash gjatë viteve:\n
+
+Sfidat:\n
+
+1. Mungesa e Infrastrukturës: Megjithëse Shqipëria ka një numër të mirë të lumenjve dhe liqeneve, infrastruktura për transportin e ujërave të brendshme, si portet, doket dhe terminalët, është e vjetër ose e pamjaftueshme.\n
+2. Mungesa e Investimeve: Investimet në këtë sektor janë qenë të kufizuara në krahasim me sektorët e tjerë të transportit.\n
+3. Çështjet Mjedisore: Disa prej lumenjve dhe liqeneve janë ndikuar nga ndotja ose kanë çështje të tjera mjedisore që e bëjnë transportin më sfidues.\n
+4. Kapaciteti dhe Aftësia Administrative: Mungesa e trajnimit dhe ekspertizës së duhur për të menaxhuar dhe zhvilluar sektorin.\n
+5. Konkurrenca me mjetet e tjera të transportit: Transporti rrugor dhe ai ajror janë më të zhvilluar dhe kjo ka sjellë një konkurrencë të lartë për transportin e ujërave të brendshme.\n
+Planet për përmirësim:\n
+
+1. Investimet në Infrastrukturë: Ka pasur diskutime dhe plane për të rritur investimet në infrastrukturën e transportit të ujërave të brendshme, përfshirë ndërtimin ose përmirësimin e porteve dhe terminalëve.\n
+2. Përmirësimi i Mjedisit: Masat mjedisore për pastrimin e lumenjve dhe liqeneve, si dhe menaxhimi i duhur i ujrave, do të rrisë potencialin për transportin e ujërave të brendshme.\n
+3. Promovimi dhe Ndërgjegjësimi: Fushata dhe nisma për të ndërgjegjësuar opinionin publik dhe sektorin privat për rëndësinë dhe avantazhet e transportit të ujërave të brendshme.\n
+4. Bashkëpunim Rajonal: Shfrytëzimi i lumenjve dhe liqeneve që shtrihen në vende të ndryshme për të forcuar bashkëpunimin rajonal dhe për të krijuar korridore transporti."
+
+  utter_pyetja_102:
+    - text: "sektori i ndërmarrjeve të vogla dhe të mesme (NVM) ka qenë një nga shtyllat kryesore të ekonomisë shqiptare. Ky sektor ka kontribuar ndjeshëm në krijimin e vendeve të punës, rritjen ekonomike dhe diversifikimin e tregut."
+
+  utter_pyetja_101:
+    - text: 'Shqipëria ka njohur dhe respektuar integritetin territorial të vendeve fqinje dhe nuk ka pasur ndonjë marrëveshje apo çështje që ka ndikuar në integritetin territorial të ndonjë shteti tjetër. Marrëdhëniet e Shqipërisë me vendet fqinje dhe ato të rajonit janë përmirësuar ndjeshëm gjatë dekadave të fundit, por ka ende sfida dhe çështje të pazgjidhura.\n
+
+1. Kosova: Shqipëria ishte një nga vendet e para që njohu pavarësinë e Kosovës më 2008 dhe ka marrëdhënie shumë të mira me të. Pavarësisht se kanë pasur bisedime për "mini-Schengen" ballkanik dhe bashkëpunim të ngushtë rajonal, nuk ka pasur ndonjë marrëveshje që ndikon në integritetin territorial të ndonjërit prej vendeve.\n
+
+2. Maqedonia e Veriut: Marrëdhëniet mes Shqipërisë dhe Maqedonisë së Veriut janë përmirësuar, veçanërisht pasi çështja e emrit të Maqedonisë u zgjidh me Greqinë. Shqipëria ka mbështetur integrimin evropian të Maqedonisë së Veriut dhe ka bashkëpunim ekonomik dhe kulturor me të.\n
+
+3. Mal i Zi: Shqipëria dhe Mali i Zi kanë një marrëdhënie fqinjësore dhe bashkëpunuese. Pavarësisht ndonjë tensioni për çështje kufitare, të dy vendet kanë treguar gatishmëri për dialog dhe zgjidhje të ndershme.\n
+
+4. Greqia: Gjatë viteve, marrëdhëniet mes Shqipërisë dhe Greqisë kanë pasur lartë dhe ulët, por ka pasur përpjekje për përmirësim. Çështjet si kufiri detar dhe statusi i minoritetit grek në Shqipëri kanë qenë të diskutueshme, por të dy vendet kanë shfaqur gatishmëri për dialog dhe zgjidhje.\n
+
+5. Italia: Shqipëria ka një marrëdhënie shumë të mirë dhe të ngushtë me Italinë në shumë fusha, duke përfshirë tregtinë, investimet dhe bashkëpunimin kulturor.'
+
+  utter_pyetja_100:
+    - text: "Sistemi i shpërndarjes së energjisë në Shqipëri ka pësuar ndryshime dhe përmirësime gjatë viteve, por megjithatë ka sfida që duhet të adresohen.
+
+Sfidat:
+
+1. Humbjet në rrjet: Një nga sfidat kryesore të sektorit të energjisë ka qenë humbjet e mëdha të energjisë në rrjetin e shpërndarjes, si rezultat i infrastrukturës së vjetër dhe të pamjaftueshme dhe ndërhyrjeve të paligjshme.
+2. Investimet e pamjaftueshme: Mungesa e investimeve të mëdha ka ndikuar në kapacitetin e sistemit për të përballuar rritjen e kërkesës për energji.
+3. Mungesa e përditësimit teknologjik: Pjesa e rrjetit ka nevojë për modernizim dhe përdorimin e teknologjive të reja për të përmirësuar efikasitetin.
+4. Mbikëqyrja dhe menaxhimi: Menaxhimi i resurseve dhe mbikëqyrja e sektorit ka qenë ndonjëherë i munguar ose i pamjaftueshëm.
+5. Arrears: Shumë konsumatorë kanë akumuluar borde ndaj kompanive të shpërndarjes së energjisë, duke krijuar tensione dhe sfida financiare për sektorin.
+Planet për përmirësim:
+
+1. Modernizimi i rrjetit: Ka pasur plane për të modernizuar infrastrukturën ekzistuese dhe për të ndërtuar segmente të reja të rrjetit për të zvogëluar humbjet dhe përmirësuar efikasitetin.
+2. Adresimi i ndërhyrjeve të paligjshme: Përpjekje janë bërë për të identifikuar dhe ndaluar ndërhyrjet e paligjshme në rrjet dhe për të rritur ndërgjegjësimin e konsumatorëve.
+3. Përdorimi i teknologjive të reja: Përfshirja e teknologjive të reja, siç janë matësit e inteligjentë, mund të ndihmojë në monitorimin e konsumit dhe menaxhimin e shpërndarjes së energjisë.
+4. Përmirësimi i menaxhimit dhe mbikëqyrjes: Përmirësimi i strukturave menaxheriale dhe rritja e transparencës janë esenciale për një sektor më të qëndrueshëm dhe të besueshëm."
+
+  utter_pyetja_99:
+    - text: "Shqipëria ka shënuar përparime të dukshme në zhvillimin e sektorit të shërbimeve dhe sektorit financiar. Megjithatë, kjo nuk do të thotë se nuk ka sfida që duhet të adresohen.\n
+
+Sektori i Shërbimeve:\n
+
+1. Turizmi: Turizmi është një nga sektorët më të rëndësishëm të shërbimeve që ka shënuar një rritje të konsiderueshme. Zonat bregdetare, zonat malore dhe trashëgimia kulturore janë bërë atraksione kryesore për turistët e huaj.\n
+2. Teknologjia e Informacionit dhe Komunikacionit (TIK): Kjo fushë ka parë një rritje të shpejtë, me shumë kompani të reja që janë themeluar dhe që ofrojnë shërbime TIK për klientë të jashtëm dhe të brendshëm.\n
+3. Call centers: Këto qendra të thirrjeve kanë shënuar një rritje në Shqipëri, duke ofruar shërbime për klientë ndërkombëtarë dhe duke krijuar vende pune.\n
+Sektori Financiar:\n
+
+1. Bankat: Sektori bankar është konsoliduar dhe është përmirësuar në aspektin e stabilitetit dhe shërbimeve. Shumica e bankave janë filiale të bankave ndërkombëtare.\n
+2. Sigurimet: Tregu i sigurimeve ka shënuar një rritje të ndjeshme, me kompani vendase dhe ndërkombëtare që ofrojnë një gamë të gjerë të produkteve të sigurimeve.\n
+3. Tregu i Kapitalit: Ky sektor është ende në zhvillim dhe nuk është aq i përparuar sa sektorët e tjerë financiarë. Megjithatë, ka pasur përpjekje për të nxitur zhvillimin e tij.\n
+4. Mikrofinanca: Institucionet e mikrofinancës kanë ofruar kredi për sipërmarrësit e vegjël dhe ata në zonat rurale, duke ndihmuar në zhvillimin e aktiviteteve ekonomike.\n
+Sfidat:\n
+
+1. Në përgjithësi, përqasja ndaj financave dhe shërbimeve financiare ende është një sfidë për një pjesë të madhe të popullsisë, veçanërisht në zonat rurale.\n
+2. Pavarësisht rritjes së sektorit të turizmit, ende ka nevojë për diversifikim dhe ofrim të produkteve turistike të qëndrueshme dhe me vlerë të shtuar.\n
+3. Në sektorin financiar, edukata financiare dhe përdorimi i teknologjive të reja financiare, si bankarizimi elektronik dhe mobile banking, ende janë sfida për një pjesë të popullsisë."
+
+  utter_pyetja_98:
+    - text: "Në vitet e fundit, Shqipëria ka përballur sfida të ndryshme në lidhje me menaxhimin e ujërave të pijshme dhe trajtimin e mbeturinave. Megjithëse ka pasur përpjekje për të adresuar këto çështje, sfidat vazhdojnë të ekzistojnë.\n
+
+Sfidat:\n
+
+1. Mungesa e furnizimit të vazhdueshëm me ujë: Shumë zona, veçanërisht ato rurale, nuk kanë pasur një furnizim të vazhdueshëm dhe cilësor me ujë të pijshëm.\n
+2. Humbjet në rrjetin e ujësjellësit: Sistemet e vjetra dhe të amortizuara kanë shkaktuar humbje të mëdha uji.\n
+3. Papastërtia e ujit: Në disa zona, kualiteti i ujit nuk ka qenë i përshtatshëm për konsum.\n
+4. Mungesa e sistemeve efikase të menaxhimit të mbeturinave: Disa qytete dhe zona rurale kanë mungesë të deponive moderne dhe të sistemeve të ndarjes së mbeturinave.\n
+5. Mbungjetja e mjediseve natyrore: Mungesa e trajtimit të duhur të mbeturinave ka çuar në ndotje të mjediseve si lumenj, liqene dhe deti.\n
+Planet për përmirësim:\n
+
+1. Investime në infrastrukturën e ujësjellësit: Shqipëria ka synuar të bëjë investime për të përmirësuar dhe zgjeruar rrjetin e ujësjellësve dhe kanalizimeve, me ndihmën e donatorëve ndërkombëtarë dhe institucioneve financiare.\n
+2. Zgjerimi i sistemeve të pastrimit të ujit: Ka pasur përpjekje për ndërtimin e stacioneve të reja të pastrimit të ujit për të siguruar ujë cilësor për konsum.\n
+3. Edukimi i komuniteteve: Fushata ndërgjegjësimi për ruajtjen e ujit dhe menaxhimin e mbeturinave kanë qenë në fokus."
+
+  utter_pyetja_97:
+    - text: "Shqipëria ka përfituar ndihmë dhe mbështetje zhvillimore nga shumë organizata, shtete dhe partnerë ndërkombëtarë. Kjo ndihmë ka pasur për qëllim të ndihmojë vendin në tranzicionin e tij nga një ekonomi e centralizuar në një ekonomi tregu dhe në përmirësimin e infrastrukturës, arsimit, shëndetësisë dhe reformave të tjera."
+
+  utter_pyetja_96:
+    - text: "Shqipëria, pavarësisht potencialit të saj për prodhimin e verërave, ka përbërë një sërë sfidash në kultivimin e rrushit dhe përmirësimin e infrastrukturës për prodhimin e verërave. Kjo ka ndikuar në kapacitetin e vendit për të konkurrueshëm në tregjet ndërkombëtare dhe për të ruajtur cilësinë dhe karakteristikat e verërave vendase."
+
+
+  utter_pyetja_95:
+    - text: "Globalizimi, si një proces i ndërvarurshmërisë dhe ndërveprimit ndërkombëtar në shumë fusha të jetës, ka ndikuar dhe vazhdon të ndikojë në shumë aspekte të jetës në Shqipëri, ashtu siç ka ndodhur edhe në shumë vende të tjera. Këtu janë disa nga mënyrat se si globalizimi ka ndikuar në ekonominë, kulturën dhe shoqërinë shqiptare:\n
+
+Ekonomia:\n
+
+1. Tregtia dhe Investimet: Ndërmjetësimi i tregjeve ka çuar në rritjen e tregtisë dhe investimeve të huaja në Shqipëri. Kjo ka ndihmuar në modernizimin e sektorëve të ndryshëm ekonomikë dhe ka sjellë teknologji të reja.\n
+2. Turizmi: Ndikimi i globalizimit ka bërë që Shqipëria të njihet më shumë si destinacion turistik, duke tërhequr vizitorë nga e gjithë bota.\n
+3. Konkurrenca: Nga njëra anë, hyrja e kompanive të mëdha ndërkombëtare ka sjellë konkurrencë për bizneset vendase, por nga ana tjetër ka shtuar edhe mundësitë e konsumatorëve për të zgjedhur produkte dhe shërbime.\n
+Kultura:\n
+
+1. Mediat dhe Teknologjia: Përhapja e teknologjisë dhe medias ka ndikuar në mënyrën se si shqiptarët konsumojnë informacion dhe argëtim. Televizioni, kinemaja dhe muzika ndërkombëtare janë bërë më të pranishme.\n
+2. Stilet e Jetesës: Globalizimi ka ndikuar në mënyrat e veshjes, muzikën, kinemanë dhe artin, duke ndikuar kulturën lokale me trendet globale.\n
+3. Gjuha: Ndikimi i mediave dhe kulturave të huaja ka sjellë edhe ndikime në gjuhën, me shtimin e huazimeve leksikore nga gjuhët e tjera.\n
+Shoqëria:\n
+
+1. Migracioni: Shqipëria ka përjetuar një valë të madhe migrimi pas viteve '90, dhe globalizimi ka lehtësuar lëvizjen e njerëzve dhe komunikimin e tyre me atdhenë.\n
+2. Edukimi: Ndikimi global ka çuar në rritjen e interesit për studime jashtë shtetit dhe në pranimin e modeleve të reja edukative.\n
+3. Ndërgjegjësimi për çështje globale: Çështje si ndryshimi klimatik, të drejtat e njeriut dhe barazia gjinore janë bërë më të pranishme në diskursin publik shqiptar si pasojë e globalizimit."
+
+  utter_pyetja_94:
+    - text: "Deri në vitin 2021, Shqipëria ka pasur një sërë marrëveshjesh tregtare dhe lidhje ekonomike me shumë shtete të botës, duke përfshirë vendet e Bashkimit Evropian dhe ato të rajonit. Ja disa prej marrëveshjeve dhe lidhjeve më të rëndësishme:\n
+
+1. Bashkimi Evropian (BE): Shqipëria ka një Marrëveshje Stabilizim-Asociim me Bashkimin Evropian, e cila përbën një hap të rëndësishëm drejt anëtarësimit të Shqipërisë në BE. Kjo marrëveshje ka për qëllim rritjen e bashkëpunimit ekonomik dhe tregtar ndërmjet Shqipërisë dhe vendeve të BE-së.\n
+
+2. Organizata Botërore e Tregtisë (WTO): Shqipëria është anëtare e kësaj organizate që nga viti 2000, që përfshin një sërë rregullash që ndikojnë marrëdhëniet tregtare ndërmjet Shqipërisë dhe shteteve të tjera anëtare."
+
+  utter_pyetja_93:
+    - text: "Sektori i energjisë dhe minerave në Shqipëri është një nga sferat kyçe të ekonomisë, por ka një numër të madh sfidash dhe mundësish.\n
+
+Mundësitë:\n
+1. Hidroenergjia: Me një sërë lumenjsh dhe formacionesh malore, Shqipëria ka një potencial të madh për prodhimin e energjisë hidroelektrike. Disa hidrocentrale tashmë janë në operacion, ndërsa të tjera janë në fazën e planifikimit ose ndërtimit.\n
+
+2. Energjia e Diellit dhe e Erës: Me një klimë mesdhetare dhe shumë ditë me diell gjatë vitit, Shqipëria ka potencial për zhvillimin e projekteve të energjisë së diellit. Në zonat malore ka potencial edhe për energjinë e erës.\n
+
+3. Minerale dhe Burimet Nën Toke: Shqipëria është e pasur me minerale si kromi, bakri dhe nikel, si dhe me rezerva të tjera si nafta dhe gazin.\n
+
+Sfidat:\n
+1. Mungesa e Infrastrukturës: Infrastruktura e sektorit të energjisë ka nevojë për përmirësim dhe modernizim, duke përfshirë linjat e transmetimit dhe rrjetin e distribucionit.\n
+
+2. Vështirësitë Financiare: Mungesa e financimeve dhe investimeve është një sfidë për zhvillimin dhe modernizimin e sektorit të energjisë.\n
+
+3. Ndryshimet Klimatike: Ndryshimet klimatike mund të ndikojnë në furnizimin e ujit për hidrocentralet, duke bërë prodhimin më të pasigurt.\n
+
+4. Menaxhimi dhe Ligjshmëria: Ka nevojë për një kornizë ligjore dhe rregullatore më të qartë dhe të përditësuar për të menaxhuar dhe rregulluar sektorin e energjisë dhe minerave.\n
+
+5. Çështje Ambientale dhe Sociale: Në ndërtimin e hidrocentraleve dhe eksplorimin e mineraleve, ka rreziqe për mjedisin dhe komunitetet lokale. Kjo kërkon një menaxhim të kujdesshëm dhe marrjen në konsideratë të ndikimeve mjedisore dhe sociale."
+
+  utter_pyetja_92:
+    - text: "Trashëgimia kulturore e lashtë e Shqipërisë është një pjesë e ndërlikuar dhe e rëndësishme e identitetit kombëtar. Vendi ka një histori të gjatë që ndërthon mbi periudhat e ndryshme të qytetërimit, duke filluar nga ilirët, periudha romake dhe bizantine, e deri te periudhat më të vona. Kjo trashëgimi ndikon jo vetëm në studimet historike dhe arkeologjike, por edhe në kulturën e përditshme dhe ndërgjegjen kombëtare të shqiptarëve."
+
+  utter_pyetja_91:
+    - text: "Shqipëria, pavarësisht potencialit të saj për prodhimin e verërave, ka përbërë një sërë sfidash në kultivimin e rrushit dhe përmirësimin e infrastrukturës për prodhimin e verërave. Kjo ka ndikuar në kapacitetin e vendit për të konkurrueshëm në tregjet ndërkombëtare dhe për të ruajtur cilësinë dhe karakteristikat e verërave vendase.\n
+
+Sfidat:\n
+1. Mungesa e Investimeve: Në periudha të caktuara të historisë së Shqipërisë, sektori i verërave ka marrë më pak investime se sa është e nevojshme për të përmirësuar dhe zgjeruar prodhimin.\n
+
+2. Infrastruktura e Vjetruar: Pjesa e madhe e infrastrukturës së prodhimit të verërave është e vjetruar dhe ka nevojë për modernizim.\n
+
+3. Edukimi dhe Formimi: Ka një mungesë të ekspertizës dhe njohurive teknike në bujqësinë e rrushit dhe në prodhimin e verërave.\n
+
+4. Tregtia dhe Marketingu: Mungesa e strategjive efikase të marketingut dhe kanaleve të distribucionit ka ndikuar në aftësinë e Shqipërisë për të shfrytëzuar potencialin e saj në tregjet ndërkombëtare.\n
+
+5. Ndryshimet Klimatike: Si shumë vende të tjera, Shqipëria është e ndikuar nga ndryshimet klimatike, të cilat mund të ndikojnë në prodhimin e rrushit.\n
+
+Planet dhe Përpjekjet për Përmirësim:\n
+1. Investimet në Teknologji: Përmirësimi i teknologjisë në fermat e rrushit dhe në përpunimin e verërave është një nga hapat kryesorë për të rritur cilësinë dhe prodhimin.\n
+
+2. Formimi dhe Edukimi: Organizatat ndërkombëtare dhe vendore kanë ndihmuar në trajnimin e fermërëve dhe prodhuesve të verërave për të përdorur metoda më të mira të prodhimit.\n
+
+3. Promovimi dhe Marketingu: Përpjekjet janë bërë për të promovuar verërat shqiptare në tregjet ndërkombëtare dhe për të theksuar karakteristikat unike dhe cilësinë e tyre.\n
+
+4. Subvencionet dhe Mbeshtetja Financiare: Qeveria dhe organizatat ndërkombëtare kanë ofruar subvencione dhe mbeshtetje financiare për fermërët dhe prodhuesit e verërave për të ndihmuar në modernizimin e infrastrukturës dhe zgjerimin e prodhimit."
+
+
+  utter_pyetja_90:
+    - text: "Shqipëria ka një trashëgimi të pasur kulturore dhe historike, dhe kjo shfaqet bukur në zakonet dhe mënyrat e jetesës së qytetërimeve dhe fshatrave tradicionale. Këto zakone dhe mënyra e jetesës kanë ndryshuar me kalimin e kohës, por disa elemente mbeten ende të pranishme në fshatrave dhe komuniteteve rurale. Ja disa prej tyre:\n
+
+1. Hospitaliteti: Një prej tipareve më të njohura të kulturës shqiptare është hospitaliteti. Nëse dikush viziton një shtëpi shqiptare, është i sigurt që do të mirëpritet me ushqim, pije dhe ngrohtësi.\n
+
+2. Festa e Dasmës: Dasma tradicionale shqiptare është një event shumë i rëndësishëm dhe i zgjatur, me shumë rituale, këngë, valle dhe ushqime tradicionale.\n
+
+3. Zakonet e Lidhjeve Familjare: Familja është thelbësore në kulturën shqiptare, dhe respekti ndaj të moshuarve dhe të parëve është një pjesë kyçe e jetës fshatare.\n
+
+4. Besë: Kjo është një ndër konceptet më të shenjta në kulturën shqiptare dhe ka të bëjë me dhënien e fjalës ose premtimit dhe mbajtjen e tij pa marrë parasysh çfarëdo sfidash që mund të hasë një person.\n
+
+5. Veshjet Tradicionale: Në festa dhe ngjarje të rëndësishme, shpesh vishen kostumet tradicionale që ndryshojnë nga një rajon në tjetrin.\n
+
+6. Ushqimi Tradicional: Ushqimi shqiptar përfshin një gamë të gjerë të pjatave të ndryshme si byrek, fërgesë, tavë kosi, dhe shumë të tjera."
+
+
+  utter_pyetja_89:
+    - text: "Deri në vitin 2021, marrëdhëniet e Shqipërisë me shtetet e tjera të Ballkanit Perëndimor kanë pësuar ndryshime dhe përmirësime, pas një historie të ndërlikuar dhe të tensionuar. Këtu janë disa pikat kryesore për marrëdhëniet e Shqipërisë me shtetet fqinje:\n
+
+1. Kosova: Marrëdhëniet mes Shqipërisë dhe Kosovës janë të shkëlqyera dhe ato kanë një partneritet të ngushtë. Shqipëria ka mbështetur fuqishëm pavarësinë e Kosovës dhe është njëri prej vendeve të para që e ka njohur atë si shtet të pavarur.\n
+
+2. Maqedonia e Veriut: Marrëdhëniet janë përmirësuar ndjeshëm gjatë viteve të fundit, veçanërisht pas marrëveshjes së Prespës midis Maqedonisë së Veriut dhe Greqisë. Komuniteti shqiptar, i cili përbën një pjesë të konsiderueshme të popullsisë së Maqedonisë së Veriut, ka luajtur një rol në ndërmjetësimin dhe forcimin e këtyre marrëdhënieve.\n
+
+3. Greqia: Për shumë vite, marrëdhëniet mes Shqipërisë dhe Greqisë kanë qenë të ndërlikuara për shkak të çështjeve të ndryshme historike dhe politike. Megjithatë, gjatë viteve të fundit, ka pasur përpjekje për të thelluar bashkëpunimin dhe për të zgjidhur mosmarrëveshjet, përfshirë çështjen e të drejtave të minoritetit grek në Shqipëri.\n
+
+4. Mal i Zi: Marrëdhëniet janë përgjithësisht të mira, pavarësisht ndonjë tensioni sporadik që ka lidhje me kufirin ose me çështje të tjera. Komuniteti shqiptar në Mal të Zi gjithashtu luan një rol në ndërmjetësimin e marrëdhënieve.\n
+
+5. Serbia: Historikisht, marrëdhëniet mes Shqipërisë dhe Serbisë kanë qenë të tensionuara, kryesisht për shkak të çështjes së Kosovës. Megjithatë, ka pasur përpjekje për të ndërtuar një dialog konstruktiv dhe për të forcuar bashkëpunimin ekonomik dhe rajonal.\n
+
+6. Bosnje dhe Hercegovinë dhe Kroaci: Ndonëse nuk janë fqinjë të drejtpërdrejtë, marrëdhëniet e Shqipërisë me këto shtete janë të frytshme dhe bazohen mbi bashkëpunimin rajonal dhe përpjekjet për integrimin evropian."
+
+  utter_pyetja_88:
+    - text: "hqipëria është një vend me një histori të pasur dhe një trashëgimi kulturore të ndërlikuar. Kjo trashëgimi përfshin ndërtime antike, kishat, xhamitë, kalatë dhe një sërë vendndodhjesh të tjera të rëndësishme. Por ruajtja dhe menaxhimi i kësaj trashëgimie janë përballur me sfida të ndryshme gjatë viteve."
+
+  utter_pyetja_87:
+    - text: 'Shqipëria ka një trashëgimi të pasur kulturore që përfshin një sërë lojërash dhe festivalesh tradicionale që janë të rrënjosura thellë në historinë dhe identitetin kombëtar. Këto lojëra dhe festivale shpesh shërbejnë si një pasqyrë e jetës dhe vlerave tradicionale shqiptare. Ja disa nga ngjarjet më të rëndësishme dhe lojërat popullore:\n
+
+Ngjarjet Tradicionale dhe Festivalet:\n
+1. Dita e Verës: E festuar më 14 mars, kjo është një festë tradicionale që shënohet me aktivitete, këngë, valle dhe zakone që mirëpresin stinën e verës.\n
+
+2. Festivali Folklorik Kombëtar i Gjirokastrës: Ky festival është një ngjarje e madhe që mblidh artistë nga e gjithë Shqipëria për të treguar talentin e tyre në muzikën dhe vallet tradicionale. Festivali mbahet në kalën e Gjirokastrës dhe ka ndodhur çdo katër vjet që nga viti 1968.\n
+
+3. Festivali i Logu i Bjeshkëve: Ky është një tjetër festival i njohur folklorik që mbahet në Malësinë e Madhe të veriut të Shqipërisë. Ai përfshin garë kënge dhe valle nga zonat malore.\n
+
+Lojërat Popullore:\n
+1. Loja e Gishtave (Kallamisht): Kjo është një lojë ritmike e gishtave ku pjesëmarrësit përplasen gishtat e tyre duke ndjekur një ritëm të caktuar.\n
+
+2. Loja e Shkulles: Kjo është një lojë tradicionale ku pjesëmarrësit hedhin një shkullë (një gur të vogël) në ajër dhe përpiqen të marrin sa më shumë gurë nga toka pa lënë shkullën të bjerë.\n
+
+3. Rrahje e Peshkut: Kjo është një lojë ku pjesëmarrësit përpiqen të godasin një peshk që është vendosur në mes të një rrethi me një top. Loja teston shkathtësinë dhe saktësinë.\n
+
+4. Vallet Tradicionale: Shqipëria ka një pasuri të larmishme të valleve tradicionale si "Vallja e Shqiponjës", "Vallja e Osman Take-s" dhe shumë të tjera që pasqyrojnë kulturën dhe historinë e ndryshme të rajoneve të vendit.'
+
+  utter_pyetja_86:
+    - text: "Shqipëria ka një pasuri të madhe mjedisi dhe biodiversiteti, përfshirë një shumëllojshmëri të lartë të bimëve, shtazëve dhe habitateve të ndryshme. Megjithatë, ajo ka përballur sfida të ndryshme në ruajtjen dhe mbrojtjen e kësaj pasurie."
+
+  utter_pyetja_85:
+    - text: "Infrastruktura shëndetësore në Shqipëri, siç është rasti në shumë vende të tjera në tranzicion, ka përbërë dhe vazhdon të përbëjë një sfidë të madhe. Përpjekjet për të përmirësuar këtë infrastrukturë kanë qenë në vazhdim gjatë viteve të fundit, por ende ekzistojnë disa sfida dhe nevoja:\n
+
+Sfidat:\n
+1. Mungesa e Financimit: Një nga sfidat më të mëdha është mungesa e financimit të mjaftueshëm për ndërtimin, rikonstruksionin dhe modernizimin e strukturave shëndetësore.\n
+
+2. Mungesa e Pajisjeve dhe Teknologjisë: Shumë spitale dhe klinika kanë nevojë për pajisje të reja dhe më moderne për të ofruar shërbime më të mira dhe më të efikashta.\n
+
+3. Formimi dhe Retenimi i Mjekëve dhe Infermierëve: Mjekët dhe infermierët e kualifikuar janë një burim i çmuar, por Shqipëria ka përjetuar një emigrim të ndjeshëm të këtyre profesionistëve në vende të tjera, duke lënë mungesa në sektorin shëndetësor.\n
+
+4. Sistemi i Menaxhimit dhe i Informacionit: Përmirësimi i sistemeve të menaxhimit dhe të informacionit në shëndetësi është thelbësor për të përmirësuar efikasitetin dhe cilësinë e shërbimeve.\n
+
+5. Qasja në Shërbimet Shëndetësore: Në disa zona, veçanërisht në zonat rurale, qasja në shërbimet shëndetësore është e kufizuar. Kjo është për shkak të mungesës së infrastrukturës ose të stafit të kualifikuar.\n
+
+Planet:\n
+1. Investimet në Infrastrukturë: Qeveria shqiptare dhe partnerët ndërkombëtarë kanë ndërmarrë hapa për të investuar në ndërtimin dhe përmirësimin e spitaleve, klinikave dhe qendrave shëndetësore.\n
+
+2. Përmirësimi i Formimit dhe Kualifikimeve: Ka pasur përpjekje për të përmirësuar programet e arsimit dhe trajnimit për mjekët, infermierët dhe profesionistët e tjerë të shëndetësisë.\n
+
+3. Bashkëpunimi Ndërkombëtar: Shqipëria ka bashkëpunuar me organizata ndërkombëtare dhe vende të tjera për të ndihmuar në përmirësimin e infrastrukturës shëndetësore dhe për të ndarë përvojat dhe ekspertizën.\n
+
+4. Rritja e Financimit Publik dhe Privat: Përveç fondeve publike, ka pasur edhe nxitje për të tërhequr investime private në sektorin shëndetësor, për të ndihmuar në përmirësimin e shërbimeve dhe infrastrukturës."
+
+  utter_pyetja_84:
+    - text: "Ndryshimi i klimës është një sfidë globale që po ndikon në mënyra të ndryshme në të gjitha vendet e botës, përfshirë Shqipërinë. Bujqësia dhe prodhimi i ushqimit janë veçanërisht të ndjeshëm ndaj ndryshimeve të klimës. Në Shqipëri, këto ndikime kanë shfaqur dhe do të vazhdojnë të shfaqin disa pasojat:\n
+
+1. Stresi nga Nxehtësia dhe Tharja: Rritja e temperaturave dhe periudhat më të gjata të thatësisë kanë çuar në një ulje të disponueshmërisë së ujit për ujëzimin, duke rrezikuar prodhimtarinë e kulturave bujqësore.\n
+
+2. Ndryshime në Ciklet e Bimëve dhe Kafshëve: Ndryshimi i temperaturave dhe modelit të reshjeve mund të ndikojë në ciklet e zhvillimit të bimëve dhe kafshëve, duke ndikuar në rendimentin dhe cilësinë e produkteve bujqësore.\n
+
+3. Rritja e Sëmundjeve dhe të Dëmtuesve: Ndryshimi i kushteve klimatike mund të favorizojë përhapjen e sëmundjeve të bimëve dhe kafshëve, si dhe të dëmtuesve që mund të ndikojnë negativisht në prodhimin bujqësor.\n
+
+4. Erozioni dhe Degradimi i Tokave: Rritja e reshjeve të forta mund të rrisë rrezikun e erozionit të tokës, ndërsa periudhat e gjata të thatësisë mund të çojnë në degradimin e tokave bujqësore, duke i bërë ato më pak të përshtatshme për bujqësi."
+
+  utter_pyetja_83:
+    - text: "Deri në vitin 2021, infrastruktura e transportit publik dhe përmirësimet e saj ka qenë një temë e rëndësishme për Shqipërinë, e cila ka përjetuar një rritje të shpejtë urbanizimi, veçanërisht në kryeqytetin Tiranë. Këtu janë disa nga sfidat dhe përpjekjet që janë bërë:\n
+
+1. Autobusët dhe Transporti Lokal: Ka pasur një përpjekje për të modernizuar dhe zgjeruar flotën e autobusëve të transportit lokal, sidomos në Tiranë. Kjo ka përfshirë blerjen e autobusëve të rinj dhe ndërmarrjen e masave për të përmirësuar efikasitetin dhe qarkullimin e tyre.\n
+
+2. Stacionet dhe Infrastruktura: Shtimi i stacioneve të autobusëve dhe ndërtimi ose rikonstruksioni i tyre për të përmirësuar shërbimin për pasagjerët ka qenë një tjetër pjesë e projekteve.\n
+
+3. Transporti Rajonal dhe Ndërqytetas: Përmirësimi i lidhjeve të transportit publik ndërmjet qyteteve dhe rajoneve të ndryshme të Shqipërisë është një sfidë, por ka pasur përpjekje për të përmirësuar oraret, cilësinë dhe efikasitetin e këtij transporti.\n
+
+4. Sistemi i Biletave: Një ndër sfidat ka qenë modernizimi i sistemit të biletave dhe kalimeve. Në disa qytete, është përpjekur të zbatohet një sistem elektronik për blerjen dhe kontrollin e biletave.\n
+
+5. Trafiku dhe Mjedisi: Përmirësimi i transportit publik është parë edhe si një mënyrë për të reduktuar trafikun dhe ndotjen e mjedisit. Përmes ndërgjegjësimit të publikut dhe ofrimit të një alternative më të qëndrueshme, qeveria ka shpresuar të ulë përdorimin e makinave private."
+
+  utter_pyetja_82:
+    - text: "Deri më 2021, teknologjia informative dhe inovacioni në Shqipëri kanë pasur një zhvillim të ndjeshëm, edhe pse vendi ndodhet ende në një fazë të zhvillimit krahasuar me disa vende të tjera evropiane. Këtu janë disa pika mbi statusin e këtij zhvillimi:\n
+
+1 .Sektori i IT-së: Ka pasur një rritje të ndjeshme të kompanive të teknologjisë informative që ofrojnë shërbime për klientë të jashtëm dhe vendas. Outsourcing dhe shërbimet e zhvillimit të softuerit janë bërë një segment i rëndësishëm i tregut.\n
+
+2. Arsimi: Universitetet dhe institucionet e tjera arsimore kanë filluar të përfshijnë më shumë programe që lidhen me teknologjinë informative, duke përgatitur studentët për tregun e punës në këtë fushë.\n
+
+3. Inkubatorë dhe Hapësira të Punës së Përbashkët (Co-working): Janë themeluar disa inkubatorë dhe hapësira të punës së përbashkët në Shqipëri, të cilat ndihmojnë start-up-et dhe ndërmarrjet e reja të teknologjisë së informacionit dhe inovacionit.\n
+
+4. Iniciativat Qeveritare: Qeveria shqiptare ka ndërmarrë disa hapa për të nxitur dhe mbështetur sektorin e teknologjisë informative dhe inovacionit, duke përfshirë krijimin e qendrave të inovacionit dhe ofrimin e mbështetjes për ndërmarrjet e reja.\n
+
+5. Interneti dhe Përhapja e Teknologjisë: Përdorimi i internetit ka pasur një rritje të ndjeshme në Shqipëri, dhe kjo ka ndikuar pozitivisht në përhapjen e teknologjisë dhe në ndërgjegjësimin e publikut për rëndësinë e IT-së.\n
+
+6. Mungesa e Profesionistëve të Kualifikuar: Edhe pse ka pasur një rritje të ndjeshme të interesit për fushën e teknologjisë informative, ka ende një mungesë të profesionistëve të kualifikuar, sidomos për rolet më të avancuara."
+
+  utter_pyetja_81:
+    - text: "Shqipëria, si pjesë e rajonit të Ballkanit Perëndimor, është përfshirë në rrugë të ndryshme të trafikimit të qenieve njerëzore – si një vend prejardhje, tranziti dhe, në raste më të rralla, destinacioni. Trafikimi i qenieve njerëzore është një shqetësim serioz për sigurinë dhe të drejtat e njeriut, dhe Shqipëria ka ndërmarrë hapa për të luftuar këtë fenomen."
+
+  utter_pyetja_80:
+    - text: "Urbanizimi dhe zhvillimi i qyteteve në Shqipëri, siç është rasti edhe në shumë vende të tjera, ka shpërthyer në dekadat e fundit dhe ka sjellë me vete një sërë sfidash:\n
+
+1. Urbanizim i Pashembullt: Një ndër sfidat më të mëdha është rritja e shpejtë dhe shpesh herë e paorganizuar e qyteteve, sidomos të Tiranës. Kjo ka ndodhur pa një planifikim të mirëfilltë urban, duke çuar në ndërtimin e pashembullt të banesave dhe ndërtimeve të tjera.\n
+
+2. Infrastruktura e Papërshtatshme: Rritja e shpejtë ka sjellë më shumë trafik dhe ka rritur nevojën për infrastrukturë, si rrugë, ujësjellës dhe sisteme kanalizimi. Infrastruktura ekzistuese shpesh nuk është e përshtatshme për të përballuar kërkesat e reja.\n
+
+3. Mungesa e Hapësirave Publike dhe të Gjelbra: Me ndërtimet e shumta dhe të shpejta, hapësirat publike dhe zonat e gjelbra kanë marrë goditje, duke lënë qytetarët pa hapësira rekreacioni dhe ajër të pastër.\n
+
+4. Ndryshimi i Strukturës Demografike: Shpërngulja e popullatës nga zonat rurale drejt qyteteve ka ndryshuar strukturën demografike të vendit dhe ka shtuar presionin mbi shërbimet qytetare.\n
+
+5. Mbrojtja e Trashëgimisë Kulturore: Urbanizimi i shpejtë ka rrezikuar edhe ndërtesat dhe zonat me vlerë historike dhe kulturore, të cilat duhet të ruhen dhe restaurohen."
+
+  utter_pyetja_79:
+    - text: "Deri në vitin 2021, Shqipëria ka pasur një interes të rritur për të diversifikuar burimet e saj të energjisë dhe për të investuar në energjinë e rinovueshme. Kjo është reflektuar në një sërë projektesh dhe iniciativash për energjinë e erës dhe diellit. Ja disa pika mbi statusin dhe zhvillimin e këtyre projekteve:\n
+
+1. Legjislacion dhe Politikat: Qeveria shqiptare ka ndërmarrë hapa për të krijuar një mjedis të favorshëm ligjor dhe fiskal për investimet në energjinë e rinovueshme. Kjo ka përfshirë ndryshime në legjislacion dhe krijimin e incentivave për prodhuesit e energjisë së rinovueshme.\n
+
+2. Projekte të Energjisë së Erës: Megjithëse projekte të mëdha të energjisë së erës nuk ishin të shpeshta në vitet e mëparshme, interesi është rritur ndjeshëm. Disa projekte kanë filluar të realizohen ose janë në fazën e planifikimit, sidomos në zonat malore ku era është më e qëndrueshme.\n
+
+3. Energjia Diellore: Me një klimë të përshtatshme dhe ditë të shumta me diell, Shqipëria ka një potencial të madh për prodhimin e energjisë diellore. Megjithëse fillimisht ka pasur një heshtje në këtë sektor, interesi dhe investimet kanë filluar të rriten, me disa projekte të mëdha që janë paralajmëruar ose janë në zhvillim."
+
+  utter_pyetja_78:
+    - text: "Turizmi rural dhe i aventurës ka një potencial të madh në Shqipëri, pasi vendi ofron një peizazh të larmishëm natyror dhe kulturor. Megjithatë, ekzistojnë sfida që duhet të kapërcehen për të shfrytëzuar këtë potencial maksimalisht, si dhe mundësi që, nëse ndiqen, mund të kthejnë Shqipërinë në një destinacion të popullarizuar për këto lloje të turizmit."
+
+  utter_pyetja_77:
+    - text: "Pandemia e COVID-19 ka ndikuar thellësisht ekonominë dhe tregun e punës në shumë vende të botës, dhe Shqipëria nuk është përjashtim. Deri në vitin 2021, këto janë disa nga ndikimet dhe pasojat e pandemisë mbi ekonominë dhe tregun e punës shqiptar:\n
+
+1. Rënia e Aktivitetit Ekonomik: Masa të ndryshme karantine dhe kufizime lëvizjeje kanë shkaktuar një ngadalësim ose ndërprerje të aktivitetit ekonomik në shumë sektore, duke përfshirë tregtinë, turizmin, transportin dhe prodhimin.\n
+
+2. Punësimi: Shumë biznese, veçanërisht ato më të vogla dhe të mesme, kanë përjetuar vështirësi financiare ose mbyllje, duke shkaktuar humbje të shumta të vendeve të punës. Sektoret më të prekura kanë qenë turizmi dhe shërbimet, të cilat janë një pjesë e madhe e ekonomisë shqiptare.\n
+
+3. Turizmi: Si një nga sektorët kryesorë të ekonomisë shqiptare, turizmi ka pësuar ndjeshëm nga mbylljet e kufijve dhe heshtja e udhëtimit ndërkombëtar. Kjo ka ndikuar jo vetëm në hotele dhe restorante, por edhe në shumë aktivitete të tjera që varen nga turistët."
+
+  utter_pyetja_76:
+    - text: 'Shqipëria, si një vend që është duke shkuar përmes një procesi të shpejtë modernizimi dhe integrimit ndërkombëtar, ka pasur sfida dhe ka ndërmarrë hapa për të përmirësuar infrastrukturën e saj të transportit ajror dhe detar. Deri në vitin 2021, këtu janë disa nga sfidat dhe planet në këtë drejtim:\n
+
+Transporti Ajror:\n
+Sfidat:\n
+
+1. Kapaciteti: Aeroporti Ndërkombëtar i Tiranës "Nënë Tereza" është porti kryesor ajror i vendit dhe ka pasur një rritje të pasagjerëve gjatë viteve të fundit, duke shtuar nevojën për zgjerimin e kapaciteteve dhe modernizimin.\n
+2. Lidhjet Ajrore: Megjithëse ka pasur një rritje të linjave ajrore dhe të kompanive që operojnë në Shqipëri, ekziston ende një nevojë për më shumë lidhje direkte me qendra të tjera kryesore evropiane.\n
+Planet:\n
+
+1. Zgjerimi dhe Modernizimi: Ka pasur plane për zgjerimin dhe modernizimin e Aeroportit të Tiranës për të përballuar rritjen e trafikut.\n
+2. Aeroporte të reja: Ka pasur diskutime mbi ndërtimin e aeroporteve të reja në zona të tjera të vendit, si në jug të Shqipërisë, për të nxitur turizmin dhe për të ofruar një akses më të lehtë për vizitorët.\n
+Transporti Detar:\n
+Sfidat:\n
+
+1. Infrastruktura Portuale: Disa prej porteve të Shqipërisë kanë nevojë për përmirësime infrastrukturore për të përballuar trafikun e rritur dhe për të mundësuar operacione më efikase.\n
+2. Lidhjet Detare: Megjithëse Shqipëria ka një bregdet të gjatë, lidhjet detare me vende të tjera janë të kufizuara, veçanërisht në aspektin e transportit të pasagjerëve.\n
+Planet:\n
+
+1. Modernizimi i Porteve: Portet kryesore si Durrësi, Vlora dhe Saranda kanë qenë në fokus për projekte të ndryshme modernizimi, përfshirë përmirësimet e dokave dhe infrastrukturës.\n
+2. Lidhjet me Ishujt: Ka pasur iniciativa për të përmirësuar transportin detar ndërmjet bregdetit dhe ishujve afër, si Ksamil dhe Sazan, për të nxitur turizmin dhe për të ofruar një akses më të lehtë për banorët dhe vizitorët.'
+
+  utter_pyetja_75:
+    - text: "Promovimi i një ekonomie të qëndrueshme dhe mjedisit në Shqipëri kërkon një kombinim të politikave, investimeve dhe ndërgjegjësimit publik. Ja disa mënyra për të promovuar këtë qëllim:\n
+
+1. Legjislacioni dhe Rregullativa: Ndërmarrja e reformave ligjore që nxisin praktikat e qëndrueshme, si ligje për mbrojtjen e mjedisit, rregulloret për ndotjen, dhe incentivat për energjinë e pastër.\n
+
+2. Energjia e Rinovueshme: Investimi në burime të energjisë së rinovueshme, si hidroenergjia, energjia diellore dhe e erës, për të zvogëluar varësinë nga burimet e ndotjes.\n
+
+3. Arsimimi dhe Ndërgjegjësimi: Fushata ndërgjegjësuese dhe programe edukative në shkolla për të rritur ndërgjegjësinë e publikut mbi çështjet e mjedisit dhe rëndësinë e ekonomisë së qëndrueshme."
+
+  utter_pyetja_74:
+    - text: "Shqipëria ka shumë të ofruar për turistët dhe ka pasur një rritje të vazhdueshme të turizmit gjatë viteve të fundit. Një kombinim i bregdetit të bukur, peizazheve malore, trashëgimisë historike dhe kulturës së pasur e bën Shqipërinë një destinacion interesant për turistët. Këtu janë disa nga vendet dhe ngjarjet më të njohura:\n
+
+Vende:\n
+1. Bregdeti shqiptar: Zonat e bregdetit si Ksamil, Dhermi, Vlorë, Sarandë, dhe Himarë janë të njohura për plazhet e tyre të bukura dhe detin kristal.\n
+
+2. Gjirokastra dhe Berati: Këto dy qytete janë pjesë e Listës së Trashëgimisë Botërore të UNESCO-s për shkak të strukturave të tyre arkitektonike dhe rëndësisë historike.\n
+
+3. Liqeni i Ohrit: Një destinacion i njohur për natyrën e bukur dhe vlerat historike. Pogradeci është qyteti kryesor pranë këtij liqeni.\n
+
+4. Kruja: E njohur për kalën, muzeun e Skënderbeut dhe tregun e vjetër.\n
+
+5. Tirana: Kryeqyteti i vendit ofron një kombinim të kulturës moderne dhe historisë, me shumë muzeume, galeri arti, restorante, dhe klube.\n
+
+6. Parqet Kombëtare: Si Parqi Kombëtar i Thethit, Parqi Kombëtar i Llogarasë dhe Parqi Kombëtar i Dajtit janë destinacione të njohura për ata që dëshirojnë të përjetojnë natyrën e Shqipërisë."
+
+  utter_pyetja_73:
+  - text: "Sektori i teknologjisë dhe inovacionit ka shënuar progres në Shqipëri, megjithëse ka mbetur ende shumë hapësirë për zhvillim dhe përmirësim. Kjo është reflektuar në disa aspekte:\n
+
+1. Startup-et dhe Inkubatorët: Ka pasur një rritje të startup-eve teknologjike dhe inovative në Shqipëri. Qytete si Tiranë dhe Durrës kanë parë ngritjen e inkubatorëve dhe hapsirave të bashkëpunimit (coworking spaces) që ofrojnë mjedisin dhe burimet për ndërmarrësit dhe zhvilluesit.\n
+
+2. Edukimi dhe Trajnimi: Institucionet arsimore kanë filluar të ofrojnë programe më të specializuara në fushën e teknologjisë, dhe disa iniciativa private kanë ndërmarrë trajnime dhe kurse për zhvillimin e aftësive në kodim, dizajn dhe menaxhim të projekteve teknologjike.\n
+
+3. Investimet: Përkundër një mungese të kapitalit fillestar për startup-et, është shfaqur një interes i rritur nga investitorët e huaj dhe vendas për t'u angazhuar në sektorin e teknologjisë në Shqipëri."
+
+  utter_pyetja_72:
+    - text: "Deri në vitin 2021, komuniteti i romanëve dhe egyptianëve në Shqipëri ka qenë një nga komunitetet më të margjinalizuara dhe të përjashtuara nga shoqëria. Megjithatë, qeveria shqiptare, me mbështetjen e organizatave ndërkombëtare, ka ndërmarrë disa hapa për të përmirësuar kushtet e jetesës dhe për të zvogëluar diskriminimin ndaj këtyre komuniteteve."
+
+  utter_pyetja_71:
+    - text: "Deri në vitin 2021, qeveria shqiptare ka ndërmarrë një sërë iniciativash dhe programesh për të promovuar dhe mbështetur arsimin dhe kulturën në vend. Përmbledhur më poshtë janë disa nga këto iniciativa:\n
+
+Arsimi:\n
+1. Reforma në Arsim: Qeveria ka ndërmarrë reforma në sistemin arsimor me qëllim të rritjes së cilësisë së mësimdhënies dhe të përmirësimit të infrastrukturës shkollore.\n
+
+2. Arsimi profesional dhe teknik: Ka pasur një përqendrim të shtuar në arsimin profesional dhe teknik për të përmirësuar aftësitë dhe kualifikimet e nxënësve, duke i përgatitur ata për tregun e punës.\n
+
+3. Teknologjia në shkolla: Investime janë bërë në integrimin e teknologjisë në mësimdhënie, përfshirë furnizimin e shkollave me pajisje teknologjike dhe trajnimin e mësuesve për të përdorur këto mjete.\n
+
+4. Programet e shkëmbimit: Qeveria ka nxitur dhe mbështetur programe shkëmbimi për studentët dhe mësuesit me vende të tjera, veçanërisht me vendet e Bashkimit Evropian.\n
+
+Kultura:\n
+1. Restaurimi i monumenteve: Shumë monumente dhe vende historike në Shqipëri janë restauruar dhe ruajtur me ndihmën e fondit të mbështetjes së kulturës dhe me ndihmën e donacioneve ndërkombëtare.\n
+
+2. Promovimi i kulturës shqiptare jashtë vendit: Qeveria ka ndërmarrë iniciativa për të promovuar kulturën shqiptare jashtë vendit përmes festivaleve, ekspozitave dhe evenimenteve të ndryshme.\n
+
+3. Mbështetja për institucionet kulturore: Institucionet kulturore, si teatrot, kinematë, galeritë e artit dhe bibliotekat, kanë marrë mbështetje financiare dhe logjistike për të pasuruar ofertën kulturore në vend."
+
+  utter_pyetja_70:
+    - text: "Shqiptarët, siç është rasti me shumë kultura të ndryshme, kanë praktika dhe rituale të veçanta kur bëhet fjalë për vdekjen dhe ritet mortore. Këto zakone kanë ndryshuar dhe evoluar mbi baza fetare, historike dhe kulturore, por disa elemente tradicionale mbeten të pranishme edhe sot.\n
+
+1.Njoftimi: Kur dikush vdes, familja e ndjerit zakonisht njofton fqinjët, miqtë dhe të afërmit mbi ndodhinë. Në disa vende, ky njoftim bëhet edhe përmes ziles së kishës ose xhamisë.\n
+
+2. Përgatitja e trupit: Trupi i ndjerit përgatitet për varrim. Kjo përfshin pastrimin e trupit, veshjen me rroba të pastërta dhe vendosjen në arkivol. Nëse familja është fetare, atëherë kjo përgatitje ndodh sipas riteve të fesë së tyre.\n
+
+3. Ngushëllimi: Familja e ndjerit mblidhet dhe pranon vizitorë që vijnë për të dhënë ngushëllime. Kjo zakonisht ndodh në shtëpinë e ndjerit ose në një vend të veçantë të përcaktuar për këtë qëllim.\n
+
+4. Varrimi: Varri zakonisht zhvillohet brenda disa ditëve pas vdekjes. Familja, miqtë dhe të afërmit mblidhen në një ceremoni varrimi, e cila mund të jetë fetare ose jo. Pas varrimit, të pranishmit mund të shkojnë në shtëpinë e ndjerit për të ngrënë dhe kujtuar të ndjerin.\n
+
+5. Ditë përkujtimi: Pas vdekjes, familja mund të organizojë ditë përkujtimi, të cilat mund të ndodhin 7 ditë, 40 ditë dhe një vit pas vdekjes. Këto janë momente për të kujtuar të ndjerin dhe për të ofruar lutje ose mendime për shpirtin e tij/saj.\n
+
+6. Ushqime: Është zakon që gjatë periudhës së ngushëllimeve dhe ritualeve të tjera që lidhen me vdekjen, familja të ofrojë ushqim për të ftuarit. Kjo mund të përfshijë bukë, ëmbëlsira, mish dhe ushqime të tjera."
+
+  utter_pyetja_69:
+    - text: "Deri në vitin 2021, reforma në sistemin e drejtësisë dhe lufta kundër korrupsionit kanë qenë tema kryesore të diskutimit dhe përpjekjeve në Shqipëri. Këto përpjekje janë të rëndësishme edhe në kontekstin e procesit të integrimit të Shqipërisë në Bashkimin Evropian.\n
+
+1. Reforma në Drejtësi: Në vitin 2016, Shqipëria ka miratuar një reformë të madhe në sistemin e drejtësisë, e cila është një ndër më të ndërlikuarat dhe ambiciozat në historinë e vendit. Kjo reforma ka synuar të adresojë shqetësimet mbi pavarësinë, llogaridhënien dhe profesionalizmin e gjykatësve dhe prokurorëve. Pjesë e kësaj reforme ka qenë edhe procesi i vlerësimit (vetting) i gjykatësve dhe prokurorëve, i cili ka pasur si qëllim zbulimin dhe largimin e atyre me të meta në integritet ose kompetencë.\n
+
+2. Lufta Kundër Korrupsionit: Korrupsioni ka qenë një problem i ndjeshëm për Shqipërinë dhe një pengesë kryesore në rrugën e saj drejt anëtarësimit në BE. Qeveria ka ndërmarrë hapa për të rritur transparencën dhe llogaridhënien, dhe ka rritur ndëshkimin për veprat korruptive. Megjithatë, sfidat vazhdojnë të jenë të mëdha, dhe raportet ndërkombëtare kanë theksuar nevojën për përpjekje të mëtejshme dhe rezultate të qëndrueshme në këtë fushë."
+
+  utter_pyetja_68:
+    - text: "COVID-19 ka ndikuar në mënyrë të ndjeshme në Shqipëri si dhe në shumë vende të tjera të botës. Kjo ka përfshirë ndikime shëndetësore, ekonomike dhe sociale.\n
+
+1. Ndikimet shëndetësore: Në fillim të pandemisë, sistemi shëndetësor i Shqipërisë u sfidua nga një rritje e shpejtë e rasteve dhe nevoja për shtretër spitalesh, pajisje mbrojtëse dhe teste. Gjatë periudhës së pandemisë, qeveria ka marrë disa masa për të kufizuar përhapjen e virusit, përfshirë mbylljen e shkollave, ndalimin e aktiviteteve publike dhe vendosjen e kufizimeve të udhëtimit.\n
+
+2. Ndikimet ekonomike: Sektorët si turizmi, transporti dhe tregtia kanë pësuar ndikime të mëdha ekonomike për shkak të kufizimeve të udhëtimit dhe masave të ndërmarra për të kufizuar përhapjen e virusit. Megjithatë, qeveria ka ndërmarrë disa masa për të ndihmuar bizneset dhe punonjësit që janë prekur nga këto ndikime.\n
+
+3. Vaksinimi: Shqipëria ka filluar fushatën e vaksinimit në vitin 2021 me ndihmën e donacioneve dhe mekanizmave ndërkombëtarë si COVAX. Për të rritur qasjen dhe shpërndarjen e vaksinave, qeveria ka bashkëpunuar me organizata ndërkombëtare dhe ka ndërmarrë fushata informuese për të rritur ndërgjegjësimin dhe pranimin e vaksinës nga popullsia."
+
+  utter_pyetja_67:
+    - text: "1. Ujërat e pijshme: Në disa qytete dhe zona rurale, ka pasur sfida në furnizimin e vazhdueshëm dhe të pastër me ujë të pijshëm. Megjithatë, me ndihmën e donacioneve dhe investimeve të ndryshme ndërkombëtare, disa projekte janë ndërmarrë për të rritur qasjen në ujë të pastër dhe për të përmirësuar rrjetin e shpërndarjes.\n
+
+2. Trajtimi i mbeturinave: Problemi i mbeturinave ka qenë një sfidë e madhe për Shqipërinë, sidomos në zonat kustore dhe turistike. Disa qytete kanë ndërmarrë hapa për të ndërtuar impiante të reja të trajtimit të mbeturinave dhe për të përmirësuar menaxhimin e mbeturinave."
+
+  utter_pyetja_66:
+    - text: "Shqipëria, me potencialin e saj natyror dhe gjeografik, ka mundësi të mëdha për të zhvilluar energjinë e rinovueshme. Megjithatë, kjo sferë përballet edhe me disa sfida:\n
+
+Sfidat:\n
+
+1. Infrastruktura dhe Investimet: Për të ndërtuar kapacitete të reja të energjisë së rinovueshme, nevojiten investime të mëdha. Infrastruktura aktuale mund të mos jetë e mjaftueshme ose e përshtatshme për lloje të caktuara të energjisë së rinovueshme.\n
+
+2. Ligjvënësia dhe Rregullativa: Rregulloret dhe ligjet aktuale në Shqipëri ndoshta nuk janë të përshtatshme për të stimuluar investimet e mëdha në energjinë e rinovueshme, dhe mund të kërkojnë përmirësim ose ndryshim.\n
+
+3. Qasja në Financim: Tërheqja e investimeve të mëdha, sidomos nga investitorët ndërkombëtarë, kërkon një ambient të qëndrueshëm dhe të parashikueshëm ekonomik dhe ligjor.\n
+
+4. Ndikimi Mjedisor dhe Shoqëror: Megjithëse energjia e rinovueshme është më e qëndrueshme se format e tjera të energjisë, projekte të caktuara, siç janë hidrocentralët, mund të kenë ndikim në mjedisin lokal dhe komunitetet përreth.\n
+
+Mundësitë:\n
+
+1. Potenciali Hidrik: Shqipëria ka një lumi të pasur dhe ka potencial të madh për energjinë hidrike. Shumë hidrocentrale janë ndërtuar, por ende ka potencial për më shumë.\n
+
+2. Dielli dhe Era: Me një klimë mesdhetare, Shqipëria ka potencial për energjinë diellore. Zonat malore dhe bregdeti ofrojnë mundësi për energjinë e erës.\n
+
+3. Pozicioni Gjeografik: Shqipëria ka një pozicion të shkëlqyer për të eksportuar energjinë e rinovueshme në tregjet e tjera ballkanike dhe më gjerë.\n
+
+4. Mbështetja Ndërkombëtare: Organizatat ndërkombëtare dhe donatorët kanë një interes të madh për të ndihmuar Shqipërinë në tranzicionin e saj drejt energjisë së qëndrueshme dhe mund të ofrojnë financim, asistencë teknike dhe mbështetje politike.\n
+
+5. Rritja e Ndërgjegjësimit: Për shkak të ndryshimeve klimatike dhe sfidave të sigurisë energetike, ka një rritje ndërgjegjësimi në shoqërinë shqiptare për nevojën e energjisë së rinovueshme."
+
+  utter_pyetja_65:
+    - text: "Urbanizimi dhe rritja e qyteteve kanë pasur një ndikim të theksuar në mjedisin dhe kulturën e Shqipërisë, sidomos pas viteve '90 kur vendi kaloi nga një regjim komunist në një ekonomi tregu dhe shoqëri e hapur. Këto ndryshime kanë sjellë avantazhe dhe sfida:\n
+
+Ndikimi në Mjedisin Natyror:\n
+
+1. Ndotja: Shtimi i popullsisë në zonat urbane, kombinuar me një mungesë infrastrukture dhe mbështetje institucionale, ka çuar në ndotje të ajrit, ujit dhe tokës në shumë qytete, sidomos në Tiranë.\n
+
+2. Shpërndarja e Tokës dhe Zhvillimi i Pashembullt: Proceset e paorganizuara të ndërtimit dhe mungesa e planifikimit kanë rezultuar në zhvillimin e pashembullt të qyteteve dhe shkatërrimin e hapësirave të gjelbra.\n
+
+3. Presion mbi Resurset: Shtimi i popullsisë në qytetet ka shtuar presionin mbi ujin, energjinë dhe të tjera resurse natyrore.\n
+
+Ndikimi në Kulturën:\n
+
+1. Ndarja mes Qytetit dhe Fshatit: Si pasojë e urbanizimit të shpejtë, ka ndodhur një hendek kulturor mes jetës së qytetit dhe asaj të fshatit. Traditat dhe mënyra e jetesës janë ndryshuar, ndërsa vlerat urbane kanë filluar të dominohen.\n
+
+2. Rinovimi i Qendrave të Qyteteve: Disa qytete kanë pësuar transformime të mëdha, me ndërtime të reja dhe rinovime që reflektojnë ndryshimet në ekonominë dhe shoqërinë.\n
+
+3. Diversiteti Kulturor: Qytetet janë bërë më të ndryshme, duke pasur një ndikim të huaj dhe duke sjellë ndryshime në muzikë, art, modë dhe kuzhinë."
+
+  utter_pyetja_64:
+    - text: "Marrëdhëniet e Shqipërisë me fqinjët e saj ballkanik janë një kombinim i historisë, gjeopolitikës, kulturës dhe interesave ekonomike. Deri në vitin 2021, këto marrëdhënie kanë qenë si më poshtë:\n
+
+1. Kosova: Shqipëria dhe Kosova kanë marrëdhënie shumë të ngushta, të bazuar në një ndjenjë të përbashkët kombëtare dhe kulturë. Qeveritë e të dy vendeve kanë ndërmarrë hapa për të thelluar bashkëpunimin e tyre në shumë fusha, përfshirë ekonominë, arsimin dhe sigurinë. Mënyra se si Shqipëria mbështeti pavarësinë e Kosovës në 2008 është një tregues i kësaj afërsie.\n
+
+2. Maqedonia e Veriut: Për shkak të pranisë së një minoriteti shqiptar të madh në Maqedoninë e Veriut, marrëdhëniet ndërmjet dy vendeve janë të rëndësishme. Shqipëria ka mbështetur të drejtat e shqiptarëve në Maqedoni dhe ka nxitur integratën e këtij shteti në strukturat euroatlantike.\n
+
+3. Greqia: Historikisht, marrëdhëniet ndërmjet Shqipërisë dhe Greqisë kanë qenë komplekse për shkak të çështjeve si statusi i minoritetit grek në Shqipëri dhe çështjeve të tjera territoriale. Megjithatë, në dekadat e fundit, marrëdhëniet kanë pësuar një përmirësim të ndjeshëm dhe janë forcuar sidomos në fushat e tregtisë, turizmit dhe bashkëpunimit rajonal.\n
+
+4. Mali i Zi: Shqipëria dhe Mali i Zi kanë një kufi të përbashkët dhe marrëdhënie fqinjësore. Marrëdhëniet janë zakonisht të mira, me bashkëpunim ekonomik dhe kulturor. Megjithatë, ka pasur ndonjëherë tensione lidhur me kufirin dhe komunitetin shqiptar në Mal të Zi.\n
+
+5. Italia: Edhe pse nuk është fqinj i drejtpërdrejtë, Italia është një partner kyç dhe një destinacion i rëndësishëm për emigrantët shqiptarë. Marrëdhëniet ekonomike, kulturore dhe diplomatike janë të thella dhe konstruktive."
+
+  utter_pyetja_63:
+    - text: "Bujqësia ka qenë një pjesë kyçe e ekonomisë dhe kulturës së Shqipërisë për shekuj. Megjithëse ndikimi i saj ka ndryshuar me kalimin e kohës, sidomos pas tranzicionit nga komunizmi në vitet '90, bujqësia mbetet një sektor i rëndësishëm për shumë familje shqiptare.\n
+
+Zakonet dhe Veçoritë e Bujqësisë në Shqipëri:\n
+
+1. Toka dhe Ndërmarrja Familjare: Shumica e fermave në Shqipëri janë të vogla dhe menaxhohen nga familjet. Kjo është një pasojë e procesit të privatizimit të tokave bujqësore pas rënies së komunizmit, ku toka u nda në parcela të vogla midis fermerëve.\n
+
+2. Produktet Kryesore: Shqipëria është e njohur për prodhimin e perimeve si domate, speca, patate dhe qepë. Gjithashtu, fruta si rrushi, ulliri, portokalli dhe fiku janë të zakonshme. Në zonat malore, blegtoria, sidomos qengjat dhe dhia, është e përhapur.\n
+
+3. Metodat Tradicionale: Shumë fermerë ende përdorin metoda tradicionale të kultivimit dhe kujdesit të tokës, duke kombinuar ato me teknologjitë e reja kur është e mundur."
+
+  utter_pyetja_62:
+    - text: 'Shqipëria ka një kulturë të pasur dhe të ndryshme ushqimore dhe festimesh, që janë ndikuar nga historia, gjeografia dhe kulturat e ndryshme që kanë lënë gjurmë në rajon gjatë shekujve.\n
+
+Zakonet Ushqimore:\n
+
+1. Produktet Baze: Mishi i qengjit, viçit dhe pulës janë të zakonshëm në kuzhinën shqiptare, së bashku me perimet si patatet, domatet, speca, qepët dhe hudhra. Drithërat si orizi dhe gruri gjithashtu janë thelbësore.\n
+
+2. Gjellët Tradicionale: Disa nga gjellët më të njohura përfshijnë "tavën kosi" (që është mish viçi me kos), "byrek" (pita e mbushur me mish, djathë ose perime) dhe "fërgesë" (një lloj gjelle me domate, piper dhe mish ose mëlçi).\n
+
+3. Salcat dhe Turshitë: Salcë kosi, salcë domateje dhe turshi janë shpesh pjesë e tryezës shqiptare.\n
+
+4. Pijet: Raki është një alkool tradicional që përgatitet zakonisht nga rrushi ose frutat e tjera. Kafeja është shumë e popullarizuar, dhe shqiptarët kanë një kulturë të thellë të pirjes së kafesë.'
+
+  utter_pyetja_61:
+    - text: "Teknologjia informacionale dhe mediat sociale kanë pasur një ndikim të theksuar në shoqërinë shqiptare, ashtu siç ka ndodhur edhe në shumë vende të tjera. Kjo ka ndryshuar mënyrën se si njerëzit komunikojnë, informohen dhe formojnë mendimet e tyre."
+
+  utter_pyetja_60:
+    - text: "Shqipëria ka pasur një histori të ndërlikuar lidhur me trafikimin e qenieve njerëzore dhe drogës, dhe ka njohur rëndësinë e luftës kundër këtyre fenomeneve. Gjatë viteve, me ndihmën dhe mbështetjen e ndërkombëtarëve, Shqipëria ka ndërmarrë hapa konkretë për të adresuar dhe minimizuar këto çështje.\n
+
+Lufta Kundër Trafikimit të Qenieve Njerëzore:\n
+
+1.Ligjvënësia: Shqipëria ka miratuar legjislacionin për të penalizuar trafikimin e qenieve njerëzore dhe ka përmirësuar ndjeshëm kapacitetin për hetimin dhe ndjekjen penale të personave të implikuar në këtë aktivitet kriminal.\n
+
+2. Bashkëpunimi Ndërkombëtar: Shqipëria ka bashkëpunuar ngushtë me vende të tjera, veçanërisht me shtetet e BE-së, për të ndalur rrjetet e trafikimit të qenieve njerëzore. Kjo ka përfshirë ndihmën dhe ndihmën teknike nga organizata ndërkombëtare.\n
+
+3. Edukimi dhe Ndërgjegjësimi: Kampajna të ndryshme janë zhvilluar për të ndërgjegjësuar publikun dhe grupet e rrezikuars mbi rreziqet e trafikimit të qenieve njerëzore.\n
+
+4. Mbrojtja dhe Ndihma për Viktimat: Institucione dhe organizata joqeveritare kanë ofruar shërbime ndihmëse dhe rehabilitimi për viktimat e trafikimit.\n
+
+Lufta Kundër Trafikimit të Drogës:\n
+
+1. Operacionet Policore: Forcat e rendit në Shqipëri kanë ndërmarrë operacione të mëdha kundër kultivimit, prodhimit dhe trafikimit të drogës, veçanërisht kundër kanabisit.\n
+
+2. Bashkëpunimi Rajonal dhe Ndërkombëtar: Duke pasur parasysh se Shqipëria është përdorur si një shteg tranziti për drogën drejt vendeve të BE-së, bashkëpunimi ndërkombëtar është jetik. Shqipëria ka bashkëpunuar me forcat e rendit të vendeve fqinje dhe me agjenci ndërkombëtare si Europol dhe INTERPOL.\n
+
+3. Masa Parandaluese dhe Edukative: Përveç masave represive, ka pasur edhe përpjekje për të ndërgjegjësuar të rinjtë mbi pasojat e përdorimit të drogës dhe rrezikun e përfshirjes në aktivitete të paligjshme."
+
+  utter_pyetja_59:
+    - text: 'Transporti dhe infrastruktura në Shqipëri kanë pësuar ndryshime dhe modernizime të ndryshme gjatë viteve, por ende ka sfida dhe hapësira për përmirësim.\n
+
+Shërbimet e Transportit Publik:\n
+
+1. Autobusët dhe Furgonët: Në shumë qytete të Shqipërisë, autobusët janë mjeti kryesor i transportit publik. Përveç autobusëve që operojnë brenda qyteteve si Tiranë, Durrës, Shkodër, etj., ekzistojnë edhe furgonët e njohur si "minibus", të cilët ofrojnë shërbime ndërqytetare.\n
+
+2. Trenat: Ndërsa Shqipëria ka një rrjet hekurudhor, efikasiteti dhe cilësia e këtij shërbimi janë të kufizuara. Për shkak të investimeve të kufizuara, shumë segmente të hekurudhës kanë nevojë për riparime dhe modernizim.\n
+
+3. Transporti i Detit: Portet kryesore si Durrësi dhe Vlora ofrojnë shërbime transporti për pasagjerë dhe mallra. Gjithashtu, ka lidhje me traget ndërmjet Shqipërisë dhe vendeve fqinje si Italia.\n
+
+Infrastruktura e Transportit:\n
+
+1. Rrugët dhe Autostradat: Ka pasur përmirësime të ndjeshme në rrjetin rrugor të Shqipërisë gjatë dy dekadave të fundit. Autostrada Tiranë - Durrës dhe Rruga e Kombit (që lidh Shqipërinë me Kosovën) janë dy nga projektet kryesore të ndërtuara. Megjithatë, disa segmente të rrugëve kanë ende nevojë për përmirësim dhe ndërtim.\n
+
+2. Aeroportet: Aeroporti Ndërkombëtar i Tiranës "Nënë Tereza" është porti kryesor ajror i vendit dhe ka pasur një rritje të ndjeshme të trafikut gjatë viteve. Ka pasur diskutime për ndërtimin e aeroporteve të tjera ose përmirësimin e infrastrukturës ekzistuese në vende si Kukësi.\n
+
+3. Mjete të Tjera të Transportit: Në disa zona, veçanërisht në zonat malore, transporti ndërmjet fshatrave mund të kryhet me mjete të ndryshme, përfshirë kalë dhe mule.\n
+
+4. Sfidat: Disa nga sfidat kryesore për transportin dhe infrastrukturën në Shqipëri përfshijnë financimin, menaxhimin e projekteve, mirëmbajtjen e infrastrukturës së ndërtuar dhe përshtatjen me rritjen e trafikut.'
+
+  utter_pyetja_58:
+    - text: "Ndihma sociale dhe mbështetja sociale në Shqipëri janë korniza të rëndësishme për të mbështetur komunitetet dhe individët në nevojë. Megjithatë, si në shumë vende të tjera në tranzicion, Shqipëria ka hasur sfida në sigurimin e një ndihme dhe mbështetjeje të mjaftueshme dhe të qëndrueshme.\n
+
+Aspekte të ndihmës dhe mbështetjes sociale deri në vitin 2021:\n
+
+1. Ndihma Ekonomike: Qeveria shqiptare ofron ndihmë ekonomike për familjet në gjendje të rëndë ekonomike. Kjo ndihmë është e destinuar për individët dhe familjet që nuk janë në gjendje të sigurojnë nevojat bazë jetike. Megjithatë, shuma e ndihmës është zakonisht e kufizuar dhe nuk mjafton për të siguruar një jetesë të denjë.\n
+
+2. Programet për Punësimin: Ka disa programe të destinuara për të ndihmuar njerëzit që janë pa punë, përfshirë trajnime dhe programe aftësimi për t'i ndihmuar ata të gjejnë punë ose të krijojnë ndërmarrje të vogla.\n
+
+3. Mbështetja për Komunitetet e Margjinalizuara: Grupet si romët dhe egjiptianët përballen me sfida të mëdha socio-ekonomike në Shqipëri. Për ta ndihmuar këtë popullsi, ka programe dhe iniciativa të ndryshme që synojnë integrimin e tyre në shoqëri, përmirësimin e qasjes në arsim, shëndetësi dhe shërbime të tjera bazë.\n
+
+4. Mbështetja për Personat me Aftësi të Kufizuara: Ndonëse janë bërë përpjekje për të përmirësuar mbështetjen për këtë grup, ende ka mungesa në infrastrukturë dhe në ofrimin e shërbimeve të përshtatshme për ta.\n
+
+5. Mbështetja për Fëmijët: Ka programe të ndryshme që synojnë të mbështesin fëmijët në nevojë, përfshirë ato që janë pa prindër ose që vijnë nga familje në gjendje të rëndë ekonomike.\n
+
+6. Financimi dhe Menaxhimi: Ndonëse ka një strukturë për ndihmën dhe mbështetjen sociale, financimi është një sfidë. Shpesh, programe të ndryshme mbështeten nga donatorët ndërkombëtarë ose organizatat ndërkombëtare."
+
+  utter_pyetja_57:
+    - text: "Levizjet shoqërore dhe aktivizmi civil në Shqipëri kanë një histori të ndërlikuar dhe të ndryshueshme që ka reflektuar ndryshimet politike, ekonomike dhe shoqërore në vend. Gjatë periudhës post-komuniste, me rënien e regjimit totalitar, ka pasur një rilindje dhe forcim të aktivizmit civil dhe të lëvizjeve shoqërore.\n
+
+Statusi dhe zhvillimet kryesore të aktivizmit civil dhe lëvizjeve shoqërore deri në vitin 2021 janë si më poshtë:\n
+
+1. Organizatat Joqeveritare (OJQ): Pas 1990, shumë OJQ u themeluan në Shqipëri me ndihmën dhe mbështetjen e donatorëve ndërkombëtarë. Këto organizata janë angazhuar në një gamë të gjerë çështjesh, duke përfshirë të drejtat e njeriut, mjedisin, zhvillimin komunitar, edukimin dhe shëndetin.\n
+
+2. Mobilizimi i Komunitetit: Gjatë viteve, komunitetet lokale kanë organizuar protesta dhe lëvizje kundër ndërtimeve që shkaktojnë dëme mjedisore, si p.sh. hidrocentralet në zonat e ndjeshme, ose për të mbrojtur të drejtat e pronësisë.\n
+
+3. Ndikimi i Diasporës: Diaspora shqiptare, e cila është e pranishme kryesisht në Evropën Perëndimore dhe Amerikën e Veriut, ka luajtur një rol të rëndësishëm në mbështetjen e çështjeve të ndryshme dhe në ndërgjegjësimin ndërkombëtar të problemeve që ndodhin në Shqipëri.\n
+
+4. Sfidat: Pavarësisht rritjes së aktivizmit civil, ka pasur sfida, duke përfshirë mungesën e financimit të qëndrueshëm për OJQ-të, presionin dhe ndërhyrjen politike, dhe mungesën e besimit të publikut në disa raste.\n
+
+5. Media dhe Teknologjia: Rritja e përdorimit të teknologjisë dhe rrjeteve sociale ka ndihmuar në mobilizimin e nismave dhe protestave, duke lejuar një komunikim më të shpejtë dhe një ndërgjegjësim më të gjerë të publikut."
+
+  utter_pyetja_56:
+    - text: 'Shqipëria ka një pasuri të madhe të veshjeve tradicionale, të cilat kanë ndryshuar dhe u formuan gjatë shekujve në varësi të zonave gjeografike, ndikimeve kulturore dhe historisë së vendit. Këto veshje janë të veçanta për çdo rajon dhe reflektojnë një mozaik të pasur traditash dhe simbolikash.\n
+
+Veshjet Tradicionale sipas Rajoneve:\n
+
+1. Zona e Veriut (Malësia): Meshkujt zakonisht veshin "xhamadanin", një lloj jeleku të bërë prej leshi, të kombinuar me pantallona të ngushta dhe me një lloj çorape të trasha të quajtura "tirqe". Mbi të gjitha, ata mbajnë "plisin", një lloj kapele të bardhë. Gratë vishen me fustane të gjata dhe mbulojnë kokën me marama.\n
+
+2. Zona e Toskërisë (Jugu): Veshjet e meshkujve janë të ngjashme me ato të veriut, por ndryshojnë në detaje dhe ngjyra. "Fustanella", një lloj fustani me fijona, është tipike për këtë rajon për burrat. Gratë veshin me fustane të gjata të kombinuara me jelek dhe marama që mbulojnë kokën.\n
+
+3. Zona e Labërisë: Kjo zonë është e njohur për veshjet e saj shumëngjyrëshe dhe të pasura me detaje. Veshjet e grave janë të kombinuara me perla dhe tyl.\n
+
+4. Zona e Çamërisë: Veshjet tradicionale të kësaj zone kanë ndikime nga kultura greke dhe janë të pasura në detaje dhe ngjyra.\n
+
+Veshjet në Ceremoni:\n
+
+1. Martesat: Në ceremonitë e martesës, është traditë që çifti të vishet me veshjet tradicionale të zonës së tyre. Kjo varet nga familja dhe ndonjëherë është i kombinuar me veshje moderne. Gratë zakonisht mbajnë fustane të gjata dhe të pasura, ndërsa burrat mbajnë xhamadane, fustanella ose veshje tjera karakteristike.\n
+
+2. Festat dhe ngjarjet tjera tradicionale: Gjatë festave kombëtare ose ngjarjeve tradicionale, është e zakonshme që njerëzit të vishen me veshjet tradicionale të zonës së tyre. Kjo është një mënyrë për të shprehur krenarinë dhe për të ruajtur trashëgiminë kulturore.\n
+
+3. Ditëlindjet dhe krishterimet: Këto ceremoni zakonisht nuk kanë veshje specifike tradicionale, por në disa raste, fëmijët ose prindërit mund të zgjedhin të vishen tradicionalisht.'
+
+  utter_pyetja_55:
+    - text: "Edukatimi dhe kujdesi shëndetësor për fëmijët janë dy nga sferat kryesore të interesit në Shqipëri, por kanë përjetuar sfida dhe ndryshime gjatë viteve.\n
+
+Kujdesi Shëndetësor për Fëmijët:\n
+
+1. Shërbimet Bazë: Shërbimet bazë shëndetësore për fëmijë janë të disponueshme në të gjithë vendin, përfshirë vaksinimin, kontrollet rutinë dhe shërbimet emergjente. Megjithatë, ka pasur shqetësime lidhur me cilësinë dhe qasjen në disa zona, veçanërisht në fshatrat dhe zonat e largëta.\n
+
+2. Infrastruktura: Qendra dhe spitalet e mëdha, sidomos në Tiranë dhe qytetet e mëdha të tjera, ofrojnë një gamë më të gjerë shërbimesh dhe janë më të pajisura. Megjithatë, ka një nevojë për investime të mëtejshme për të modernizuar infrastrukturën dhe pajisjet.\n
+
+3. Personeli Shëndetësor: Mjekët dhe infermierët janë të trajnuar, por ka një mungesë të personelit të specializuar, sidomos jashtë kryeqytetit. Disa profesionistë të shëndetësisë kanë emigruar në kërkim të mundësive më të mira jashtë vendit, duke lënë boshllëqe në sistemin shqiptar.\n
+
+Edukata Parashkollore:\n
+
+1. Rëndësia e Njohur: Edukimi parashkollor është njohur si një fazë thelbësore për zhvillimin e fëmijëve, dhe ka një rritje të interesit nga prindërit dhe qeveria për të siguruar qasje të gjerë në këtë nivel.\n
+
+2. Disponueshmëria: Megjithëse ka një rritje të institucioneve parashkollore, veçanërisht në qytetet e mëdha, ende ka zona rurale ku fëmijët nuk kanë qasje të lehtë në edukim parashkollor.\n
+
+3. Cilësia: Ndërsa disa institucione ofrojnë programe të pasura dhe një mjedis stimulues për fëmijët, ka edhe ndërtime të reja ose institucione që nuk i plotësojnë standardet e duhura, sidomos kur bëhet fjalë për stafin dhe përmbajtjen mësimore.\n
+
+4. Financimi: Qeveria ka ndërmarrë hapa për të rritur financimin e edukatës parashkollore dhe për të përmirësuar infrastrukturën, por ende ka sfida në sigurimin e fondeve të mjaftueshme dhe në menaxhimin e resurseve."
+
+  utter_pyetja_54:
+    - text: "Në Shqipëri, sportet tradicionalisht më të popullarizuara janë: Futbolli, Basketbolli, Voleybollu, Xhudo.\n
+    Sa i përket sukseseve të sportistëve shqiptarë në viteve të fundit: Majlinda Kelmendi, Luiza Gega, Kombëtarja e Futbollit, Sportistët në Diasporë"
+
+  utter_pyetja_53:
+    - text: "Ndryshimet klimatike kanë pasur ndikime të ndjeshme në Shqipëri, ashtu si në shumë vende të tjera. Këto ndikime kanë reflektuar në një sërë sfidash mjedisore, ekonomike dhe shoqërore. Ja disa nga ndikimet dhe planet për adaptimin:\n
+
+1. Ndotja dhe Temperaturat: Ndryshimet klimatike kanë çuar në rritjen e temperaturave në Shqipëri, duke ndikuar në ciklet e reshjeve, me periudha më të gjata thatësire dhe shira më të rënda.\n
+
+2. Burimet e Ujit: Shqipëria është një vend i pasur me burime ujore, por ndryshimet klimatike kanë çuar në uljen e rezervave të ujit, duke ndikuar në prodhimin e energjisë hidroelektrike, bujqësinë dhe furnizimin me ujë të pijshëm.\n
+
+3. Bujqësia: Ndryshimet e klimës kanë ndikuar në ciklet e korrjes dhe në produktivitetin e kultureve. Kjo ka pasur pasojë në sigurinë ushqimore dhe në ekonominë e zonave rurale.\n
+
+4. Bregdeti: Me rritjen e nivelit të deteve dhe me ndryshimet në temperaturat dhe ciklet e reshjeve, zonat bregdetare të Shqipërisë janë në rrezik nga erozioni, kripëzimi dhe humbja e habitatit.\n
+
+5. Biodiversiteti: Ndryshimet klimatike ndikojnë në shpërndarjen dhe jetën e shumë specieve, duke rrezikuar biodiversitetin dhe ekosistemet e ndjeshme.\n
+
+Sa i përket adaptimit, Shqipëria ka ndërmarrë hapa për të trajtuar këto sfida:\n
+
+1. Strategjitë dhe Politikat: Shqipëria ka miratuar strategji dhe plane të ndryshme për të përballuar ndryshimet klimatike, duke përfshirë masat e adaptimit dhe zbutjes.\n
+
+2. Projekte të Financuara Ndërkombëtarisht: Me ndihmën e donatorëve ndërkombëtarë dhe organizatave, Shqipëria ka implementuar projekte për të përmirësuar menaxhimin e ujit, mbrojtjen e bregdetit dhe konservimin e ekosistemeve.\n
+
+3. Ndërgjegjësimi i Publikut: Është bërë një përpjekje për të ndërgjegjësuar publikun dhe aktorët e ndryshëm mbi rrezikun dhe pasojat e ndryshimeve klimatike.\n
+
+4. Përmirësimi i Infrastrukturës: Investime janë bërë në përmirësimin e infrastrukturës për të pasqyruar ndryshimet klimatike, përfshirë sistemet e mbrojtjes nga përmbytjet dhe përmirësimin e sistemeve të furnizimit me ujë."
+
+  utter_pyetja_52:
+    - text: "Barazia gjinore dhe të drejtat e grave janë çështje që kanë marrë vëmendje të shtuar në Shqipëri gjatë viteve të fundit, por ende përballen me sfida në disa aspekte. Ja një pasqyrë e statusit të të drejtave të grave dhe barazisë gjinore deri në vitin 2021:\n
+
+1. Legjislacioni: Shqipëria ka miratuar legjislacione që promovojnë të drejtat e grave dhe barazinë gjinore. Kushtetuta dhe ligjet e tjera kombëtare përfshijnë dispozita që mbrojnë të drejtat e grave dhe ndalojnë diskriminimin.\n
+
+2. Pjesëmarrja në Politikë: Shqipëria ka ndërmarrë hapa për të rritur pjesëmarrjen e grave në politikë, përfshirë kvotat për kandidatët e partive politike. Megjithatë, ndonëse ka pasur një rritje të pjesëmarrjes së grave në postet udhëheqëse dhe në parlament, ato ende përfaqësohen në një numër më të vogël se meshkujt.\n
+
+3. Ekonomia: Gjatë viteve të fundit, ka pasur një rritje të pjesëmarrjes së grave në tregun e punës dhe në rolet udhëheqëse në biznes. Megjithatë, pagat dhe mundësitë e punës për gra ende nuk janë të barabarta me ato të burrave në shumë sektore.\n
+
+4. Edukimi: Në nivelin e arsimit fillor dhe të mesëm, pjesëmarrja e grave është thuajse e barabartë me atë të burrave. Por, sfida mbetet në nivelin e arsimit të lartë dhe profesional, ku disa fusha, sidomos ato të shkencave dhe inxhinierisë, kanë një mungesë të grave.\n
+
+5. Dhuna ndaj Grave: Dhuna në familje dhe dhuna ndaj grave janë çështje serioze në Shqipëri. Megjithëse ka pasur përmirësime në legjislacion dhe ndërgjegjësim të publikut, kjo mbetet një problem i madh. Qeveria dhe organizatat joqeveritare kanë ndërmarrë nisma për të ofruar mbështetje për viktimat dhe për të ndërgjegjësuar shoqërinë mbi pasojat e dhunës ndaj grave."
+
+  utter_pyetja_51:
+    - text: 'Turizmi ka filluar të njihet si një nga sektorët me potencialin më të lartë për rritjen ekonomike të Shqipërisë. Përgjatë viteve të fundit, institucionet dhe partneritetet private kanë ndërmarrë një sërë projektesh për të promovuar Shqipërinë si një destinacion turistik:\n
+
+1. Brandi Turistik "Go Your Own Way": Qeveria shqiptare, me mbështetjen e partnerëve ndërkombëtarë, ka lansuar një fushatë për të promovuar Shqipërinë me slogunin "Go Your Own Way", duke theksuar unicitetin dhe bukuritë natyrore të vendit.\n
+
+2. Projekte Infrastrukturore: Përmirësimi i infrastrukturës, si rrugët, portet dhe aeroportet, ka ndihmuar në lehtësimin e qasjes për turistët dhe në përmirësimin e përvojës së udhëtimit.\n
+
+3. Fushata Dhe Akte Promocionale: Autoritetet kanë organizuar dhe marrë pjesë në panairë të ndryshëm ndërkombëtarë të turizmit për të promovuar destinacionet shqiptare dhe kanë realizuar fushata reklamuese në media ndërkombëtare.\n
+
+4. Turizmi Kulturor dhe Arkeologjik: Me pasuritë e saj kulturore dhe arkeologjike, si Butrinti, Gjirokastra, Berati dhe shumë të tjera, Shqipëria ka një potencial të madh për turizmin kulturor. Ka pasur investime për të ruajtur dhe promovuar këto vende si destinacione turistike.\n
+
+5. Turizmi i Natyrës dhe Aventurës: Me peizazhet e saj malore dhe bregdetare, Shqipëria ka një potencial të lartë për turizmin e natyrës, aventurës dhe sporteve ekstreme. Zonat si Thethi, Valbona dhe Llogara janë të njohura për këtë lloj turizmi.\n
+
+6. Zhvillimi i Turizmit Bregdetar: Bregdeti shqiptar, i njohur për bukurinë e tij natyrore dhe plazhet e pastra, është një nga atraksionet kryesore për turistët. Ka pasur investime në infrastrukturën bregdetare dhe në ndërtimin e hoteleve dhe resorteve moderne.'
+
+  utter_pyetja_50:
+    - text: "Sistemi i arsimit të lartë në Shqipëri ka përjetuar ndryshime të mëdha që nga fillimi i viteve 1990, me tranzicionin nga një sistem i centralizuar në një treg më të hapur dhe konkurrencial. Ja disa aspekte të arsimit të lartë dhe universiteteve në Shqipëri deri në vitin 2021:\n
+
+1. Llojet e Institucioneve: Ekzistojnë universitete shtetërore dhe private. Universitetet shtetërore, si Universiteti i Tiranës dhe Universiteti Politeknik i Tiranës, kanë një histori të gjatë dhe janë ndër institucionet më të mëdha dhe të njohura në vend. Ndërkohë, universitetet private kanë filluar të lindin që nga viteve 2000 dhe kanë zgjeruar ofertat e tyre.\n
+
+2. Cilësia e Arsimit: Në vitet e fundit, ka pasur shqetësime mbi cilësinë e arsimit të lartë, veçanërisht në universitetet private, disa prej të cilave janë kritikuar për standarde të ulëta dhe për të lënë studentët pa aftësitë e duhura. Kjo ka ndikuar që të bëhen reforma në sistemin e akreditimit dhe në mbikëqyrjen e universiteteve.\n
+
+3. Reforma e Arsimit të Lartë: Qeveria shqiptare ka ndërmarrë reforma të rëndësishme në sektorin e arsimit të lartë me qëllim të përmirësimit të cilësisë dhe harmonizimit me standardet evropiane, sidomos në kontekstin e Procesit të Bolonjës.\n
+
+4. Ndërkombëtarizimi: Shumë universitete kanë filluar të ndërlidhen me institucione të tjera ndërkombëtare, duke ofruar programe të përbashkëta dhe duke lehtësuar studentëve shkëmbimin me universitete të huaja.\n
+
+5. Kostoja e Studimeve: Përsa i përket universiteteve shtetërore, pjesa më e madhe e programeve të ofruara janë të paguara, megjithëse ka disa programe të financuara nga shteti ku studentët nuk paguajnë tarifa. Universitetet private kërkojnë tarifa më të larta."
+
+  utter_pyetja_49:
+    - text: "Shqiptarët kanë dhënë një kontribut të rëndësishëm në fushën e kulturës në nivel botëror përmes artit, muzikës, letërsisë dhe shkencës."
+
+  utter_pyetja_48:
+    - text: "Sistemi i kujdesit shëndetësor në Shqipëri ka përjetuar ndryshime dhe sfida gjatë tranzicionit nga një ekonomi e planifikuar centralisht në një treg të lirë. Deri në vitin 2021, këto janë disa nga pikat kryesore që karakterizojnë sistemin shëndetësor të Shqipërisë:\n
+
+1. Struktura e Sistemit: Sistemi i shëndetësisë është i organizuar në tre nivele: primar, sekondar dhe tretësor. Niveli primar ofron shërbime të përgjithshme shëndetësore, ndërsa nivelet sekondar dhe tretësor ofrojnë kujdes specializuar dhe të ndërlikuar.\n
+
+2. Financimi: Shërbimet shëndetësore janë të financuara pjesërisht nga buxheti shtetëror dhe pjesërisht nga kontributet e sigurimeve shëndetësore. Megjithatë, financimi i mjaftueshëm ka mbetur një sfidë për sistemin.\n
+
+3. Sigurimi Shëndetësor: Ka një skemë kombëtare të sigurimeve shëndetësore që mbulon një pjesë të madhe të popullsisë. Por, mbulimi i plotë dhe qasja e barabartë në shërbime shëndetësore është ende një çështje për disa segmente të popullsisë.\n
+
+4. Qasja në Shërbime: Ndërsa ka një rrjet të mirë të spitaleve dhe klinikave në qytete të mëdha dhe në zonat urbane, qasja në shërbime shëndetësore në zonat rurale dhe të largëta mund të jetë e kufizuar.\n
+
+5. Cilësia e Kujdesit: Sistemi ka përjetuar ndryshime të shpejta dhe reformat, dhe si rezultat, ka ndryshime në cilësinë e shërbimeve nga një vend në tjetrin. Ka përpjekje për të përmirësuar standarde dhe kontrollin e cilësisë.\n
+
+6. Migracioni i Mjekëve: Një çështje që ka ndikuar në sistemin shëndetësor të Shqipërisë është emigrimi i mjekëve dhe profesionistëve të tjerë të shëndetësisë drejt vendeve të tjera të Evropës për kushte më të mira pune dhe paga më të larta.\n
+
+7. Farmaceutikë dhe Medikamente: Përpjekjet janë bërë për të përmirësuar furnizimin me medikamente dhe për të kontrolluar çmimet e tyre. Megjithatë, ka sfida lidhur me disponueshmërinë dhe çmimet e disa ilaçeve.\n
+
+8. Reformat dhe Përmirësimet: Qeveria ka ndërmarrë reformat për të përmirësuar dhe modernizuar sistemin shëndetësor, duke përfshirë ndërtimin e infrastrukturës së re shëndetësore dhe përmirësimin e sistemeve të menaxhimit dhe të informacionit."
+
+  utter_pyetja_47:
+    - text: "Shqipëria ka një profil të veçantë kur bëhet fjalë për prodhimin e energjisë, dhe ky profil është ndryshuar dhe zhvilluar gjatë viteve. Deri në vitin 2021, këto janë disa nga pikat kryesore që karakterizojnë sektorin e energjisë në Shqipëri:\n
+
+1. Energjia Hidroelektrike: Ky është burimi kryesor i prodhimit të energjisë në Shqipëri. Vendin e karakterizon një rrjet i gjerë lumenjsh dhe liqenesh, dhe si rezultat, mbi 90% e energjisë elektrike që prodhohet vjen nga burimet hidroelektrike. Megjithatë, kjo ka sjellë sfida për shkak të varësisë nga kushtet klimatike dhe ndryshimeve sezonale të reshjeve.\n
+
+2. Energjia Diellore dhe e Erës: Përkundër potencialit të madh, investimet në energjinë diellore dhe të erës janë ende në nivele fillestare. Megjithatë, me ndihmën e investimeve të huaja dhe të strategjive kombëtare, ka një interes të rritur për të zgjeruar këto burime energjie.\n
+
+3. Energjia nga Biomasa: Ky është një tjetër burim energjie që ka një potencial të madh, por që nuk është shfrytëzuar plotësisht. Biomasa mund të përdoret për ngrohje dhe prodhimin e energjisë elektrike.\n
+
+4. Importi dhe Eksporti: Në vitet e thata, kur nivelit i ujërave në liqenet dhe rezervuarët është i ulët, Shqipëria mund të bëhet e varur nga importet e energjisë elektrike. Në kundërshtim, në vitet me reshje të mjaftueshme, Shqipëria ka kapacitetin për të eksportuar energji.\n
+
+5. Nafta dhe Gaznatyrale: Shqipëria ka rezerva të naftës dhe ka një histori të prodhimit të naftës, veçanërisht në zonën e Patosit dhe Ballshit. Përsa i përket gazit natyror, ka pasur hulumtime dhe interesa për të gjetur dhe zhvilluar burime të tilla, përfshirë potencialet e gazit të shistit.\n
+
+6. Interkoneksionet me Fqinjët: Shqipëria ka punuar për të ndërtuar dhe forcuar interkoneksionet e saj me sistemet e energjisë të fqinjëve, duke lejuar një treg më të lirë dhe të integruar të energjisë në rajon."
+
+  utter_pyetja_46:
+    - text: "Në vitin 2021 dhe disa vite para kësaj, Shqipëria ka ndërmarrë disa projekte të mëdha infrastrukturore me qëllim të modernizimit të infrastrukturës dhe përmirësimit të lidhjeve me vendet fqinje dhe Evropën në përgjithësi. Disa prej projekteve më të rëndësishme dhe ambicioze përfshijnë:\n
+
+1. Autostrada Tiranë-Elbasan (Tuneli i Krrabës): Ky projekt, i përfunduar disa vite më parë, përfshin ndërtimin e një autostrade të re dhe një tuneli mbi malin e Krrabës, duke shkurtuar ndjeshëm kohën e udhëtimit midis Tiranës dhe Elbasanit.\n
+
+2. Arbëri Road (Rruga e Arbrit): Ky është një projekt për një rrugë të re që do të lidh Tiranën me Maqedoninë përmes zonës malore të Dibrës. Kjo rrugë do të shkurtonte ndjeshëm kohën e udhëtimit midis Shqipërisë dhe Maqedonisë.\n
+
+3. Porti i Shëngjinit: Në veri të Shqipërisë, ka pasur investime për zgjerimin dhe modernizimin e Portit të Shëngjinit, duke e bërë atë një port të rëndësishëm detar për Shqipërinë dhe rajonin.\n
+
+4. Zhvillimet në Tiranë: Kryeqyteti ka parë një sërë projektesh të mëdha infrastrukturore, përfshirë ndërtime të reja, rikonstruksionin e sheshit Skënderbej dhe zhvillimin e zonave përkrah lumit të Lanës.\n
+
+5. Projekte Energjitike: Shqipëria ka investuar në projekte të reja hidroelektrike dhe ka shqyrtuar mundësinë e investimeve në energjinë diellore dhe të erës.\n
+
+6. Porti i Fierit: Ka pasur diskutime për ndërtimin e një porti të ri afër Fierit, i cili do të shërbejë si një port energjitik dhe ndihmon në eksportin e gazit dhe naftës.\n
+
+7. Rrjeti i Hekurudhave: Përpjekjet janë bërë për të modernizuar dhe zgjeruar rrjetin e hekurudhave, veçanërisht lidhjen midis Tiranës dhe Durrësit dhe linjat ndërkombëtare me fqinjët.\n
+
+8. Aeroporti i Vlorës: Ka pasur plane dhe diskutime për ndërtimin e një aeroporti të ri në Vlorë për të ndihmuar në zhvillimin e turizmit dhe lidhjen me vende të tjera."
+
+  utter_pyetja_45:
+    - text: "Situata e fuqisë punëtore dhe tregut të punës në Shqipëri ka pësuar ndryshime të ndjeshme gjatë dekadave të fundit dhe është ndikuar nga shumë faktorë, përfshirë tranzicionin ekonomik, ndryshimet demografike dhe migracionin. Deri në vitin 2021, këto janë disa nga pikat kryesore që karakterizojnë tregun e punës në Shqipëri:\n
+
+1. Lart Papunësisë: Papunësia është një shqetësim i vazhdueshëm në Shqipëri, sidomos për të rinjtë. Megjithatë, shkalla e papunësisë ka ndryshuar ndër vite dhe varet nga një sërë faktorësh ekonomikë dhe politikë.\n
+
+2. Migracioni: Shumë shqiptarë kanë emigruar në vendet e tjera të Europës dhe më gjerë për kërkesa pune dhe mundësi më të mira jete. Ky migracion ka ndikuar në strukturën e tregut të punës, duke lënë disa sektore me mungesë të fuqisë punëtore dhe duke ndikuar në shkallën e papunësisë brenda vendit.\n
+
+3. Ekonomia Informale: Shqipëria ka një shkallë të lartë të ekonomisë informale, ku shumë persona punojnë jashtë sistemit zyrtar dhe pa të drejta të plota sociale dhe punësimi. Kjo ka ndikuar në cilësinë e vendeve të punës dhe në sigurinë e punonjësve.\n
+
+4. Sektoret Kryesore: Ndërsa sektori i bujqësisë ka luajtur historikisht një rol të rëndësishëm në ekonominë e Shqipërisë, sektorët si turizmi, ndërtimtaria, shërbimet dhe teknologjia kanë marrë një peshë më të madhe në tregun e punës në vitet e fundit.\n
+
+5. Arsimi dhe Aftësimi: Mismatch-i ndërmjet aftësive që ofrojnë institucionet arsimore dhe atyre që kërkon tregu i punës është një shqetësim. Ka pasur përpjekje për të përmirësuar sistemin arsimor dhe për të nxitur aftësimin profesional që përgjigjet më mirë ndaj nevojave të tregut.\n
+
+6. Reformat dhe Ligjet e Punës: Qeveria shqiptare ka ndërmarrë reforma për të përmirësuar ligjet dhe rregulloret e tregut të punës, në përpjekje për të rritur punësimin dhe për të mbrojtur të drejtat e punonjësve.\n
+
+7. Investimet e Huaja: Investimet e huaja direkte (IHD) kanë ndikuar në krijimin e vendeve të punës dhe në ndryshimin e dinamikës së tregut të punës."
+
+  utter_pyetja_44:
+    - text: "Zakonet dhe traditat në Shqipëri janë të ndikuar nga një kombinim i trashëgimisë kulturore dhe fetare, përfshirë ndikimin e krishterizmit dhe islamit, si dhe tradita të tjera lokale dhe ndërkombëtare. Kjo është një pasqyrë e përgjithshme e disa zakoneve dhe traditave të zakonshme në ditët e lindjes dhe të varrimit në Shqipëri: \n
+    Dita e Lindjes:\n
+1. Emërimi: Emrat zakonisht janë të ndikuar nga trashëgimia fetare ose kulturore. Shqipëria ka një traditë të pasur të emërimit, me emra që rrjedhin nga fjalë shqipe, histori lokale, ose figura historike dhe kulturore.\n
+
+2. Festat: Pas lindjes, familjarët dhe miqtë vizitojnë prindërit e fëmijës me dhurata dhe urime. Festat e lindjes janë bërë më të zakonshme në vitet e fundit, të ngjashme me ato në vendet perëndimore.\n
+
+3. Pagëzimi: Pagëzimi është i zakonshëm për familjet krishtere. Ai zakonisht zhvillohet në kishë dhe ka një kuptim shpirtëror dhe social.\n
+
+Dita e Varrimit:\n
+
+1. Ngushëllimet: Kur ndodh një vdekje, familjarët, fqinjët dhe miqtë vizitojnë familjen e të ndjerit për të dhënë ngushëllimet e tyre.\n
+
+2. Zi: Familja e të ndjerit vesh rroba të zeza për të treguar ziun dhe respektin ndaj të ndjerit. Ky periudhë zi mund të zgjasë disa ditë, javë ose edhe muaj, varësisht nga traditat dhe preferencat familjare.\n
+
+3. Përkujtimi: Pas varrimit, është e zakonshme të mbahet një ngjarje përkujtimore, e njohur ndryshe si 'shire' ose 'hajmal', ku familjarët dhe miqtë mblidhen për të nderuar kujtimin e të ndjerit, ndajnë ushqim dhe kujtojnë momentet me të.\n
+
+4. Varri: Varret tradicionale në Shqipëri zakonisht janë të thjeshta, por me kalimin e kohës, disa familje kanë zgjedhur varre më të mëdha dhe të dekoruara. Është e zakonshme që të vizitohet varri në përvjetorin e vdekjes dhe në ditë të tjera të rëndësishme.\n
+
+5. Përkujtimet e tjera: Përveç ceremonive të menjëhershme pas vdekjes, është e zakonshme të mbahen përkujtime në ditët, javët ose muajt pas vdekjes, si dhe në përvjetorin e saj.
+"
+
+  utter_pyetja_43:
+    - text: "Në vitin 2009, Shqipëria bëri një hap historik duke u bërë anëtare e plotë e Organizatës së Traktatit të Atlantikut të Veriut (NATO). Kjo anëtarësim ka ndikuar pozitivisht në sigurinë dhe stabilitetin e Shqipërisë dhe ka forcuar më tej partneritetin e saj me vendet perëndimore.\n
+
+Pozita dhe statusi i Shqipërisë në NATO janë të barabartë me anëtarët e tjerë të Aleancës. Si anëtare e NATO-s, Shqipëria merr pjesë në:\n
+
+1. Mbledhje dhe Vendimmarrje: Shqipëria merr pjesë në mbledhjet e NATO-s dhe ka një zë në vendimmarrjen e Aleancës, ndonëse NATO operon shpesh me konsensus.\n
+
+2. Kontributet Ushtarake: Si anëtar i NATO-s, Shqipëria ka dhënë kontributin e saj në operacione dhe misione të NATO-s, duke përfshirë misionin në Afganistan (ISAF dhe më pas Resolute Support Mission).\n
+
+3. Reformimi i Forcave të Armatosura: Anëtarësimi në NATO ka nxitur Shqipërinë të reformojë dhe modernizojë Forcat e Armatosura, duke përmirësuar pajisjet, trajnimet dhe strukturat e saj në përputhje me standardet e NATO-s.\n
+
+4. Siguri dhe Mbrojtje: Anëtarësimi në NATO garanton se, në rast të një sulmi ndaj Shqipërisë, anëtarët e tjerë të Aleancës do të marrin veprime kolektive për mbrojtjen e saj, siç përcaktohet në Neni 5 i Traktatit të NATO-s.\n
+
+5. Reformimi dhe Bashkëpunimi Civil: Përveç aspekteve ushtarake, anëtarësimi në NATO ka ndikuar edhe në reformimin e strukturave civile, duke përfshirë marrëdhëniet civile-ushtarake, dhe ka nxitur bashkëpunimin dhe koordinimin mes institucioneve vendase dhe NATO-s.\n
+
+6. Partneritetet Rajonale: Shqipëria ka marrë pjesë aktivisht në iniciativa dhe platforma rajonale të mbështetura nga NATO, duke promovuar stabilitetin dhe bashkëpunimin në rajonin e Ballkanit Perëndimor."
+
+  utter_pyetja_42:
+    - text: "1. Anëtarësimi në NATO (2009): Shqipëria u bë anëtare e plotë e NATO-s në prill të vitit 2009, një hap i rëndësishëm për sigurinë dhe stabilitetin e saj rajonal.\n
+
+2. Përparimi drejt Anëtarësimit në BE: Shqipëria ka bërë përpjekje të vazhdueshme për të hyrë në Bashkimin Evropian. Megjithëse nuk është anëtare ende, ka marrë statusin e vendit kandidat në vitin 2014.\n
+
+3. Reforma në Drejtësi (2016): Kjo ishte një reformë masive dhe e ndërlikuar që synonte të modernizonte dhe demokratizonte sistemin gjyqësor të Shqipërisë. Ajo është përcjellur nga procese vettingu për gjyqtarët dhe prokurorët për të garantuar integritetin e tyre profesional dhe moral.\n
+
+4. Tërmeti i vitit 2019: Në nëntor të vitit 2019, një tërmet i fuqishëm goditi Shqipërinë, duke shkaktuar humbje jetësh dhe dëme të mëdha në ndërtesa dhe infrastrukturë. Përveç ndihmës ndërkombëtare, kjo ngjarje solli bashkim dhe solidaritet kombëtar.\n
+
+5. Zgjedhjet dhe Tensionet Politike: Gjatë viteve të fundit, Shqipëria ka përjetuar tensione politike dhe protesta lidhur me zgjedhjet dhe pretendimet për manipulime. Këto tensione kanë ndikuar në procesin e saj të integrimit evropian.\n
+
+6. COVID-19 (2020-2021): Si shumë vende të tjera, Shqipëria u prek nga pandemia e COVID-19, e cila ka ndikuar në shëndetin, ekonominë dhe mënyrën e jetesës së qytetarëve.\n
+
+7. Rindërtimi pas tërmetit: Pas tërmetit të 2019, përpjekjet për rindërtim dhe ndërtimin e banesave të reja për të prekurit janë një pjesë e madhe e agjendës qeveritare dhe kanë marrë ndihmë ndërkombëtare për realizimin e tyre."
+
+  utter_pyetja_41:
+    - text: 'Shqipëria ka një pasuri të madhe monumentesh historike dhe arkeologjike që pasqyrojnë një histori të gjatë dhe të ndërlikuar. Këto janë disa nga monumentet më të famshme dhe të rëndësishme:\n
+
+1. Gjirokastër: Njohur edhe si "Qyteti i Gurtë", Gjirokastër është një qytet i mbrojtur nga UNESCO për shkak të ndërtesave të tij karakteristike prej guri dhe kalasë mbi qytet, e cila ofron një pamje panoramike të rajonit.\n
+
+2. Berati: Ky qytet është i njohur për shtëpitë e tij të bardha dhe xhaminë e plumbit. Është një tjetër qytet i mbrojtur nga UNESCO dhe është njohur si "Qyteti i një Mijë Dritareve".\n
+
+3. Butrinti: Një qytet i lashtë dhe një nga sitet arkeologjike më të rëndësishme në Shqipëri. Historia e Butrintit përfshin periudha të ndryshme, nga ilirët, romakët, bizantinët, dhe të tjerët.\n
+
+4. Kala e Rozafës në Shkodër: Një nga kështjellat më të famshme në Shqipëri, me një histori që shkon deri në kohën e ilirëve.\n
+
+5. Amfiteatri i Durrësit: Një ndër amfiteatrot më të mëdha të Perandorisë Romake në Ballkan, i vendosur në qendër të qytetit të Durrësit.\n
+
+6. Apollonia: Një qytet i lashtë pranë Fierit, i themeluar nga kolonistët grekë dhe që arriti të ishte një nga qendrat më të rëndësishme arsimore dhe kulturore të Perandorisë Romake.\n
+
+7. Kalaja e Krujës: Kala historike e njohur për rezistencën e saj ndaj pushtimeve osmane dhe si qendra e luftës së Gjergj Kastriotit, Skënderbeut, kundër osmanëve.\n
+
+8. Kalaja e Prezës: Një kështjellë e ndërtuar mbi një kodër pranë Tiranës dhe ofron një pamje panoramike të zonës përreth.\n
+
+9. Qyteti i lashtë i Bylisit: Një nga qytetet më të mëdha ilire, i vendosur pranë Ballshit.\n
+
+10. Kalaja e Petrelës: Një kështjellë e ndërtuar mbi një kodër pranë Tiranës, e njohur për pamjen e saj panoramike dhe historinë e pasur.'
+
+  utter_pyetja_40:
+    - text: "Deri në vitin 2021, turizmi është një nga sektorët me rritje më të shpejtë dhe potencial të lartë në ekonominë e Shqipërisë. Kombinimi i bukurive natyrore, kulturës dhe trashëgimisë historike, së bashku me një klimë të këndshme mesdhetare, ka bërë që Shqipëria të konsiderohet një destinacion turistik në rritje në Ballkan dhe Evropë. Këtu janë disa pika kyçe lidhur me statusin e turizmit dhe promovimit të tij:\n
+
+Statusi i Turizmit:\n
+
+1. Diversiteti i Destinacioneve: Shqipëria ofron një gamë të gjerë destinacionesh, nga bregdetet e pastërta dhe plazhet e Rrivierës Shqiptare, si Ksamil, Dhermi dhe Saranda, te qytetet historike si Gjirokastër, Berat dhe Shkodër.\n
+
+2. Turizmi Kulturor: Qytetet me një trashëgimi të pasur historike dhe kulturore, si dhe sitet arkeologjike si Butrinti dhe Apollonia, janë tërheqje kryesore për turistët e interesuar në historinë dhe kulturën e Ballkanit.\n
+
+3. Turizmi i Natyrës: Zonat malore dhe parket kombëtare si Thethi, Valbona dhe Llogara ofrojnë peisazhe të mahnitshme dhe aktivitete për ata që kërkojnë aventura natyrore.\n
+
+4. Rritja e Turistëve: Vitet e fundit kanë parë një rritje të ndjeshme të numrit të turistëve të huaj që vijnë në Shqipëri, përfshirë turistë nga Europa, Amerika dhe vende të tjera.\n
+
+Promovimi i Turizmit:\n
+
+1. Fushatat e Marketingut: Qeveria shqiptare, në bashkëpunim me sektorin privat, ka ndërmarrë fushata marketingu për të promovuar Shqipërinë si një destinacion turistik.\n
+
+2. Pjesëmarrja në Panairë: Shqipëria ka marrë pjesë në panairë ndërkombëtarë të turizmit për të promovuar ofertat e saj.\n
+
+3. Ndihma nga Organizatat Ndërkombëtare: Organizata si Banka Botërore dhe Bashkimi Evropian kanë ndihmuar në përmirësimin e infrastrukturës turistike dhe në trajnimin e punonjësve në sektorin e turizmit.\n
+
+4. Nxitja e Investimeve: Ka pasur nxitje për investime në hoteleri, restorante dhe aktivitete të tjera turistike për të rritur kapacitetin dhe cilësinë e shërbimeve.\n
+
+5. Promovimi i Turizmit të Qëndrueshëm: Me rritjen e ndërgjegjësimit mjedisor, ka pasur përpjekje për të promovuar turizmin e qëndrueshëm dhe të përgjegjshëm."
+
+  utter_pyetja_39:
+    - text: "Deri në vitin 2021, të drejtat e njeriut dhe liritë e gazetarisë në Shqipëri kanë pësuar ndryshime dhe përparime, por ato gjithashtu janë përballur me disa sfida. Këtu janë disa pikat kyçe lidhur me këto çështje:\n
+
+Të Drejtat e Njeriut:
+1. Përparime: Pas rënies së regjimit komunist në vitin 1991, Shqipëria ka bërë përparime të mëdha në garantimin dhe respektimin e të drejtave të njeriut. Kjo ka ndodhur sidomos në kontekstin e përpjekjeve të vendit për anëtarësim në Bashkimin Evropian.\n
+
+2. Sfidat: Megjithatë, raportet ndërkombëtare kanë identifikuar disa sfida, përfshirë ndërhyrjen në gjyqësor, traikimin e qenieve njerëzore, trajtimin e të burgosurve dhe mënyrën e përpunimit të rasteve të dhunës ndaj grave.\n
+
+3. Mbrojtja e Minoriteteve: Shqipëria ka një popullatë të larmishme, dhe ka pasur sfida në mbrojtjen dhe promovimin e të drejtave të komuniteteve të ndryshme, përfshirë minoritetet etnike, si grekët, maqedonasit, serbët, romët dhe të tjerët.\n
+
+Liritë e Gazetarisë:\n
+
+1. Roli i Medias: Media është një aktor i rëndësishëm në demokracinë shqiptare dhe ka luajtur një rol të rëndësishëm në informimin e publikut dhe në kritikën e veprimeve të qeverisë.\n
+
+2. Presioni dhe Autocensura: Gazetarët shpesh kanë raportuar për presione nga biznesmenë, politikanë, dhe grupe të tjera me ndikim. Kjo ka çuar shpesh në autocensurë dhe në mungesë të raportimit të paanshëm.\n
+
+3. Ndërhyrje dhe Dhunë: Ka pasur raste të dhunës dhe ndërhyrjes ndaj gazetarëve dhe institucioneve mediatike, dhe këto janë shpesh ndërlidhur me paaftësinë për të hetuar dhe ndëshkuar sulmet ndaj gazetarëve.\n
+
+4. Proprieteti i Medias: Një tjetër shqetësim është koncentrimi i pronësisë së mediave në duart e një numri të vogël individësh ose grupesh, që mund të ndikojnë në pavarësinë dhe objektivitetin e raportimit.\n
+
+5. Raportet Ndërkombëtare: Organizata ndërkombëtare, si Reporters Without Borders dhe të tjera, kanë vënë re shqetësime lidhur me liritë e gazetarisë në Shqipëri dhe kanë bërë thirrje për mbrojtjen e gazetarëve dhe të drejtave të tyre."
+
+  utter_pyetja_38:
+    - text: "
+Shqipëria ka një histori të gjatë të kultivimit të rrushit dhe prodhimit të verës që daton që nga kohët e lashta. Vendi ka një klimë mesdhetare që është e përshtatshme për rritjen e rrushit, dhe kjo ka kontribuar në zhvillimin e traditës së prodhimit të verës."
+
+  utter_pyetja_37:
+    - text: "Infrastruktura e internetit dhe telekomunikacionit në Shqipëri ka pësuar ndryshime të mëdha dhe përmirësime gjatë dy dekadave të fundit. Megjithatë, ka ende sfida që duhen adresuar për të arritur një zhvillim të plotë dhe të qëndrueshëm. Këto janë disa nga sfidat kryesore:\n
+
+1. Investimi: Megjithëse ka pasur investime të mëdha nga kompanitë private, infrastruktura e telekomunikacionit kërkon investime të vazhdueshme për të mbajtur hapat me zhvillimet teknologjike globale dhe për të garantuar një shërbim cilësor.\n
+
+2. Zona rurale dhe të largëta: Në qytetet kryesore dhe zonat urbane, lidhja e internetit është shpesh e mirë dhe e qëndrueshme. Megjithatë, zonat rurale dhe të largëta ende përballen me mungesën e një lidhjeje të mirë dhe të qëndrueshme.\n
+
+3. Cilësia e shërbimit: Megjithëse ka një konkurrencë në mes të ofruesve të shërbimeve të internetit dhe telekomunikacionit, cilësia e shërbimit dhe shpejtësia e internetit nuk janë gjithmonë në nivelin optimal, sidomos kur krahasohen me standardet evropiane.\n
+
+4. Regularizimi dhe rregullativa: Menaxhimi dhe regularizimi i sektorit të telekomunikacioneve nga institucionet shtetërore ka qenë ndonjëherë i ndërlikuar ose i pamjaftueshëm, duke krijuar pasiguri për investitorët dhe paaftësi për të adresuar çështjet e konsumatorëve në mënyrë efikase.\n
+
+5. Përhapja e teknologjive të reja: Ndërsa teknologjitë si 4G kanë filluar të përhapen në Shqipëri, ka ende sfida për të sjellë teknologjitë më të fundit, si 5G, në tregun shqiptar dhe për të garantuar se ato janë të disponueshme në të gjithë territorin e vendit.\n
+
+6. Edukimi dhe trajnimi: Ndonëse ka një prani të rritur të teknologjisë dhe përdorimit të internetit midis të rinjve, ka ende nevojë për më shumë edukim dhe trajnim për popullatën më të vjetër dhe për ata që jetojnë në zonat rurale.\n
+
+7. Siguria dhe privatësia: Si në shumë vende të tjera, siguria cibernetike dhe mbrojtja e të dhënave janë bërë një shqetësim, dhe ka nevojë për më shumë ndërgjegjësim dhe masa mbrojtëse nga kompanitë dhe përdoruesit."
+
+  utter_pyetja_36:
+    - text: 'Shqipëria ka një kulturë të pasur dhe shumë festa dhe ngjarje kulturore që reflektojnë trashëgiminë dhe traditën e saj. Këto janë disa nga festat dhe ngjarjet më të rëndësishme:\n
+
+1. Dita e Pavarësisë (28 Nëntor): Kjo është festa kombëtare e Shqipërisë dhe shënon shpalljen e pavarësisë nga Perandoria Osmane në vitin 1912.\n
+
+2. Dita e Verlindjes së Flamurit (28 Nëntor): Kjo ditë festohet së bashku me Ditën e Pavarësisë dhe shënon ngritjen e flamurit kombëtar të Shqipërisë.\n
+
+3. Dita e Lirisë (29 Nëntor): Ky është një festim i periudhës komuniste dhe shënon çlirimin e Shqipërisë nga pushtimi gjerman në vitin 1944. Megjithëse e lidhur me periudhën komuniste, kjo datë ka ndonjëherë shërbyer si një kujtim i rezistencës ndaj pushtimit të huaj.\n
+
+4. Dita e Verës (14 Mars): Është një festë tradicionale, veçanërisht në zonën e Elbasanit, por që në vitet e fundit është bërë popullore edhe në pjesë të tjera të vendit. Festa shënjon fillimin e pranverës dhe ka elemente të ndryshme të festimit, përfshirë koncerte, valle, dhe tradita si mëngjesi me ballokume.\n
+
+5. Festa e Gjergj Kastriotit, Skënderbeut (17 Dhjetor): Kjo ditë shënkon vdekjen e heroit kombëtar shqiptar, Gjergj Kastrioti, i njohur ndryshe si Skënderbeu, në vitin 1468.\n
+
+6. Korrikut dhe Gushtit: Në këto muaj, shumë qytete dhe fshatra të Shqipërisë festojnë ditët e tyre të qytetit ose festa të tjera tradicionale, me koncerte, valle, dhe ngjarje të tjera kulturore.\n
+
+7. Festivali i Këngës në RTSH: Ky është një nga ngjarjet muzikore më të njohura në Shqipëri, i cili shërben ndonjëherë edhe si seleksioni i Shqipërisë për Eurovision.\n
+
+8. Festat Fetare: Shqipëria ka një mozaik fetar, dhe kështu festat e mëdha fetare të krishterë dhe myslimane festohen nga komunitetet përkatëse. Kjo përfshin Pashkët (të dyja, ortodokse dhe katolike), Kurban Bajramin, Ramazanin, dhe të tjera.\n
+
+9. Festivali i Filmave të Shkurtër në Tiranë dhe Festivali Ndërkombëtar i Filmit në Shqipëri: Këto janë ngjarje të rëndësishme për industrinë kinematografike në Shqipëri dhe tërheqin regjisorë, aktorë dhe artistë nga e gjithë bota.\n
+
+10. Festivali i Gjirokastres: Një festival i njohur folklorik që mbahet në qytetin historik të Gjirokastres, një qytet i mbrojtur nga UNESCO.'
+
+  utter_pyetja_35:
+    - text: 'Shqipëria ka një histori të gjatë të nënshkrimit të traktateve dhe marrëveshjeve ndërkombëtare me shumë vende të botës që nga shpallja e pavarësisë në vitin 1912. Këto marrëveshje kanë qenë në shumë fusha, përfshirë marrëdhëniet diplomatike, tregtinë, investimet, bashkëpunimin kulturor, mjedisor, shkencor dhe të tjera.\n
+
+1. Marrëdhëniet me Bashkimin Evropian (BE): Një nga prioritetet kryesore të politikës së jashtme të Shqipërisë është integrimi në BE. Shqipëria ka një marrëveshje stabilizim-asociim me BE-në dhe ka ndërmarrë shumë reforma për të përmbushur kritikat për anëtarësim. Në vitin 2020, Kombet e Bashkuara miratuan fillimin e bisedimeve për anëtarësim me Shqipërinë.\n
+
+2. Marrëdhëniet me NATO: Shqipëria është bërë anëtare e NATO-s në vitin 2009 dhe ka marrëveshje dhe angazhime që lidhen me sigurinë dhe mbrojtjen ndërkombëtare.\n
+
+3. Marrëdhëniet me Shtetet e Bashkuara: Shqipëria dhe SHBA kanë një histori marrëdhëniesh të fortë dhe kanë një numër marrëveshjesh në fusha të ndryshme, përfshirë ato të sigurisë, tregtisë dhe bashkëpunimit kulturor.\n
+
+4. Marrëdhëniet me fqinjët: Shqipëria ka marrëveshje bilaterale me shumicën e vendeve fqinje, përfshirë Maqedoninë e Veriut, Malin e Zi, Kosovën dhe Greqinë. Këto marrëveshje përfshijnë çështje kufitare, tregtie, bashkëpunimi kulturor dhe të tjera.\n
+
+5. Marrëveshjet me organizata ndërkombëtare: Shqipëria është anëtare e shumë organizatave ndërkombëtare dhe ka marrëveshje me to, përfshirë OKB-në, OSBE-në, Kombet e Bashkuara për Edukimin, Shkencën dhe Kulturën (UNESCO) dhe të tjera.\n
+
+6. Marrëveshjet tregtare: Shqipëria ka marrëveshje tregtare me një numër të madh shtetesh dhe grupimesh rajonale, duke përfshirë BE-në dhe vende të tjera në rajon.'
+
+  utter_pyetja_34:
+    - text: 'Tradita dhe kultura shqiptare ka një sërë zakonesh dhe ritualesh lidhur me martesat dhe jetën familjare. Megjithatë, është e rëndësishme të theksohet se zakonet kanë ndryshuar dhe evoluar me kalimin e kohës dhe ndikimin e modernizimit, urbanizimit dhe globalizimit. Këtu janë disa zakone tradicionale dhe moderne lidhur me martesat dhe familjet në Shqipëri:\n
+
+Zakonet Tradicionale:\n
+1. Feja dhe Martesa: Ndërsa Shqipëria është një vend me një mozaik fetar (myslimanë, ortodoksë, katolikë), feja ka luajtur një rol në ceremonitë e martesës, por zakonisht është e ndërthurur me zakonet popullore.\n
+
+2. Lidhja e Marrëveshjes: Tradicionalisht, familjet bënin marrëveshje për martesa, ku prindërit vendosnin lidhur me martesën e fëmijëve të tyre. Kjo praktikë ka pasur një rënie ndjeshme në dekadat e fundit.\n
+
+3. Dasma: Dasmat shqiptare kanë qenë ngjarje të mëdha dhe të zgjatura, që përfshijnë festime dhe rituale që zgjasin disa ditë.\n
+
+4. Shërbimi i Gjelbërimit: Ky është një ritual ku dhëndërri, së bashku me miqtë dhe familjen, shkon tek shtëpia e nusës me një buqetë lulesh dhe dhurata të tjera.\n
+
+5. "Burrërishtja": Është një rit i vjetër ku nusja hyn në shtëpinë e dhëndërrit duke mbajtur një thes ose një shishe me sheqer, simbol i një jete të ëmbël.\n
+
+Zakonet Moderne:\n
+1. Zgjedhja e Partnerit: Ndërsa marrëveshjet familjare janë të rralla sot, të rinjtë zakonisht zgjedhin partnerët e tyre pa ndikimin e prindërve, përmes lidhjeve romantike ose miqësore.\n
+
+2. Festat e Fejesës dhe të Pollogut: Këto janë ngjarje të veçanta që shpesh ndodhin para dasmës, ku të dy familjet festojnë vendimin për të martuar fëmijët e tyre.\n
+
+3. Martesat e Mëdha: Edhe pse forma ka ndryshuar, dasmat shqiptare ende janë ngjarje të mëdha, me shumë të ftuar, muzikë dhe valle.\n
+
+4. Dekoracionet dhe Fotografitë: Shtypja e ftesave të personalizuara, fotografimi profesional dhe dekoracionet e pasura janë bërë një pjesë e rëndësishme e dasmave moderne.\n
+
+5. Honeymoon: Muaji i mjaltit pas martesës është një traditë që është bërë e zakonshme edhe në Shqipëri, ku çiftet udhëtojnë diku për të festuar martesën e tyre.'
+
+  utter_pyetja_33:
+    - text: "Roli i Shqipërisë në Bashkimin e Ballkanit Perëndimor është i rëndësishëm për shkak të pozicionit të saj gjeostrategjik dhe përpjekjeve të saj për integrimin në Bashkimin Evropian:\n
+
+1. Udhëheqësi Rajonal: Shqipëria ka qenë një nga vendet që ka mbështetur fuqishëm këtë nismë dhe ka shërbyer si udhëheqës në disa fusha, duke promovuar bashkëpunimin rajonal dhe zhvillimin e projekteve të përbashkëta.\n
+
+2. Përmirësimi i Marrëdhënieve: Nëpërmjet kësaj nisme, Shqipëria ka pasur mundësinë të përmirësojë marrëdhëniet e saj me vende të tjera të rajonit, duke adresuar çështje të ndërsjellta dhe duke ndërtuar ura bashkëpunimi.\n
+
+3. Projekte Infrastrukturore: Shqipëria është pjesë e shumë projekteve infrastrukturore që janë nxitur nga BBP, të cilat përfshijnë ndërtimin dhe përmirësimin e rrugëve, hekurudhave dhe korridoreve të tjera transporti që lidhin vendet e rajonit.\n
+
+4. Promovimi i Bashkëpunimit Ekonomik: Përtej infrastrukturës, Shqipëria ka punuar për të rritur tregtinë dhe investimet ndërmjet vendeve të BBP, duke hequr pengesa tregtare dhe duke lehtësuar qarkullimin e mallrave dhe shërbimeve.\n
+
+5. Perspektiva e Bashkimit Evropian: Si pjesë e përpjekjeve për integrim në Bashkimin Evropian, Shqipëria e sheh BBP si një hap përpara drejt forcimit të bashkëpunimit rajonal dhe përmirësimit të marrëdhënieve me fqinjët, çka është një nga kritikat kryesore për procesin e zgjerimit të BE-së."
+
+  utter_pyetja_32:
+    - text: 'Deri në vitin 2021, kufiri mes Shqipërisë dhe Kosovës është njohur ndërshtetërisht dhe ka një histori të ndërlikuar që rrjedh nga ndarjet administrative të kohës së Jugosllavisë dhe ndryshimet e kufijve në Ballkan gjatë shekullit të 20-të.\n
+
+Disa pika kyçe rreth këtij kufiri përfshijnë:\n
+
+1. Historiku: Kufiri mes Shqipërisë dhe asaj që është sot Kosova u vendos në vitin 1913 nga Fuqitë e Mëdha të kohës pas Luftës së Dytë Ballkanike. Kjo ndarje la një pjesë të madhe të popullsisë shqiptare jashtë kufijve të Shqipërisë së re.\n
+
+2. Njohja e Pavarësisë së Kosovës: Pas shpalljes së pavarësisë së Kosovës më 2008, Shqipëria ishte ndër vendet e para që e njohu pavarësinë e Kosovës. Pas njohjes, u vendosën marrëdhënie diplomatike dhe u rrit bashkëpunimi ndërmjet të dy vendeve.\n
+
+3. Liria e Lëvizjes: Me kalimin e kohës, kufiri mes Shqipërisë dhe Kosovës ka bërë një hapje progresive. Lëvizja e qytetarëve mes dy vendeve është lehtësuar ndjeshëm, dhe shumë kosovarë dhe shqiptarë kalojnë kufirin për arsye turistike, biznesi, apo vizita familjare.\n
+
+4. Diskutime për Shkëmbimin e Territoreve: Ka pasur diskutime dhe spekulime në medie rreth një ideje për shkëmbim territoresh midis Serbisë dhe Kosovës, ku disa territorë me popullsi serbe do t’i bashkoheshin Serbisë ndërsa disa territorë me shumicë shqiptare do të bashkoheshin Kosovës. Megjithatë, kjo ide ka shkaktuar polemika dhe nuk është zyrtarizuar apo marrë një vendim përfundimtar.\n
+
+5. Vizioni për një "Shqipëri të Bashkuar": Në disa raste, politikanë dhe figura publike kanë shprehur vizionin e një Shqipërie të bashkuar ose një lloj bashkimi ndërmjet Shqipërisë dhe Kosovës. Megjithatë, kjo është një çështje e ndërlikuar dhe me pasoja politike dhe ndërkombëtare të mëdha.'
+
+  utter_pyetja_31:
+    - text: '"Besa" është një term i rëndësishëm dhe i thellë në kulturën shqiptare, dhe përkthehet zakonisht si "besë" ose "fjalë e dhënë". Ai ka rrënjë të thella në traditën dhe moralin shqiptar dhe përfaqëson një kod të pandryshuar nderi dhe besueshmërie.'
+
+  utter_pyetja_30:
+    - text: "Shekulli i 20-të ishte një periudhë e turbullt dhe me ndryshime të mëdha për Shqipërinë. Këtu janë disa nga ngjarjet më të rëndësishme të këtij shekulli për Shqipërinë:\n
+
+1. Shpallja e Pavarësisë (1912): Më 28 Nëntor, Ismail Qemali dhe një grup patriotësh shqiptarë shpallën pavarësinë e Shqipërisë nga Perandoria Osmane në Vlorë.\n
+
+2. Pushtimi Italian (1939-1943): Në prill të vitit 1939, Italia fashiste e Mussolinit pushtoi Shqipërinë, duke e bërë atë një protektorat italian.\n
+
+3. Pushtimi gjerman (1943-1944): Pas kapitullimit të Italisë, Gjermania naziste mori kontrollin e Shqipërisë.\n
+
+4. Lindja e Lëvizjes Antifashiste Nacionalçlirimtare (1942-1944): Kjo lëvizje, e udhëhequr kryesisht nga komunistët, luftoi kundër pushtuesve italianë dhe gjermanë dhe u bë baza e qeverisë së pasluftës.\n
+
+5. Themelimi i Republikës Popullore Socialiste të Shqipërisë (1946): Pas Luftës së Dytë Botërore, Shqipëria u shndërrua në një shtet socialist me një ekonomi të planifikuar dhe një regjim monoparti të udhëhequr nga Partia e Punës e Shqipërisë.\n
+
+6. Ndërprerja e marrëdhënieve me Bashkimin Sovjetik dhe më pas me Kinën: Pas Luftës së Dytë Botërore, Shqipëria e ndërpreu bashkëpunimin me Bashkimin Sovjetik në vitin 1961 dhe më vonë u afroi me Kinën. Megjithatë, marrëdhëniet me Kinën u ndërprerën në vitin 1978.\n
+
+7. Diktatura e Enver Hoxhës (1944-1985): Gjatë kësaj periudhe, Shqipëria ishte një nga shtetet më të izoluara dhe represive në botë. Hoxha e udhëhoqi vendin me një dorë të hekurt, duke ndjekur një linjë staliniste të ashpër.\n
+
+8. Vdekja e Enver Hoxhës dhe fillimi i ndryshimeve (1985): Pas vdekjes së Hoxhës, Ramiz Alia mori drejtimin e vendit dhe filluan të ndodhin ndryshime të vogla, por të rëndësishme.\n
+
+9. Rënja e komunizmit dhe tranzicioni (1990-1991): Protesat dhe manifestimet e nisura në vitin 1990 çuan në rrëzimin e regjimit komunist dhe fillimin e një periudhe të vështirë tranzicioni drejt një demokracie pluraliste.\n
+
+10. Kriza e vitit 1997: Pas rënies së skemave piramidale, të cilat shpërndanë shumë pasuri të njerëzve, Shqipëria hyri në një krizë të thellë me protesta, rrëmuja dhe pasiguri të përgjithshme.\n
+
+11. Përparimi drejt integrimit evropian: Në fund të shekullit të 20-të dhe në fillim të shekullit të 21-të, Shqipëria ka ndjekur një rrugë të orientuar drejt integrimit në Bashkimin Evropian, duke ndërmarrë reforma të ndryshme dhe duke rritur bashkëpunimin ndërkombëtar."
+
+  utter_pyetja_29:
+    - text: "Sistemi i transportit dhe infrastruktura rrugore në Shqipëri kanë pasur ndryshime të mëdha gjatë dekadave të fundit, por ende përballen me sfida në shumë aspekte. Ja një pasqyrë e përgjithshme e situatës:\n
+
+1. Rruga e Kombit (Autostrada Durrës-Kukës): Kjo është ndoshta ndër projektet më ambicioze të infrastrukturës në Shqipëri, e cila lidh portin kryesor të Durrësit me kufirin në veri me Kosovën. Kjo autostradë ka përmirësuar ndjeshëm lidhjen me Kosovën, por ka pasur kritika për kostot dhe ndikimet mjedisore.\n
+
+2. Rrjeti rrugor: Përgjithësisht, rrugët kryesore që lidhin qytetet e mëdha janë në gjendje të mirë ose të përmirësuar ndjeshëm gjatë viteve të fundit. Megjithatë, shumë rrugë lokale dhe ndihmëse ende kanë nevojë për përmirësim.\n
+
+3. Transporti urban: Në qytetet si Tiranë dhe Durrës, transporti urban përfshin autobusa dhe furgona. Megjithëse ka pasur përpjekje për të përmirësuar sistemin e transportit publik, ende ka sfida siç janë trafiku, ndotja dhe mungesa e një rrjeti efikas të transportit publik.\n
+
+4. Transporti ndërqytetas: Autobusët dhe furgonat janë mjetet kryesore të transportit ndërqytetas. Stacionet kryesore të autobusave në Tiranë dhe qytete të tjera ofrojnë shërbime të rregullta për destinacione brenda vendit dhe ndërkombëtarë.\n
+
+5. Transporti hekurudhor: Shqipëria ka një rrjet të kufizuar hekurudhash, i cili nuk është i zhvilluar mirë dhe përdoret kryesisht për transportin e mallrave. Disa segmente të këtij rrjeti janë të vjetëruara dhe kanë nevojë për investime.\n
+
+6. Portet: Durrësi është porti më i madh i Shqipërisë dhe një pikë kyçe për tregtinë dhe transportin. Ka edhe porta të tjera më të vogla si Vlora, Shëngjini dhe Saranda.\n
+
+7. Aeroporti: Aeroporti Ndërkombëtar i Tiranës 'Nënë Tereza' është porti kryesor ajror i vendit. Ka pasur diskutime për ndërtimin e aeroporteve të tjera në zonat bregdetare ose jugore të Shqipërisë."
+
+  utter_pyetja_28:
+    - text: "Ekonomia e Shqipërisë është një ekonomi e tranzicionit që ka përjetuar ndryshime të mëdha që nga fillimi i viteve '90. Deri në vitin 2021, të ardhurat kryesore të ekonomisë shqiptare vinin nga disa sektorë të ndryshëm:\n
+
+1. Turizmi: Në vitet e fundit, turizmi është bërë një nga pilarët kryesorë të ekonomisë shqiptare. Bregdeti shqiptar, si dhe trashëgimia kulturore dhe natyrore, janë tërheqje kryesore për turistët.\n
+
+2. Bujqësia: Megjithëse ka pasur një rënie të pjesëmarrjes së bujqësisë në PBB gjatë viteve, ajo ende luan një rol të rëndësishëm në ekonominë shqiptare, veçanërisht në zonat rurale.\n
+
+3. Remitancat: Shqipëria ka një numër të madh emigrantësh, dhe paratë që ata dërgojnë në vend janë një burim i rëndësishëm i të ardhurave.\n
+
+4. Energjia dhe minierat: Sektori i energjisë, veçanërisht prodhimi i energjisë hidroelektrike, është një pjesë kritike e ekonomisë. Ndërsa Shqipëria ka pasur një histori të pasur të nxjerrjes së mineraleve, ndikimi i këtij sektori ka patur një tendencë të ulët gjatë viteve.\n
+
+5. Ndërtimtaria: Ka pasur një rritje të ndërtimtarisë, sidomos në zonat urbane dhe bregdetare, duke stimuluar rritjen ekonomike në disa segmente të tregut.\n
+
+6. Sektori i shërbimeve: Sektoret e telekomunikacionit, shërbimeve financiare dhe tregtisë kanë pasur një rritje në dekadat e fundit dhe kontribuojnë ndjeshëm në ekonominë kombëtare.\n
+
+7. Investimet e huaja direkte (IHD): Sektoret si energjia, telekomunikacionet, infrastruktura dhe turizmi kanë tërhequr investime të huaja, edhe pse nivelit të IHD-ve ka pasur ndikime të ndryshme ndër vite."
+
+  utter_pyetja_27:
+    - text: 'Sistemi i drejtësisë në Shqipëri është i ndërtuar mbi parimin e ndarjes së pushteteve dhe ka pësuar ndryshime dhe reforma të ndryshme me kalimin e kohës, veçanërisht me përpjekjet për integrim në Bashkimin Evropian.\n
+
+1. Kushtetuta: Baza ligjore më e lartë e vendit është Kushtetuta e Shqipërisë, e cila garanton ndarjen e pushteteve dhe të drejtat dhe lirite themelore të qytetarëve.\n
+
+2. Struktura e sistemit gjyqësor:\n
+
+Gjykatat e Shkallës së Parë: Këto janë të ndarë në gjykata civile, penale, administrative dhe të tjera, dhe shqyrtojnë çështjet në shkallën e parë.\n
+Gjykatat e Apelit: Ato shqyrtojnë ankesat ndaj vendimeve të gjykatave të shkallës së parë.\n
+Gjykata e Lartë: Është instanca më e lartë gjyqësore dhe shqyrton ankesat ndaj vendimeve të Gjykatave të Apelit.\n
+Gjykata Kushtetuese: Shqyrton përputhshmërinë e ligjeve me Kushtetutën dhe ka të drejtën e fundit mbi interpretimin e saj.\n
+3. Prokuroria: Prokuroria është një institucion i pavarur që ndjek dhe përfaqëson akuzën në gjyq. Prokurori i Përgjithshëm është kreu i këtij institucioni.\n
+
+4. Reforma në Drejtësi (2016): Kjo ishte një nga reforma më të mëdha dhe më komplekse në historinë e Shqipërisë, me synimin e pastrimit të sistemit gjyqësor nga ndikimet politike dhe korrupsioni. Kjo reformë ka përfshirë ndryshime të thella kushtetuese, krijimin e institucioneve të reja si Kombëtarja e Vlerësimit të Gjykatësve dhe Prokurorëve (KVGJP) dhe shumë të tjera.\n
+
+5. Avokatura: Është e organizuar nëpërmjet Dhoma të Avokatëve dhe garanton mbrojtjen ligjore të të akuzuarve dhe të tjera palëve në gjyq.\n
+
+6. Ombudsmani (Avokati i Popullit): Kjo është një institucion i pavarur që mbrojt të drejtat e qytetarëve ndaj veprimeve ose vendimeve të padrejta të administratës publike.'
+
+  utter_pyetja_26:
+    - text: 'Shqipëria është një vend me një shumëllojshmëri etnike dhe ka një numër minoritetesh që jetojnë brenda kufijve të saj. Kushtetuta dhe ligjet e Shqipërisë mbrojnë të drejtat e minoriteteve dhe garantojnë barazinë e të gjithë qytetarëve pa dallim etnie.\n
+
+Disa prej minoriteteve etnike në Shqipëri përfshijnë:\n
+
+1. Minoriteti grek: Ky është ndoshta minoriteti më i madh në Shqipëri dhe është i përqendruar kryesisht në jug të vendit, në zonat e Himarës, Gjirokastrës, Sarandës dhe zonave përreth.\n
+
+2. Minoriteti maqedonas: Ky minoritet jeton kryesisht në zonën e Prespës, pranë kufirit me Maqedoninë e Veriut.\n
+
+3. Minoriteti montenegrin: I përqendruar kryesisht në zonën e Malësisë së Madhe, pranë kufirit me Malin e Zi.\n
+
+4. Minoriteti serb dhe minoriteti bullgar: Të pranishëm në numra më të vogla dhe të shpërndarë në disa zona të ndryshme të vendit.\n
+
+5. Roma dhe Egjiptianët e Re: Këto janë dy grupe që ndonjëherë hasin sfida në integrimin social dhe ekonomik në Shqipëri, pavarësisht mbrojtjes ligjore.\n
+
+6. Minoriteti arome (vllah): I shpërndarë në disa zona të Shqipërisë, kjo komunitet ka një gjuhë dhe kulturë të veçantë.'
+
+  utter_pyetja_25:
+    - text: 'Shqipëria ka një histori të pasur dhe të larmishme, me ngjarje të rëndësishme që kanë ndikuar në formimin dhe zhvillimin e identitetit kombëtar. Këtu janë disa nga ngjarjet më të rëndësishme të historisë shqiptare:\n
+
+1. Lashtësia: Ilirët, etnikisht të afërt me shqiptarët e sotëm, banonin në trojet shqiptare dhe përbënin disa mbreteri dhe fisnisje të ndryshme.\n
+
+2. Mbreteria e Skënderbeut (1443-1468): Gjergj Kastrioti, i njohur ndryshe si Skënderbeu, u bë simbol i rezistencës kundër perandorisë Osmane për më shumë se dy dekada.\n
+
+3. Periudha Osmane (1478-1912): Pas vdekjes së Skënderbeut, Shqipëria ra nën sundimin osman dhe qëndroi atje për rreth 400 vjet.\n
+
+4. Rilindja Kombëtare (shekulli XIX - fillimi i shekullit XX): Kjo është një periudhë e zhvillimit të ndërgjegjësimit kombëtar dhe të përpjekjeve për pavarësinë nga Perandoria Osmane.\n
+
+5. Shpallja e Pavarësisë (1912): Më 28 Nëntor 1912, Ismail Qemali shpalli pavarësinë e Shqipërisë në Vlorë.\n
+
+6. Kombinati i Monarkisë dhe Republikës (1928-1939): Ahmet Zogu, i pari dhe i vetmi mbret i Shqipërisë, shpalli monarkinë më 1928, por Italia fashiste pushtoi Shqipërinë më 1939.\n
+
+7. Periudha Komuniste (1944-1991): Pas Luftës së Dytë Botërore, Enver Hoxha dhe Partia e Punës e Shqipërisë morën pushtetin dhe vendosën një regjim komunist të ashpër.\n
+
+8. Rënja e Komunizmit dhe Tranzicioni (1991-dhe vazhdim): Gjatë viteve 1990, regjimi komunist u rrëzua dhe Shqipëria filloi një periudhë të vështirë tranzicioni drejt një demokracie pluraliste dhe një ekonomie tregu.\n
+
+9. Integrimi Evropian: Pas viteve 2000, Shqipëria ka ndjekur një rrugë të orientuar drejt integrimit në Bashkimin Evropian, duke ndërmarë reforma të ndryshme dhe duke arritur statusin e kandidatit për anëtarësim në BE më 2014.'
+
+  utter_pyetja_24:
+    - text: '1. Arsimi Parashkollor (Cikli parashkollor): Ky nivel përfshin fëmijët nga mosha 3-6 vjeç dhe nuk është i detyrueshëm. Qëllimi është përgatitja e fëmijëve për shkollën fillor dhe zhvillimi i aftësive të tyre sociale dhe motorike.\n
+
+2. Arsimi Fillor (Cikli i ulët): Përfshin klasat nga e para deri në të pestën dhe është i detyrueshëm. Fëmijët fillojnë këtë cikël në moshën 6-vjeçare dhe mbarojnë në moshën 11-vjeçare.\n
+
+3. Arsimi i Mesëm (Cikli i sipërm): Ky cikël ka një zgjatje prej 4 vitesh dhe përfshin klasat nga e gjashta deri në të nëntën. Në fund të këtij cikli, nxënësit marrin një certifikatë të përfundimit të shkollës së mesme.\n
+
+4. Gjimnazi (Arsimi i mesëm i lartë): Pas përfundimit të arsimit të mesëm, nxënësit mund të vazhdojnë studimet në gjimnaz për një periudhë prej 3 vitesh, në një nga degët e ndryshme si shkencat natyrore, shkencat shoqërore, arti, sporti, etj. Pas përfundimit të këtij cikli, nxënësit marrin një diplomë maturë, e cila u mundëson të aplikojnë për studime universitare.\n
+
+5. Arsimi Profesional: Për ata nxënës që nuk zgjedhin rrugën e gjimnazit, ka opsionin e arsimit profesional, ku ata mësojnë për një profesion të caktuar dhe marrin një certifikatë në fund.\n
+
+6. Arsimi i Lartë: Universitetet dhe institucionet e larta në Shqipëri ofrojnë programe bachelor, master dhe doktoraturë. Kualifikimi Bachelor zgjat 3 vjet, ndërsa programet e Masterit zakonisht zgjasin 1-2 vjet. Doktoratura ka një zgjatje prej 3-4 vitesh.'
+
+  utter_pyetja_23:
+    - text: 'Shqipëria ka një pasuri të madhe natyrore, me një shumëllojshmëri të peizazheve nga malore deri në bregdetare. Pyjet dhe mjedisi natyror janë një pjesë kritike e kësaj pasurie dhe kanë një rëndësi të veçantë për ekosistemin dhe biodiversitetin e vendit.\n
+
+Sistemimi i pyjeve në Shqipëri:\n
+
+1. Pyjet e Shqipërisë përfshijnë një sërë llojesh si pyjet e gjelbërta, pyjet me pisha dhe pyjet me shkurre mediteraneane. Ato janë të përhapura kryesisht në zonat malore dhe sub-malore të vendit.\n
+
+2. Mbrojtja dhe menaxhimi i pyjeve është një çështje e rëndësishme për Shqipërinë, por ka pasur shpesh probleme me prerjen e paligjshme të drunjëve dhe me shfrytëzimin e tejmatur të burimeve pyjore.\n
+
+3. Zonat e mbrojtura janë krijuar për të ruajtur ekosistemet e ndjeshme dhe biodiversitetin. Shqipëria ka një numër të konsiderueshëm zonash të mbrojtura, duke përfshirë parqet kombëtare, rezervat natyrore dhe monumentet e natyrës.'
+
+  utter_pyetja_22:
+    - text: 'Shqipëria, si shumë vende të tjera në tranzicion, ka përballur dhe po përballon sfida të ndryshme mjedisore, përfshirë ndotjen e ajrit dhe ujërave. Këto sfida janë rezultat i një kombinimi faktorësh si zhvillimi ekonomik i shpejtë, mungesa e infrastrukturës mjedisore dhe mungesa e zbatimit të legjislacionit mjedisor. Këtu janë disa nga sfidat më të mëdha:\n
+
+1. Ndotja e ajrit: Zonat urbane, veçanërisht kryeqyteti Tiranë, përballen me nivele të larta ndotjeje të ajrit për shkak të rritjes së numrit të makinave, mungesës së sistemeve të mira të transportit publik dhe përdorimit të lëndëve djegëse të cilësisë së ulët.\n
+
+2. Ndotja e ujërave:\n
+
+Ndotja e detit: Hapja e kanaleve pa trajtim të ujërave të zeza drejt detit, veçanërisht në zonat bregdetare, ka çuar në ndotjen e detit dhe rritjen e rrezikut për shëndetin e njerëzve dhe ekosistemin detar.
+Ndotja e lumenjve: Hidrocentralet, ndërhyrjet pa kriter në lumenj dhe ndotja nga industri të ndryshme kanë ndikuar në cilësinë e ujërave të lumenjve dhe kanë rrezikuar jetën e peshqve dhe biodiversitetin e ujërave të ëmbla.
+3. Shpërndarja e mbeturinave: Mungesa e një sistemi të mirëfilltë të menaxhimit të mbeturinave ka çuar në krijimin e vendgrumbullimeve të paligjshme të mbeturinave dhe ndotjes së mjedisit.\n
+
+4. Shkatërrimi i zonave të mbrojtura: Për shkak të ndërtimeve të paligjshme, shpesh zonat e mbrojtura dhe habitatet natyrore janë në rrezik.\n
+
+5. Erosioni dhe shkretëzimi: Pasojë e ndërhyrjeve të njeriut, përdorimit të pasur nga bujqësia dhe shpërndarjes së pasigurt të ujit.\n
+
+6. Ndryshimet klimatike: Sikurse shumë vende të tjera, Shqipëria po ndikohet nga ndryshimet klimatike, duke përfshirë ngritjen e temperaturës, ndryshimet e regjimit të reshjeve dhe rritjen e fenomeneve ekstreme të motit.'
+
+  utter_pyetja_21:
+    - text: 'Shqipëria ka një histori të pasur në fushën e artit dhe letërsisë, dhe ka shumë krijues të njohur që kanë lënë gjurmë të thella në kulturën shqiptare.\n
+    Letërsia:
+
+1. Ismail Kadare: Ndoshta shkrimtari më i njohur shqiptar ndërkombëtarisht, autor i një sërë romaneve si "Pallati i ëndrrave", "Ura me tri harqe" dhe "Gjenerali i ushtrisë së vdekur".\n
+2. Gjergj Fishta: Autor i "Lahutës së Malcis", një epos kombëtar i Shqipërisë.\n
+3. Lasgush Poradeci: Një ndër poetët më të njohur të periudhës së Rilindjes Kombëtare.\n
+4. Dritëro Agolli: Poet dhe prozator i njohur për veprat e tij që pasqyrojnë jetën në Shqipërinë socialiste.\n
+Arti:\n
+1.Onufri: Piktor i shekullit të XVI, i njohur për ikonat dhe freskot e tij në kishat ortodokse.\n
+2. Kolë Idromeno: Piktor dhe skulptor i njohur i periudhës së Rilindjes Kombëtare, ndër të tjera njohur për veprën "Motra Tone".\n
+3. Abdurrahim Buza: Piktor i shekullit të XX, njohur për portretet dhe peizazhet e tij.\n
+4. Helidon Haliti: Skulptor i njohur i periudhës socialiste që ka punuar shumë monumente në të gjithë vendin.'
+
+  utter_pyetja_20:
+    - text: 'Shqipëria është një destinacion turistik që po bëhet gjithnjë e më i njohur për shkak të bukurisë së saj natyrore, historisë së pasur dhe trashëgimisë kulturore. Këtu janë disa nga vendet më të njohura turistike në Shqipëri:\n
+1. Gjirokastra: E njohur si "Qyteti i Gurtë", Gjirokastra është një nga qytetet më të vjetra të Shqipërisë dhe është përfshirë në listën e Trashëgimisë Botërore të UNESCO-s për arkitekturën e saj osmane dhe kalën e saj të famshme.\n
+
+2. Berati: Një tjetër qytet i përfshirë në listën e UNESCO-s, Berati është i famshëm për shtëpitë e veta karakteristike me dritare të shumta dhe për Kishën e Shën Mhillit.\n
+
+3. Ksamil: Një destinacion bregdetar i njohur për plazhet e tij të bukura dhe ishujt e afërt që mund të arrihen me varkë.\n
+
+4. Butrinti: Një vend arkeologjik i rëndësishëm i cili pasqyron periudha të ndryshme të historisë, nga periudha e lashtësisë deri te mesjeta.\n
+
+5. Dhërmi dhe bregdeti i Rivierës Shqiptare: Plazhe të mrekullueshme me ujë të kristaltë dhe peizazhe mahnitëse.\n
+
+6. Liqeni i Shkodrës: Është liqeni më i madh në Ballkan dhe ofron një kombinim të bukurisë natyrore dhe kulturës historike.\n
+
+7. Kalaja e Krujës: E ndodhur pranë qytetit të Krujës, kjo kalë është e njohur për rezistencën e saj ndaj pushtimit osman dhe lidhet ngushtë me historinë e Heroit Kombëtar, Skënderbeut.\n
+
+8. Thethi dhe Valbona: Dy nga destinacionet kryesore për turizmin malor në Shqipëri, me peizazhe mahnitëse dhe natyrë të paprekur.'
+
+  utter_pyetja_19:
+    - text: 'Toleranca fetare në Shqipëri është një veçori dalluese e shoqërisë shqiptare dhe është rrjedhojë e një kombinimi të faktorëve historikë, kulturorë dhe shoqërorë. Këtu janë disa nga arsyet kryesore pse Shqipëria ka një nivel të lartë të tolerancës ndaj besimeve të ndryshme: \n
+    
+1. Historia e ndërveprimit fetar: Përgjatë shekujve, Shqipëria ka qenë një vend ku janë ndërthurur dhe bashkëjetuar mënyra të ndryshme të besimit, përfshirë krishterimin, islamin dhe besimet e tjera. Kjo ndërthurje ka ndihmuar në krijimin e një kulture të tolerancës dhe respektit ndaj besimeve të ndryshme.\n
+
+2. Identiteti kombëtar mbi fetarinë: Identiteti kombëtar shqiptar është zhvilluar më shumë rreth gjuhës dhe kulturës se sa rreth besimit fetar. Kjo ka bërë që besimi fetar të mos jetë përcaktues kryesor i identitetit të një individi. Fjala e famshme e Pashko Vasa, "Feja e shqiptarit është shqiptaria", pasqyron këtë ndjenjë.\n
+
+3. Koha e Komunizmit: Gjatë regjimit komunist, besimi fetar u ndalua dhe u ndoq me ashpërsi. Shqipëria u shpall si shteti i parë ateist në botë më 1967. Kishat dhe xhamitë u mbyllën ose u përdorën për qëllime të tjera. Kjo periudhë e izolimit fetar mund të ketë ndikuar në njëfarë mënyre në mungesën e ndarjeve të theksuara fetare pas rënies së komunizmit.\n
+
+4. Kombinimi i Besimeve: Në disa familje shqiptare, është e zakonshme që anëtarë të ndryshëm të familjes të kenë besime të ndryshme fetare. Kjo ndodh për shkak të konversioneve të ndodhura në histori dhe për shkak të martesave ndërfetare.\n
+
+5. Edukimi dhe Kultura: Tradita dhe kultura shqiptare kanë promovuar vlerat e bashkëjetesës, tolerancës dhe respektit ndaj të tjerëve.'
+
+  utter_pyetja_18:
+    - text: "Sporti në Shqipëri ka një histori të pasur dhe ka evoluar ndjeshëm me kalimin e kohës. Ndërsa sporti ka pasur një rol të rëndësishëm në shoqërinë shqiptare edhe para periudhës komuniste, është gjatë periudhës së socializmit që sporti mori një shtytje të madhe si mjet për promovimin e vlerave dhe idealit socialist.\n
+
+Historiku i Sportit në Shqipëri:\n
+
+1. Periudha e Socializmit: Gjatë kësaj periudhe, sportet u organizuan dhe u sponsorizuan nga shteti. U krijua një infrastrukturë sportive dhe u themeluan shumë klube, shkolla sportive dhe akademi.\n
+
+2. Futbolli: Është sporti më i popullarizuar në Shqipëri. Kombëtarja e futbollit, klube si KF Tirana, KS Flamurtari, KF Partizani dhe KF Skënderbeu kanë një histori të gjatë dhe traditë në kampionatin shqiptar.\n
+
+3. Basketbolli dhe Volejboll: Këto sporte gjithashtu janë të njohura në Shqipëri dhe kanë një numër të konsiderueshëm të ndjekësve.\n
+
+4. Sportet e Luftës dhe Atletika: Kanë pasur një traditë të mirëfilltë, sidomos gjatë periudhave të ndryshme të historisë.\n
+
+Sportistë të Njohur dhe Suksese Ndërkombëtare:\n
+
+1. Lorik Cana: Ish-kapiten i Kombëtares shqiptare të futbollit dhe ka luajtur për klube të njohura si Paris Saint-Germain, Sunderland, Lazio, etj.\n
+
+2. Elseid Hysaj: Futbollist që ka luajtur për klube si Napoli në Serinë A të Italisë.\n
+
+3. Luiza Gega: Atlete që ka konkuruar në garat ndërkombëtare të mesdistancës dhe ka vendosur rekorde kombëtare.\n
+
+4. Erjon Tola: Skiator që ka marrë pjesë në disa edicione të Lojërave Olimpike Dimërore.\n
+
+5. Aziz Kelmendi: Boksier shqiptar që ka marrë pjesë në Lojërat Olimpike dhe ka fituar tituj ndërkombëtarë."
+
+  utter_pyetja_17:
+    - text: "Kultura muzikore në Shqipëri ka një pasuri dhe diversitet të madh, që pasqyron historinë dhe trashëgiminë 
+    kulturore të vendit. Kjo kulturë është ndikuar nga historia, gjeografia dhe ndërveprimet me popujt fqinj.\n
+    Muzika është një pjesë thelbësore e kulturës shqiptare dhe ka një ndikim të madh në jetën e përditshme të shqiptarëve. 
+    Muzika tradicionale dhe moderne shpesh bashkohen për të krijuar një kombinim unik të ritmeve, melodive dhe stileve."
+
+  utter_pyetja_16:
+    - text: "Shqipëria mban statusin e një vendi kandidat për anëtarësim në Bashkimin Evropian (BE)."
+
+  utter_pyetja_15:
+    - text: "Diktatura komuniste në Shqipëri ka pasur një ndikim të madh dhe të thellë në historinë dhe shoqërinë shqiptare. Kjo periudhë, e udhëhoqur kryesisht nga Enver Hoxha, ka zgjatur nga viti 1944 deri më 1992. Ja disa nga ngjarjet dhe veprimet kryesore gjatë kësaj periudhe:\n
+
+    1. Ndryshime Sociale dhe Ekonomike: Ushqimi, shëndetësia dhe arsimi u bënë falas. Kjo çoi në ngritjen e shkallës së shkollimit dhe përmirësimin e shëndetit të popullatës. Megjithatë, këto përmirësime u shoqëruan me represion të ashpër dhe mungesë të lirive themelore.\n
+
+    2. Kolektivizimi: Toka u konfiskua nga pronarët dhe u shndërrua në kooperativa bujqësore. Kjo çoi në një ndryshim të madh të strukturës së shoqërisë dhe ekonomisë.\n
+
+    3. Industializimi: U bënë përpjekje për të ndërtuar një ekonomi industriale, përmes ndërtimit të fabrikave dhe ndërmarrjeve industriale, shpesh me ndihmën e Bashkimit Sovjetik ose të Kinës.\n
+    4. Izolimi Ndërkombëtar: Shqipëria u izolua nga shumica e shteteve të botës. Fillimisht u largua nga Jugosllavia, më pas u nda nga Bashkimi Sovjetik në vitet '60 dhe më vonë edhe nga Kina në vitet '70.\n
+    
+    5. Reformimi i Kulturës dhe Fesë: U bë një përpjekje për të eliminuar ndikimin e fesë dhe të ndryshuar kulturën tradicionale. Në vitin 1967, Shqipëria u shpall si shteti i parë ateist në botë, dhe të gjitha xhamitë, kishat dhe kluqet e tjera fetare u mbyllën ose u përdorën për qëllime të tjera.\n
+    
+    6. Represioni dhe Persekutimi: Shumë njerëz u persekutuan, u burgosën ose u ekzekutuan për shkak të ideve të tyre politike ose për lidhje të dyshuara me shtete të huaja. Sigurimi i Shtetit ishte instrumenti kryesor i represionit dhe spiunazhit.\n
+
+    7. Mungesa e Lirive Themelore: Liria e shtypit, e fjalës dhe e mbledhjeve u mohuan. Mediat ishin të kontrolluara nga shteti dhe shërbenin si mjet propagande."
+
+  utter_pyetja_14:
+    - text: "Kuzhina shqiptare është e pasur dhe ndikon nga shumë kultura për shkak të pozicionit gjeografik të Shqipërisë dhe ndërveprimeve historike. Këtu janë disa nga ushqimet më tradicionale të kuzhinës shqiptare:\n
+    1. Byrek: Është një ushqim i bërë nga petët e holla të brumit, i mbushur me përbërës të ndryshëm si mish, spinaq, djathë ose qepë.
+
+    2. Tavë Kosi (tavë dheu): Është një pjatë me mish viçi të pjekur dhe një mbushje me kos të kripur dhe veze.
+
+    3. Fërgesë: Është një pjatë e bërë nga mëlçia, veza, djathë dhe spec të ndryshëm.
+
+    4. Qoftë: Janë kofta të vogla të grilluara, zakonisht të bëra nga mish viçi ose qingji, të përziera me erëza.
+
+    5. Përshesh: Pjatë e bërë nga mish i tharë i pulës ose i viçit, i servirur me një lloj paste të bërë nga buka e tharë.
+
+    6. Kolloface: Është një ushqim tradicional i përgatitur me mish, oriz, qepë dhe erëza.
+
+    7. Speca të mbushur (Specat e të mbushur): Janë spec të kuq ose të gjelbër të mbushur me një përzierje të orizit dhe mishit.
+
+    8. Trileçe: Është një ëmbëlsirë e njohur e cila ka prejardhje të ndryshme dhe është marrë edhe nga kuzhina shqiptare. Është një kek i lagur me një përzierje të tre llojeve të qumështit.
+
+    9. Bakllasarem: Është një pjatë e përgatitur me fasule të bardha, mish dhe erëza të ndryshme.
+
+    10. Petulla: Janë krekere të vogla të frituara, që zakonisht shërbehen të ëmbla ose të kripura.
+
+    11. Raki: Pije alkoolike e prodhuar nga rrush i fermentuar ose fruta të tjera. Është e njohur në të gjithë Ballkanin dhe shpesh përgatitet në shtëpi."
+
+  utter_pyetja_13:
+    - text: 'Gjendja ekonomike e Shqipërisë është ndryshuar ndjeshëm gjatë dekadave të fundit. Pas rënies së regjimit komunist në fillim të viteve 1990, Shqipëria ka ndjekur një rrugë tranzicioni nga një ekonomi e centralizuar në një ekonomi tregu.'
+
+  utter_pyetja_12:
+    - text: 'Festa më e madhe kombëtare në Shqipëri është "Dita e Pavarësisë", e cila shënohet më 28 Nëntor. Kjo festë përkujton shpalljen e pavarësisë nga Perandoria Osmane në vitin 1912.'
+
+  utter_pyetja_11:
+    - text: 'Shqipëria ka një kulturë të pasur me zakone dhe tradita që janë ruajtur gjatë shekujve. Këto tradita kanë 
+    rrënjë të thella në historinë, besimin, dhe jetën e përditshme të shqiptarëve. Më poshtë janë disa nga zakonet dhe 
+    traditat më të njohura të Shqipërisë:\n
+    Dita e Verës: E festuar më 14 mars, Dita e Verës është një festë tradicionale që shënohet me aktivitete, festa në rrugë, dhe dhuratat e vogla të quajtura "verore". Origjina e saj është nga qyteti i Elbasanit, por në vite është bërë një festë kombëtare.\n
+
+    1. Valle Shqiptare: Valle të ndryshme tradicionale janë të njohura në të gjitha trevat e Shqipërisë, nga veriu te jugu. Valle si "Valle Kukli", "Valle Tropojane", ose "Valle Pogonishte" janë vetëm disa prej tyre.\n
+    
+    2. Besa: Besa është një koncept shumë i rëndësishëm në kulturën shqiptare, që përfaqëson një lloj betimi ose premtimi. Është shpesh i lidhur me mikpritjen dhe mbrojtjen e mysafirëve, madje edhe në kohëra të vështira.\n
+    
+    3. Mikpritja: Shqiptarët janë të njohur për mikpritjen e tyre të ngrohtë. Në shumë fshatra, është e zakonshme që mysafirët të ofrohen bukë dhe kripë kur vijnë për vizitë.\n
+    
+    4. Gjaku dhe Hakmarrja: Kjo është një traditë më e errët, e cila ka të bëjë me marrjen e hakut për një vrasje të anëtarit të një familjeje nga një anëtar tjetër i një familjeje tjetër. Ky kodeks i ndjekur kryesisht në zonat malore të veriut ka sjellë shumë dhimbje dhe vuajtje për shumë familje. Përpjekjet janë bërë për të eliminuar këtë traditë.\n
+    
+    5. Këngët dhe Lahutaret: Në zonat malore të veriut, lajka dhe lahutarët kanë një rol të rëndësishëm në ruajtjen e historisë dhe legjendave përmes këngëve.\n
+    
+    6. Dasmat Shqiptare: Dasmat në Shqipëri janë ngjarje të mëdha sociale, që zgjasin disa ditë dhe janë të plotësuara me rituale, këngë, valle dhe ushqime tradicionale.\n
+    
+    7. Festa e Bajramit: Pas muajit të Ramazanit, shqiptarët myslimanë festojnë Bajramin me ushqime të shijshme, dhurata dhe vizita ndër familjarë.\n
+
+    8. Kombëtareja: Kjo është një ndër rrobat më tradicionale shqiptare, e cila vishet gjatë festave dhe ngjarjeve të rëndësishme.\n
+
+    9. Usqimi Tradicional: Shqipëria është e njohur për gatimet e saj tradicionale si byrek, tavë kosi, fërgesa, qoftë, etj.'
+
+  utter_pyetja_10:
+    - text: "'Shqipëria e Mesme' është një term gjeografik dhe historik që përdoret për të përcaktuar një zonë të 
+    veçantë në Shqipëri. Ajo përfaqëson një zonë që ndodhet mes Shqipërisë së Veriut (përfshinë zonat malore dhe 
+    tribaliste të veriut) dhe Shqipërisë së Jugut (që ka një traditë të ndryshme kulturore dhe dialekte të ndryshme 
+    të shqipes)."
+
+  utter_pyetja_9:
+    - text: "Shqipëria ka disa objekte të cilat janë pjesë e Trashëgimisë Botërore të UNESCO-s. Ja një listë e tyre:\n
+    1. Gjirokastër dhe Berat: Këto dy qytete janë të njohura për arkitekturën e tyre osmane dhe janë të njohura si 'qytetet-muze'. Të dyja janë shpallur pjesë e Trashëgimisë Botërore të UNESCO-s në vitin 2005.\n
+
+    2. Butrinti: Ky është një vend arkeologjik i rëndësishëm i vendosur pranë Ksamil, pranë kufirit me Greqinë. Butrinti ka pasur një histori të gjatë që nga periudha e lashtësisë dhe ka shërbyer si një qytet i lashtë, një qendër romake, një kishë dhe një kala. U shpall trashëgimi e UNESCO-s në vitin 1992.\n
+
+    3. Zonja e Shkodrës, Shenjtëria e Kishës së Shejzinos: Kjo shenjtëri, e njohur ndryshe si Kisha e Zonjës së Shkodrës ose Kisha e Shejzinos, është një vend i shenjtë për besimtarët katolikë në Shqipëri. Ndodhet në malin e Tarabosh, mbi qytetin e Shkodrës. U shpall trashëgimi e UNESCO-s në vitin 2017, si pjesë e një grupi të gjerë më të madh të monumenteve të Europës, të njohura si 'Rrugët e Arbërit' ose 'Rrugët e Arbreshëve', që lidhen me migrimin e shqiptarëve katolikë drejt Italisë gjatë mesjetës."
+
+  utter_pyetja_8:
+    - text: "Enver Hoxha (1908-1985) ishte një udhëheqës komunist dhe themelues i shtetit socialist në Shqipëri. Ai 
+    kishte një rol të rëndësishëm dhe kontrovers në historinë e Shqipërisë gjatë shekullit të 20-të."
+
+  utter_pyetja_7:
+    - text: "Shqipëria ka një bregdet të bukur me shumë plazhe të mrekullueshme. Disa nga plazhet më të njohura dhe të vizituara janë:\n
+    1. Ksamil - Një destinacion shumë i njohur pranë Sarandës me ishuj të vegjël pranë bregut dhe ujë kristal të pastër.\n
+
+    2. Dhërmi - Një plazh i gjatë me rërë dhe guralecë dhe ujë të kristaltë, i rrethuar nga maja të larta.\n
+
+    3. Drimadhe - Pranë Dhërmisë, një tjetër plazh i bukur me ujëra të qarta.\n
+    
+    4. Kepi i Rodonit - Një zonë e virgjër me një kombinim të bukur të detit dhe natyrës.\n
+    
+    5. Plazhi i Borshit - Një zonë bregdetare me një plazh të gjatë dhe ujë të qartë.\n
+    
+    6. Plazhi i Jales - Një tjetër destinacion i njohur pranë zonës së Dhërmisë me ujëra të qarta dhe rërë të butë.\n
+    
+    7. Palasa - Pranë Dhërmisë, kjo është një zonë e qetë dhe e virgjër me një plazh të bukur.\n
+    
+    8. Plazhi i Gjeneralit - Një plazh i izoluar dhe i virgjër, i arritshëm vetëm me anije ose me këmbë.\n
+    
+    9. Sarandë - Qyteti i Sarandës ka plazhe të bukura dhe një bregdet të gjatë.\n
+    
+    10. Vlorë - Përveç qytetit, Vlora ka plazhe të bukura siç janë Plazhi i Ri dhe zona përreth."
+
+  utter_pyetja_6:
+    - text: "Butrinti është një vend arkeologjik i rëndësishëm në jug të Shqipërisë, pranë qytetit të Sarandës dhe 
+    kufirit me Greqinë. Ky vend ka një histori të pasur që përfshin periudha të ndryshme të qytetërimeve, duke filluar 
+    nga epoka e bronzit dhe përfshirë periudhat ilire, romake, bizantine, veneciane dhe osmane."
+
+  utter_pyetja_5:
+    - text: "Heroi kombëtar i Shqipërisë është Gjergj Kastrioti, i njohur ndryshe si Skënderbeu. Ai është njohur për 
+    rezistencën e tij ndaj Perandorisë Osmane gjatë shekullit të 15-të. Skënderbeu është një figurë kyçe në historinë e 
+    Shqipërisë dhe është përkujtuar si një simbol i pavarësisë dhe rezistencës shqiptare."
+
+  utter_pyetja_4:
+    - text: "Flamuri i Shqipërisë ka një sfond të kuq me një shqiponjë dykrenare të zezë në mes."
+
+  utter_pyetja_3:
+    - text: "Kryeqyteti i shqiperise eshte Tirana"
+
+  utter_pyetja_2:
+    - text: "Shqipëria ka shumë qytete të bukura dhe historike. Në varësi të kriterit (histori, kulturë, popullatë, etj.), mund të përmendim disa nga qytetet më të mëdha dhe më të njohura të Shqipërisë:\n
+
+1. Tiranë - Kryeqyteti i Shqipërisë dhe qendra më e madhe urbane në vend.\n
+2. Durrës - Një nga qytetet më të vjetra në Shqipëri dhe porti kryesor i vendit.\n
+3. Shkodër - Një qytet me një histori të pasur dhe është një nga qendrat më të vjetra të Shqipërisë.\n
+4. Vlorë - Ofron një kombinim të plazhit dhe historisë, dhe është vendi ku u shpall Pavarësia e Shqipërisë më 1912.\n
+5. Korçë - Njohur për klimën, kulturën dhe festivalin e saj të njohur të këngës.\n
+6. Elbasan - Me një kalë të vjetër dhe festat tradicionale si 'Dita e Verës'.\n
+7. Fier - Një qendër e rëndësishme industriale dhe bujqësore.\n
+8. Berat - Njohur si 'Qyteti i një mijë dritareve' dhe është një ndër qytetet më të vjetra dhe më të bukura të Shqipërisë.\n
+9. Gjirokastër - Një tjetër qytet i trashëguar kulturor me shtëpi të vjetra guri dhe një kalë mbi qytet.\n
+10. Sarandë - Një destinacion i njohur turistik pranë Ksamilit dhe Butrintit.\n
+Këto janë vetëm disa nga qytetet më të mëdha dhe më të njohura në Shqipëri, por ka shumë vende të tjera të bukura për t'u eksploruar në këtë vend."
+
+  utter_pyetja_1:
+   - text: "Republika e Shqipërisë kufizohet me këto shtete: Republikën e Malit të Zi, Republikën e Kosovës, Republikën e Maqedonisë së Veriut dhe me Republikën e Greqisë. Ndërsa në perëndim ka kufij detarë dhe kufizohet me Republikën e Italisë."
+
+  utter_greet:
+  - text: "Pershendetje! Ca mund te beje per ju?"
+  - text: "Ckemi! Si mund t'iu ndihmoje?"
+  - text: "Pershendetje! Si po ja kalon?"
+  - text: "Pershendetje! Si mund t'iu ndihmoje?"
+
+  utter_falenderimet:
+  - text: "Asgje, je i mirepritur!"
+  - text: "Nuk ka problem, je i mirepritur!"
+  - text: "Nuk ka problem, kur te duash!"
+
+  utter_playlist_muzik:
+  - text: "Ketu jane disa nga kenget me te reja!"
+    image: "https://www.youtube.com/watch?v=OqIIy2FfZh0&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu\n
+    https://www.youtube.com/watch?v=21yAselfmdg&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=2\n
+    https://www.youtube.com/watch?v=KnqzXOPEdz0&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=3\n
+    https://www.youtube.com/watch?v=jqf2zEbe0rQ&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=4\n
+    https://www.youtube.com/watch?v=GBVHXLjj3VA&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=5\n
+    https://www.youtube.com/watch?v=ZgVhUXEGXmQ&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=6\n
+    https://www.youtube.com/watch?v=q3kxvxlDlY8&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=7\n
+    https://www.youtube.com/watch?v=FxyJxQQCINw&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=8\n
+    https://www.youtube.com/watch?v=saTAi-oAkzQ&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=11\n
+    https://www.youtube.com/watch?v=bT6ZerLnxaY&list=PLKVx4zuArgpxottsi-cAFNu92P2rljKEu&index=21"
+
+  utter_cheer_up:
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=o79GQgt8Twc"
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=oH6M4Zzt7RE"
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=cbWJqz5OOSk"
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=-EijOh-pl7k"
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=_DBkAPE8puM"
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=9-yw30wbby0"
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=16gW-BIQEG0&t=17s"
+  - text: "Ketu eshte dicka qe mund te ngreje humorin:"
+    image: "https://www.youtube.com/watch?v=ubQTHQ2BCNs"
+
+  utter_did_that_help:
+  - text: "Te ndihmoje?"
+  - text: "Ndihesh me mire tani?"
+  - text: "Je me mire tani?"
+
+  utter_happy:
+  - text: "Shume mire, vazhdo keshtu."
+  - text: "Me behet qejfi."
+  - text: "Bravo, keshtu vazhdo!"
+
+  utter_goodbye:
+  - text: "Mirupafshim!"
+  - text: "Kalofsh nje dite te bukur!"
+  - text: "Pacim! Shihemi me vone?"
+
+  utter_iamabot:
+  - text: "Une jam nje robot i krijuar nga Henri Xhakolli."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

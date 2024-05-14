@@ -1,0 +1,925 @@
+version: "3.1"
+
+stories:
+
+- story: pyetja_1
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_1
+    - action: utter_pyetja_1
+
+- story: pyetja_2
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_2
+    - action: utter_pyetja_2
+
+- story: pyetja_3
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_3
+    - action: utter_pyetja_3
+
+- story: pyetja_4
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_4
+    - action: utter_pyetja_4
+
+- story: pyetja_5
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_5
+    - action: utter_pyetja_5
+
+- story: pyetja_6
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_6
+    - action: utter_pyetja_6
+
+- story: pyetja_7
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_7
+    - action: utter_pyetja_7
+
+- story: pyetja_8
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_8
+    - action: utter_pyetja_8
+
+- story: pyetja_9
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_9
+    - action: utter_pyetja_9
+
+- story: pyetja_10
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_10
+    - action: utter_pyetja_10
+
+- story: pyetja_11
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_11
+    - action: utter_pyetja_11
+
+- story: pyetja_12
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_12
+    - action: utter_pyetja_12
+
+- story: pyetja_13
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_13
+    - action: utter_pyetja_13
+
+- story: pyetja_14
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_14
+    - action: utter_pyetja_14
+
+- story: pyetja_15
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_15
+    - action: utter_pyetja_15
+
+- story: pyetja_16
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_16
+    - action: utter_pyetja_16
+
+- story: pyetja_17
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_17
+    - action: utter_pyetja_17
+
+
+- story: pyetja_18
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_18
+    - action: utter_pyetja_18
+
+- story: pyetja_19
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_19
+    - action: utter_pyetja_19
+
+- story: pyetja_20
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_20
+    - action: utter_pyetja_20
+
+- story: pyetja_21
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_21
+    - action: utter_pyetja_21
+
+- story: pyetja_22
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_22
+    - action: utter_pyetja_22
+
+- story: pyetja_23
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_23
+    - action: utter_pyetja_23
+
+- story: pyetja_24
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_24
+    - action: utter_pyetja_24
+
+- story: pyetja_25
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_25
+    - action: utter_pyetja_25
+
+- story: pyetja_26
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_26
+    - action: utter_pyetja_26
+
+- story: pyetja_27
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_27
+    - action: utter_pyetja_27
+
+- story: pyetja_28
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_28
+    - action: utter_pyetja_28
+
+- story: pyetja_29
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_29
+    - action: utter_pyetja_29
+
+- story: pyetja_30
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_30
+    - action: utter_pyetja_30
+
+- story: pyetja_31
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_31
+    - action: utter_pyetja_31
+
+- story: pyetja_32
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_32
+    - action: utter_pyetja_32
+
+- story: pyetja_33
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_33
+    - action: utter_pyetja_33
+
+- story: pyetja_34
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_34
+    - action: utter_pyetja_34
+
+- story: pyetja_35
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_35
+    - action: utter_pyetja_35
+
+- story: pyetja_36
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_36
+    - action: utter_pyetja_36
+
+- story: pyetja_37
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_37
+    - action: utter_pyetja_37
+
+- story: pyetja_38
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_38
+    - action: utter_pyetja_38
+
+- story: pyetja_39
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_39
+    - action: utter_pyetja_39
+
+- story: pyetja_40
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_40
+    - action: utter_pyetja_40
+
+- story: pyetja_41
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_41
+    - action: utter_pyetja_41
+
+- story: pyetja_42
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_42
+    - action: utter_pyetja_42
+
+- story: pyetja_43
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_43
+    - action: utter_pyetja_43
+
+- story: pyetja_44
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_44
+    - action: utter_pyetja_44
+
+- story: pyetja_45
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_45
+    - action: utter_pyetja_45
+
+- story: pyetja_46
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_46
+    - action: utter_pyetja_46
+
+- story: pyetja_47
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_47
+    - action: utter_pyetja_47
+
+- story: pyetja_48
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_48
+    - action: utter_pyetja_48
+
+- story: pyetja_49
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_49
+    - action: utter_pyetja_49
+
+- story: pyetja_50
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_50
+    - action: utter_pyetja_50
+
+- story: pyetja_51
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_51
+    - action: utter_pyetja_51
+
+- story: pyetja_52
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_52
+    - action: utter_pyetja_52
+
+
+- story: pyetja_53
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_53
+    - action: utter_pyetja_53
+
+
+- story: pyetja_54
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_54
+    - action: utter_pyetja_54
+
+
+
+
+- story: pyetja_55
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_55
+    - action: utter_pyetja_55
+
+
+- story: pyetja_56
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_56
+    - action: utter_pyetja_56
+
+- story: pyetja_57
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_57
+    - action: utter_pyetja_57
+
+- story: pyetja_58
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_58
+    - action: utter_pyetja_58
+
+
+- story: pyetja_59
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_59
+    - action: utter_pyetja_59
+
+
+- story: pyetja_60
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_60
+    - action: utter_pyetja_60
+
+- story: pyetja_61
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_61
+    - action: utter_pyetja_61
+
+
+- story: pyetja_62
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_62
+    - action: utter_pyetja_62
+
+
+- story: pyetja_63
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_63
+    - action: utter_pyetja_63
+
+- story: pyetja_64
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_64
+    - action: utter_pyetja_64
+
+- story: pyetja_65
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_65
+    - action: utter_pyetja_65
+
+- story: pyetja_66
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_66
+    - action: utter_pyetja_66
+
+- story: pyetja_67
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_67
+    - action: utter_pyetja_67
+
+- story: pyetja_68
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_68
+    - action: utter_pyetja_68
+
+
+- story: pyetja_69
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_69
+    - action: utter_pyetja_69
+
+
+- story: pyetja_70
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_70
+    - action: utter_pyetja_70
+
+- story: pyetja_71
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_71
+    - action: utter_pyetja_71
+
+- story: pyetja_72
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_72
+    - action: utter_pyetja_72
+
+
+- story: pyetja_73
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_73
+    - action: utter_pyetja_73
+
+- story: pyetja_74
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_74
+    - action: utter_pyetja_74
+
+- story: pyetja_75
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_75
+    - action: utter_pyetja_75
+
+
+- story: pyetja_76
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_76
+    - action: utter_pyetja_76
+
+- story: pyetja_77
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_77
+    - action: utter_pyetja_77
+
+
+- story: pyetja_78
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_78
+    - action: utter_pyetja_78
+
+- story: pyetja_79
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_79
+    - action: utter_pyetja_79
+
+- story: pyetja_80
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_80
+    - action: utter_pyetja_80
+
+- story: pyetja_81
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_81
+    - action: utter_pyetja_81
+
+- story: pyetja_82
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_82
+    - action: utter_pyetja_82
+
+- story: pyetja_83
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_83
+    - action: utter_pyetja_83
+
+- story: pyetja_84
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_84
+    - action: utter_pyetja_84
+
+- story: pyetja_85
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_85
+    - action: utter_pyetja_85
+
+- story: pyetja_86
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_86
+    - action: utter_pyetja_86
+
+- story: pyetja_87
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_87
+    - action: utter_pyetja_87
+
+
+- story: pyetja_88
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_88
+    - action: utter_pyetja_88
+
+- story: pyetja_89
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_89
+    - action: utter_pyetja_89
+
+
+- story: pyetja_90
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_90
+    - action: utter_pyetja_90
+
+- story: pyetja_91
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_91
+    - action: utter_pyetja_91
+
+
+- story: pyetja_92
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_92
+    - action: utter_pyetja_92
+
+- story: pyetja_93
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_93
+    - action: utter_pyetja_93
+
+- story: pyetja_94
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_94
+    - action: utter_pyetja_94
+
+
+- story: pyetja_95
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_95
+    - action: utter_pyetja_95
+
+- story: pyetja_96
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_96
+    - action: utter_pyetja_96
+
+- story: pyetja_97
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_97
+    - action: utter_pyetja_97
+
+- story: pyetja_98
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_98
+    - action: utter_pyetja_98
+
+- story: pyetja_99
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_99
+    - action: utter_pyetja_99
+
+- story: pyetja_100
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_100
+    - action: utter_pyetja_100
+
+- story: pyetja_101
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_101
+    - action: utter_pyetja_101
+
+- story: pyetja_102
+  steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: pyetja_102
+      - action: utter_pyetja_102
+
+- story: pyetja_103
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_103
+    - action: utter_pyetja_103
+
+
+- story: pyetja_tirane
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_tirane
+    - action: utter_pyetja_tirane
+
+- story: pyetja_berat
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_berat
+    - action: utter_pyetja_berat
+
+- story: pyetja_shkoder
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_shkoder
+    - action: utter_pyetja_shkoder
+
+- story: pyetja_gjirokaster
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_gjirokaster
+    - action: utter_pyetja_gjirokaster
+
+- story: pyetja_kruja
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_kruja
+    - action: utter_pyetja_kruja
+
+- story: pyetja_vlora
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_vlora
+    - action: utter_pyetja_vlora
+
+- story: pyetja_durres
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_durres
+    - action: utter_pyetja_durres
+
+- story: pyetja_korca
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_korca
+    - action: utter_pyetja_korca
+
+- story: pyetja_fier
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_fier
+    - action: utter_pyetja_fier
+
+- story: pyetja_elbasan
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pyetja_elbasan
+    - action: utter_pyetja_elbasan
+
+- story: guide_korca
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_korca
+    - action: utter_guide_turistike_korca
+
+- story: guide_tirane
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_tirane
+    - action: utter_guide_turistike_tirane
+
+- story: guide_berat
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_berat
+    - action: utter_guide_turistike_berat
+
+- story: guide_gjirokaster
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_gjirokaster
+    - action: utter_guide_turistike_gjirokaster
+
+- story: guide_durres
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_durres
+    - action: utter_guide_turistike_durres
+
+- story: guide_vlora
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_vlora
+    - action: utter_guide_turistike_vlora
+
+- story: guide_kruje
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_kruje
+    - action: utter_guide_turistike_kruje
+
+- story: guide_shkoder
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_shkoder
+    - action: utter_guide_turistike_shkoder
+
+- story: guide_elbasani
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_elbasani
+    - action: utter_guide_turistike_elbasani
+
+- story: guide_fier
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: guide_turistike_fier
+    - action: utter_guide_turistike_fier
+
+- story: gjetja e kengeve
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: playlist_muzik
+    - action: utter_playlist_muzik
+
+- story: Roboti do falenderoj kur ta falenderojne
+  steps:
+    - intent: falenderimet
+    - action: utter_falenderimet
+
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
